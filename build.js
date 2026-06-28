@@ -17,7 +17,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const SCHOOL = 'middletown-middletown-south';
+// Teams to scout. `id` is the short key used for the data file + landing-page link.
+const SCHOOLS = [
+  { id: 'south', name: 'Middletown South', slug: 'middletown-middletown-south' },
+  { id: 'north', name: 'Middletown North', slug: 'middletown-middletown-north' },
+];
 const SEASONS = { current: '2025-2026', previous: '2024-2025' };
 // NJSIAA tournaments happen in the calendar year the season ends (e.g. 2025-2026 -> 2026).
 const YEAR = {
@@ -25,13 +29,13 @@ const YEAR = {
   previous: parseInt(SEASONS.previous.split('-')[1], 10),
 };
 
-const rosterUrl = () =>
-  `https://highschoolsports.nj.com/school/${SCHOOL}/wrestling/season/${SEASONS.current}/roster`;
+const rosterUrl = (slug) =>
+  `https://highschoolsports.nj.com/school/${slug}/wrestling/season/${SEASONS.current}/roster`;
 const playerUrl = (slug, season) =>
   `https://highschoolsports.nj.com/player/${slug}/wrestling/season/${season}`;
 
 const CACHE_DIR = path.join(__dirname, 'cache');
-const OUT_FILE = path.join(__dirname, 'profiles.json');
+const DATA_DIR = path.join(__dirname, 'data');
 const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
   '(KHTML, like Gecko) Chrome/120.0 Safari/537.36';
@@ -196,12 +200,13 @@ function parseLastYearRecord(prevHtml) {
   return overall.wins + overall.losses > 0 ? recordStr(overall) : null;
 }
 
-(async function main() {
-  console.log('· roster:', rosterUrl());
-  const roster = await getCached(`roster-${SEASONS.current}.html`, rosterUrl());
-  if (!roster.html) throw new Error('Could not load roster page.');
+/** Build one school's profiles, write data/<id>.json, return a summary for the index. */
+async function buildTeam(school) {
+  console.log(`\n=== ${school.name} ===`);
+  const roster = await getCached(`roster-${school.slug}-${SEASONS.current}.html`, rosterUrl(school.slug));
+  if (!roster.html) throw new Error(`Could not load roster page for ${school.name}.`);
   const wrestlers = parseRoster(roster.html);
-  console.log(`· ${wrestlers.length} wrestlers on roster\n`);
+  console.log(`· ${wrestlers.length} wrestlers on roster`);
 
   const profiles = [];
   const skipped = [];
@@ -212,7 +217,6 @@ function parseLastYearRecord(prevHtml) {
 
     if (!current) {
       skipped.push(name);
-      console.log(`  – skip ${name} (no current-season data)`);
       continue;
     }
 
@@ -235,23 +239,38 @@ function parseLastYearRecord(prevHtml) {
       lastYearNJSIAA,
       profileUrl: playerUrl(slug, SEASONS.current),
     });
-    console.log(`  ✓ ${name} — ${current.primaryWeight} lb, ${current.overall}`);
   }
 
   // Sort cards by primary weight (lightest first), then name.
   profiles.sort((a, b) => a.primaryWeight - b.primaryWeight || a.name.localeCompare(b.name));
 
+  const generatedAt = new Date().toISOString();
   const out = {
-    team: 'Middletown South',
+    id: school.id,
+    team: school.name,
     season: SEASONS.current,
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     wrestlers: profiles,
   };
-  fs.writeFileSync(OUT_FILE, JSON.stringify(out, null, 2) + '\n');
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  fs.writeFileSync(path.join(DATA_DIR, `${school.id}.json`), JSON.stringify(out, null, 2) + '\n');
+  console.log(`✓ ${school.name}: ${profiles.length} cards, ${skipped.length} skipped (no data).`);
 
-  console.log(
-    `\n✓ wrote profiles.json — ${profiles.length} cards, ${skipped.length} skipped (no data).`
+  return { id: school.id, name: school.name, season: SEASONS.current, wrestlers: profiles.length, generatedAt };
+}
+
+(async function main() {
+  const teams = [];
+  for (const school of SCHOOLS) {
+    teams.push(await buildTeam(school));
+  }
+
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  fs.writeFileSync(
+    path.join(DATA_DIR, 'teams.json'),
+    JSON.stringify({ generatedAt: new Date().toISOString(), teams }, null, 2) + '\n'
   );
+  console.log(`\n✓ wrote data/teams.json — ${teams.length} teams.`);
 })().catch((err) => {
   console.error('\n✗ build failed:', err.message);
   process.exit(1);

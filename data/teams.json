@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-06-28T22:29:34.078Z",
+  "teams": [
+    {
+      "id": "south",
+      "name": "Middletown South",
+      "season": "2025-2026",
+      "wrestlers": 35,
+      "generatedAt": "2026-06-28T22:29:30.840Z"
+    },
+    {
+      "id": "north",
+      "name": "Middletown North",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-28T22:29:34.077Z"
+    }
+  ]
+}
