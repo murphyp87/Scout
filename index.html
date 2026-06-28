@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Wrestling Scout — Middletown South</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #141d2e;
+      --card-edge: #243049;
+      --accent: #e8503a;     /* singlet red */
+      --gold: #f2c14e;
+      --text: #eef2f8;
+      --muted: #9aa7bd;
+    }
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    html, body { margin: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      padding: env(safe-area-inset-top, 16px) 16px env(safe-area-inset-bottom, 24px);
+    }
+    .wrap { width: 100%; max-width: 1200px; margin: 0 auto; }
+    header.page { padding: 6px 4px 4px; }
+    header.page .kicker {
+      font-size: 13px; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--accent); font-weight: 700;
+    }
+    header.page h1 { font-size: 26px; font-weight: 800; margin: 2px 0 2px; letter-spacing: -.01em; }
+    header.page .meta { color: var(--muted); font-size: 13px; }
+
+    .grid {
+      display: grid; gap: 14px; margin-top: 18px;
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    }
+    @media (max-width: 430px) { .grid { grid-template-columns: 1fr; gap: 12px; } }
+
+    a.card {
+      display: block; text-decoration: none; color: inherit;
+      background: linear-gradient(180deg, var(--card) 0%, #0f1726 100%);
+      border: 1px solid var(--card-edge);
+      border-radius: 20px;
+      padding: 18px;
+      box-shadow: 0 10px 28px rgba(0,0,0,.45);
+      transition: transform .08s ease, border-color .15s ease;
+    }
+    a.card:active { transform: scale(.985); border-color: var(--accent); }
+    @media (hover: hover) { a.card:hover { border-color: var(--accent); } }
+
+    .top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+    .name { font-size: 21px; font-weight: 800; letter-spacing: -.01em; }
+    .weight-badge {
+      flex: none; background: var(--accent); color: #fff; font-weight: 800;
+      padding: 5px 11px; border-radius: 999px; font-size: 14px; white-space: nowrap;
+    }
+    .sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
+
+    .records { display: flex; gap: 10px; margin: 16px 0 6px; }
+    .stat {
+      flex: 1; background: #0e1626; border: 1px solid var(--card-edge);
+      border-radius: 14px; padding: 10px; text-align: center;
+    }
+    .stat .label { font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    .stat .value { font-size: 20px; font-weight: 800; margin-top: 3px; }
+
+    .section-label { font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 14px 0 7px; }
+    .weights { display: flex; flex-wrap: wrap; gap: 7px; }
+    .chip {
+      background: #0e1626; border: 1px solid var(--card-edge); border-radius: 10px;
+      padding: 6px 10px; font-size: 13px;
+    }
+    .chip b { color: var(--gold); }
+
+    .njsiaa {
+      margin-top: 14px; padding: 11px 13px; border-radius: 14px;
+      background: rgba(242,193,78,.08); border: 1px solid rgba(242,193,78,.35);
+    }
+    .njsiaa .label { font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--gold); }
+    .njsiaa .value { font-weight: 700; margin-top: 3px; font-size: 14px; }
+
+    .tap-hint {
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+      margin-top: 14px; color: var(--muted); font-size: 12px;
+    }
+    .footer { text-align: center; color: var(--muted); font-size: 11px; margin-top: 22px; }
+    .error { background: #2a1414; border: 1px solid #5a2a2a; color: #ffd9d2; padding: 16px; border-radius: 14px; }
+    code { background: #0e1626; padding: 2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="page">
+      <div class="kicker">Wrestling Scout</div>
+      <h1 id="title">Loading…</h1>
+      <div class="meta" id="meta"></div>
+    </header>
+    <div id="root"></div>
+  </div>
+
+  <script>
+    const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) =>
+      ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+    function card(p) {
+      const chips = (p.byWeight || [])
+        .map((w) => `<span class="chip">${esc(w.weight)}: <b>${esc(w.record)}</b></span>`)
+        .join('');
+
+      const lastYear = p.lastYearOverall
+        ? `<div class="stat"><div class="label">Last Year</div><div class="value">${esc(p.lastYearOverall)}</div></div>`
+        : `<div class="stat"><div class="label">Last Year</div><div class="value">—</div></div>`;
+
+      const njsiaa = p.furthestNJSIAA
+        ? `<div class="njsiaa">
+             <div class="label">Furthest NJSIAA (last year)</div>
+             <div class="value">${esc(p.furthestNJSIAA)}</div>
+           </div>`
+        : '';
+
+      return `
+        <a class="card" href="${esc(p.profileUrl)}" target="_blank" rel="noopener noreferrer">
+          <div class="top">
+            <div>
+              <div class="name">${esc(p.name)}</div>
+              <div class="sub">${esc(p.class || '')}</div>
+            </div>
+            <div class="weight-badge">${esc(p.primaryWeight)} lb</div>
+          </div>
+          <div class="records">
+            <div class="stat"><div class="label">This Year</div><div class="value">${esc(p.overall)}</div></div>
+            ${lastYear}
+          </div>
+          <div class="section-label">Record by Weight</div>
+          <div class="weights">${chips}</div>
+          ${njsiaa}
+          <div class="tap-hint">↗ Tap to open NJ.com profile</div>
+        </a>`;
+    }
+
+    fetch('profiles.json', { cache: 'no-store' })
+      .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then((data) => {
+        const list = data.wrestlers || [];
+        document.getElementById('title').textContent = data.team || 'Roster';
+        document.getElementById('meta').textContent =
+          `${data.season} season · ${list.length} wrestlers with results`;
+        document.getElementById('root').innerHTML =
+          `<div class="grid">${list.map(card).join('')}</div>
+           <div class="footer">Data parsed ${esc((data.generatedAt || '').slice(0, 10))} · sorted by weight</div>`;
+      })
+      .catch((err) => {
+        document.getElementById('title').textContent = 'Wrestling Scout';
+        document.getElementById('root').innerHTML =
+          `<div class="error"><b>Couldn't load profiles.json.</b><br>` +
+          `Run <code>node build.js</code>, then serve this folder ` +
+          `(e.g. <code>python -m http.server</code>) and open via http://, not file://.<br><br>` +
+          `<small>${esc(err.message)}</small></div>`;
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+# --- Secrets: never commit these ---
+.env
+.env.*
+!.env.example
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# --- Local cache of fetched NJ.com pages (while iterating) ---
+cache/
+.cache/
+*.cache
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+
+# --- Local Claude Code machine settings ---
+.claude/settings.local.json
+
+# NOTE: profile.json is intentionally NOT ignored — the static site needs it.
