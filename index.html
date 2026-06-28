@@ -4,7 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <title>Wrestling Scout — Middletown South</title>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Scout" />
+  <meta name="theme-color" content="#0b1220" />
+  <title>Wrestling Scout</title>
+  <link rel="icon" type="image/svg+xml" href="icon.svg" />
+  <link rel="apple-touch-icon" href="icon-180.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
   <style>
     :root {
       --bg: #0b1220;
@@ -144,15 +150,23 @@
       border-bottom: 1px solid var(--card-edge);
     }
     .back, .team-switch {
-      background: var(--card); color: var(--text);
-      border: 1px solid var(--card-edge); border-radius: 10px;
-      padding: 9px 13px; font: inherit; font-size: 14px; font-weight: 700;
-      cursor: pointer;
+      border-radius: 10px; padding: 9px 13px;
+      font: inherit; font-size: 14px; font-weight: 700; cursor: pointer;
     }
-    .back { display: inline-flex; align-items: center; gap: 6px; }
-    .team-switch { margin-left: auto; max-width: 60%; }
+    .team-switch {
+      margin-left: auto; max-width: 55%;
+      background: var(--card); color: var(--text); border: 1px solid var(--card-edge);
+    }
+    /* prominent, accent-filled back button */
+    .back {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--accent); color: #fff; border: 1px solid var(--accent);
+      font-weight: 800; box-shadow: 0 3px 10px rgba(232,80,58,.35);
+    }
+    .back:active { transform: scale(.98); }
     @media (hover: hover) {
-      .back:hover, .team-switch:hover { border-color: var(--accent); }
+      .back:hover { filter: brightness(1.08); }
+      .team-switch:hover { border-color: var(--accent); }
     }
 
     .footer { text-align: center; color: var(--muted); font-size: 11px; margin-top: 26px; }
@@ -299,7 +313,7 @@
         .join('');
       const bar = `
         <div class="team-bar">
-          <button class="back" type="button" id="to-teams">‹ Teams</button>
+          <button class="back" type="button" id="to-teams">‹ All Teams</button>
           <select class="team-switch" id="team-switch" aria-label="Switch team">${options}</select>
         </div>`;
 
