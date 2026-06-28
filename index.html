@@ -135,11 +135,25 @@
     .team-sub { color: var(--muted); font-size: 13px; margin-top: 3px; }
     .team-go { color: var(--muted); font-size: 26px; line-height: 1; }
 
-    .back {
-      display: inline-flex; align-items: center; gap: 6px; margin-top: 8px;
-      color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 600;
+    /* ---- sticky team-view control bar: back + team switcher ---- */
+    .team-bar {
+      position: sticky; top: 0; z-index: 5;
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 16px; margin-bottom: 4px;
+      background: rgba(11, 18, 32, .88); backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--card-edge);
     }
-    @media (hover: hover) { .back:hover { color: var(--text); } }
+    .back, .team-switch {
+      background: var(--card); color: var(--text);
+      border: 1px solid var(--card-edge); border-radius: 10px;
+      padding: 9px 13px; font: inherit; font-size: 14px; font-weight: 700;
+      cursor: pointer;
+    }
+    .back { display: inline-flex; align-items: center; gap: 6px; }
+    .team-switch { margin-left: auto; max-width: 60%; }
+    @media (hover: hover) {
+      .back:hover, .team-switch:hover { border-color: var(--accent); }
+    }
 
     .footer { text-align: center; color: var(--muted); font-size: 11px; margin-top: 26px; }
     .error { background: #2a1414; border: 1px solid #5a2a2a; color: #ffd9d2; padding: 16px; border-radius: 14px; }
@@ -279,11 +293,23 @@
       metaEl.textContent =
         `${data.season} season · ${list.length} wrestlers across ${weights.length} weight classes`;
 
+      // Sticky control bar: back to the team list + a dropdown to jump to another team.
+      const options = (teamsIndex.teams || [])
+        .map((t) => `<option value="${esc(t.id)}"${t.id === data.id ? ' selected' : ''}>${esc(t.name)}</option>`)
+        .join('');
+      const bar = `
+        <div class="team-bar">
+          <button class="back" type="button" id="to-teams">‹ Teams</button>
+          <select class="team-switch" id="team-switch" aria-label="Switch team">${options}</select>
+        </div>`;
+
       root.innerHTML =
-        `<div class="pad"><a class="back" href="#">‹ All teams</a></div>` +
+        bar +
         weights.map((wt) => weightRow(wt, byWeight.get(wt))).join('') +
         `<div class="footer pad">Data parsed ${esc((data.generatedAt || '').slice(0, 10))} · swipe or use ‹ › to scroll each weight</div>`;
 
+      document.getElementById('to-teams').addEventListener('click', () => { location.hash = ''; });
+      document.getElementById('team-switch').addEventListener('change', (e) => { location.hash = e.target.value; });
       document.querySelectorAll('.row-scroller').forEach(setupScroller);
     }
 
