@@ -1,13 +1,14 @@
 {
   "team": "Middletown South",
   "season": "2025-2026",
-  "generatedAt": "2026-06-28T22:01:47.418Z",
+  "generatedAt": "2026-06-28T22:15:43.413Z",
   "wrestlers": [
     {
       "name": "Joseph Reno",
       "class": "Sophomore",
       "primaryWeight": 106,
       "overall": "3-2",
+      "matchesThisYear": 5,
       "byWeight": [
         {
           "weight": 106,
@@ -24,6 +25,7 @@
       "class": "Sophomore",
       "primaryWeight": 106,
       "overall": "23-9",
+      "matchesThisYear": 32,
       "byWeight": [
         {
           "weight": 106,
@@ -40,6 +42,7 @@
       "class": "Sophomore",
       "primaryWeight": 113,
       "overall": "7-11",
+      "matchesThisYear": 18,
       "byWeight": [
         {
           "weight": 113,
@@ -60,6 +63,7 @@
       "class": "Sophomore",
       "primaryWeight": 113,
       "overall": "7-9",
+      "matchesThisYear": 16,
       "byWeight": [
         {
           "weight": 113,
@@ -76,6 +80,7 @@
       "class": "Freshman",
       "primaryWeight": 120,
       "overall": "2-1",
+      "matchesThisYear": 3,
       "byWeight": [
         {
           "weight": 113,
@@ -96,6 +101,7 @@
       "class": "Freshman",
       "primaryWeight": 120,
       "overall": "2-0",
+      "matchesThisYear": 2,
       "byWeight": [
         {
           "weight": 120,
@@ -112,6 +118,7 @@
       "class": "Sophomore",
       "primaryWeight": 120,
       "overall": "40-3",
+      "matchesThisYear": 43,
       "byWeight": [
         {
           "weight": 113,
@@ -136,6 +143,7 @@
       "class": "Freshman",
       "primaryWeight": 126,
       "overall": "1-1",
+      "matchesThisYear": 2,
       "byWeight": [
         {
           "weight": 126,
@@ -156,6 +164,7 @@
       "class": "Freshman",
       "primaryWeight": 126,
       "overall": "19-14",
+      "matchesThisYear": 33,
       "byWeight": [
         {
           "weight": 126,
@@ -176,6 +185,7 @@
       "class": "Junior",
       "primaryWeight": 126,
       "overall": "6-7",
+      "matchesThisYear": 13,
       "byWeight": [
         {
           "weight": 120,
@@ -200,6 +210,7 @@
       "class": "Freshman",
       "primaryWeight": 132,
       "overall": "17-9",
+      "matchesThisYear": 26,
       "byWeight": [
         {
           "weight": 132,
@@ -220,6 +231,7 @@
       "class": "Sophomore",
       "primaryWeight": 132,
       "overall": "2-2",
+      "matchesThisYear": 4,
       "byWeight": [
         {
           "weight": 132,
@@ -236,6 +248,7 @@
       "class": "Sophomore",
       "primaryWeight": 138,
       "overall": "2-1",
+      "matchesThisYear": 3,
       "byWeight": [
         {
           "weight": 138,
@@ -256,6 +269,7 @@
       "class": "Junior",
       "primaryWeight": 138,
       "overall": "32-8",
+      "matchesThisYear": 40,
       "byWeight": [
         {
           "weight": 138,
@@ -276,6 +290,7 @@
       "class": "Freshman",
       "primaryWeight": 144,
       "overall": "1-1",
+      "matchesThisYear": 2,
       "byWeight": [
         {
           "weight": 144,
@@ -296,6 +311,7 @@
       "class": "Senior",
       "primaryWeight": 144,
       "overall": "28-7",
+      "matchesThisYear": 35,
       "byWeight": [
         {
           "weight": 144,
@@ -316,6 +332,7 @@
       "class": "Senior",
       "primaryWeight": 150,
       "overall": "10-4",
+      "matchesThisYear": 14,
       "byWeight": [
         {
           "weight": 150,
@@ -332,6 +349,7 @@
       "class": "Junior",
       "primaryWeight": 150,
       "overall": "11-12",
+      "matchesThisYear": 23,
       "byWeight": [
         {
           "weight": 144,
@@ -356,6 +374,7 @@
       "class": "Freshman",
       "primaryWeight": 150,
       "overall": "1-0",
+      "matchesThisYear": 1,
       "byWeight": [
         {
           "weight": 150,
@@ -372,6 +391,7 @@
       "class": "Senior",
       "primaryWeight": 157,
       "overall": "23-12",
+      "matchesThisYear": 35,
       "byWeight": [
         {
           "weight": 150,
@@ -392,6 +412,7 @@
       "class": "Sophomore",
       "primaryWeight": 157,
       "overall": "2-1",
+      "matchesThisYear": 3,
       "byWeight": [
         {
           "weight": 157,
@@ -408,6 +429,7 @@
       "class": "Sophomore",
       "primaryWeight": 165,
       "overall": "1-4",
+      "matchesThisYear": 5,
       "byWeight": [
         {
           "weight": 157,
@@ -432,6 +454,7 @@
       "class": "Sophomore",
       "primaryWeight": 165,
       "overall": "1-0",
+      "matchesThisYear": 1,
       "byWeight": [
         {
           "weight": 165,
@@ -448,6 +471,7 @@
       "class": "Junior",
       "primaryWeight": 165,
       "overall": "1-2",
+      "matchesThisYear": 3,
       "byWeight": [
         {
           "weight": 157,
@@ -468,6 +492,7 @@
       "class": "Senior",
       "primaryWeight": 165,
       "overall": "36-4",
+      "matchesThisYear": 40,
       "byWeight": [
         {
           "weight": 165,
@@ -488,6 +513,7 @@
       "class": "Sophomore",
       "primaryWeight": 175,
       "overall": "3-3",
+      "matchesThisYear": 6,
       "byWeight": [
         {
           "weight": 175,
@@ -508,6 +534,7 @@
       "class": "Sophomore",
       "primaryWeight": 175,
       "overall": "0-1",
+      "matchesThisYear": 1,
       "byWeight": [
         {
           "weight": 175,
@@ -524,6 +551,7 @@
       "class": "Senior",
       "primaryWeight": 175,
       "overall": "25-13",
+      "matchesThisYear": 38,
       "byWeight": [
         {
           "weight": 165,
@@ -548,6 +576,7 @@
       "class": "Sophomore",
       "primaryWeight": 190,
       "overall": "26-6",
+      "matchesThisYear": 32,
       "byWeight": [
         {
           "weight": 175,
@@ -568,6 +597,7 @@
       "class": "Junior",
       "primaryWeight": 215,
       "overall": "7-4",
+      "matchesThisYear": 11,
       "byWeight": [
         {
           "weight": 190,
@@ -588,6 +618,7 @@
       "class": "Junior",
       "primaryWeight": 215,
       "overall": "20-12",
+      "matchesThisYear": 32,
       "byWeight": [
         {
           "weight": 190,
@@ -608,6 +639,7 @@
       "class": "Sophomore",
       "primaryWeight": 215,
       "overall": "3-0",
+      "matchesThisYear": 3,
       "byWeight": [
         {
           "weight": 190,
@@ -628,6 +660,7 @@
       "class": "Sophomore",
       "primaryWeight": 285,
       "overall": "4-2",
+      "matchesThisYear": 6,
       "byWeight": [
         {
           "weight": 285,
@@ -644,6 +677,7 @@
       "class": "Freshman",
       "primaryWeight": 285,
       "overall": "1-0",
+      "matchesThisYear": 1,
       "byWeight": [
         {
           "weight": 285,
@@ -660,6 +694,7 @@
       "class": "Junior",
       "primaryWeight": 285,
       "overall": "23-10",
+      "matchesThisYear": 33,
       "byWeight": [
         {
           "weight": 215,

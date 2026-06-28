@@ -14,6 +14,7 @@
       --gold: #f2c14e;
       --text: #eef2f8;
       --muted: #9aa7bd;
+      --card-w: 300px;
     }
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
     html, body { margin: 0; }
@@ -22,10 +23,12 @@
       color: var(--text);
       font: 16px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       min-height: 100vh;
-      padding: env(safe-area-inset-top, 16px) 16px env(safe-area-inset-bottom, 24px);
+      padding: env(safe-area-inset-top, 16px) 0 env(safe-area-inset-bottom, 24px);
     }
-    .wrap { width: 100%; max-width: 1200px; margin: 0 auto; }
-    header.page { padding: 6px 4px 4px; }
+    .pad { padding-left: 16px; padding-right: 16px; }
+    .wrap { width: 100%; max-width: 1400px; margin: 0 auto; }
+
+    header.page { padding: 6px 0 4px; }
     header.page .kicker {
       font-size: 13px; letter-spacing: .14em; text-transform: uppercase;
       color: var(--accent); font-weight: 700;
@@ -33,13 +36,44 @@
     header.page h1 { font-size: 26px; font-weight: 800; margin: 2px 0 2px; letter-spacing: -.01em; }
     header.page .meta { color: var(--muted); font-size: 13px; }
 
-    .grid {
-      display: grid; gap: 14px; margin-top: 18px;
-      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    /* ---- one horizontal row per weight class ---- */
+    .weight-row { margin-top: 22px; }
+    .row-head {
+      display: flex; align-items: baseline; gap: 10px; margin: 0 0 10px;
     }
-    @media (max-width: 430px) { .grid { grid-template-columns: 1fr; gap: 12px; } }
+    .row-weight { font-size: 18px; font-weight: 800; }
+    .row-weight .unit { color: var(--muted); font-size: 13px; font-weight: 600; }
+    .row-count { color: var(--muted); font-size: 12px; }
+
+    .row-scroller { position: relative; }
+    .track {
+      display: flex; gap: 14px; overflow-x: auto; scroll-behavior: smooth;
+      scroll-snap-type: x mandatory; padding: 2px 16px 10px;
+      scrollbar-width: thin; scrollbar-color: var(--card-edge) transparent;
+    }
+    .track::-webkit-scrollbar { height: 8px; }
+    .track::-webkit-scrollbar-thumb { background: var(--card-edge); border-radius: 8px; }
+    .track:focus { outline: none; }
+    .track:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 16px; }
+
+    /* desktop scroll arrows — hidden on touch / when a row doesn't overflow */
+    .nav {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      width: 38px; height: 38px; border-radius: 999px; z-index: 2;
+      background: rgba(20,29,46,.92); border: 1px solid var(--card-edge);
+      color: var(--text); font-size: 20px; line-height: 1; cursor: pointer;
+      display: none; align-items: center; justify-content: center;
+      box-shadow: 0 4px 14px rgba(0,0,0,.5);
+    }
+    .nav:hover { border-color: var(--accent); }
+    .nav.prev { left: 2px; } .nav.next { right: 2px; }
+    .nav[disabled] { opacity: .3; cursor: default; }
+    @media (hover: hover) and (pointer: fine) {
+      .row-scroller.overflowing .nav { display: flex; }
+    }
 
     a.card {
+      flex: 0 0 var(--card-w); width: var(--card-w); scroll-snap-align: start;
       display: block; text-decoration: none; color: inherit;
       background: linear-gradient(180deg, var(--card) 0%, #0f1726 100%);
       border: 1px solid var(--card-edge);
@@ -52,10 +86,10 @@
     @media (hover: hover) { a.card:hover { border-color: var(--accent); } }
 
     .top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
-    .name { font-size: 21px; font-weight: 800; letter-spacing: -.01em; }
-    .weight-badge {
+    .name { font-size: 20px; font-weight: 800; letter-spacing: -.01em; }
+    .matches-badge {
       flex: none; background: var(--accent); color: #fff; font-weight: 800;
-      padding: 5px 11px; border-radius: 999px; font-size: 14px; white-space: nowrap;
+      padding: 5px 10px; border-radius: 999px; font-size: 12px; white-space: nowrap;
     }
     .sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
 
@@ -84,18 +118,14 @@
     .nj-yr { flex: none; width: 48px; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
     .nj-res { font-weight: 700; }
 
-    .tap-hint {
-      display: flex; align-items: center; justify-content: center; gap: 6px;
-      margin-top: 14px; color: var(--muted); font-size: 12px;
-    }
-    .footer { text-align: center; color: var(--muted); font-size: 11px; margin-top: 22px; }
+    .footer { text-align: center; color: var(--muted); font-size: 11px; margin-top: 26px; }
     .error { background: #2a1414; border: 1px solid #5a2a2a; color: #ffd9d2; padding: 16px; border-radius: 14px; }
     code { background: #0e1626; padding: 2px 6px; border-radius: 6px; }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <header class="page">
+    <header class="page pad">
       <div class="kicker">Wrestling Scout</div>
       <h1 id="title">Loading…</h1>
       <div class="meta" id="meta"></div>
@@ -112,9 +142,7 @@
         .map((w) => `<span class="chip">${esc(w.weight)}: <b>${esc(w.record)}</b></span>`)
         .join('');
 
-      const lastYear = p.lastYearOverall
-        ? `<div class="stat"><div class="label">Last Year</div><div class="value">${esc(p.lastYearOverall)}</div></div>`
-        : `<div class="stat"><div class="label">Last Year</div><div class="value">—</div></div>`;
+      const lastYear = `<div class="stat"><div class="label">Last Year</div><div class="value">${esc(p.lastYearOverall || '—')}</div></div>`;
 
       const njRow = (label, val) =>
         `<div class="nj-row"><span class="nj-yr">${esc(label)}</span><span class="nj-res">${esc(val)}</span></div>`;
@@ -122,10 +150,7 @@
       if (p.thisYearNJSIAA) njParts.push(njRow('This yr', p.thisYearNJSIAA));
       if (p.lastYearNJSIAA) njParts.push(njRow('Last yr', p.lastYearNJSIAA));
       const njsiaa = njParts.length
-        ? `<div class="njsiaa">
-             <div class="label">Furthest NJSIAA</div>
-             ${njParts.join('')}
-           </div>`
+        ? `<div class="njsiaa"><div class="label">Furthest NJSIAA</div>${njParts.join('')}</div>`
         : '';
 
       return `
@@ -135,7 +160,7 @@
               <div class="name">${esc(p.name)}</div>
               <div class="sub">${esc(p.class || '')}</div>
             </div>
-            <div class="weight-badge">${esc(p.primaryWeight)} lb</div>
+            <div class="matches-badge">${esc(p.matchesThisYear)} match${p.matchesThisYear === 1 ? '' : 'es'}</div>
           </div>
           <div class="records">
             <div class="stat"><div class="label">This Year</div><div class="value">${esc(p.overall)}</div></div>
@@ -144,25 +169,85 @@
           <div class="section-label">Record by Weight</div>
           <div class="weights">${chips}</div>
           ${njsiaa}
-          <div class="tap-hint">↗ Tap to open NJ.com profile</div>
         </a>`;
+    }
+
+    function weightRow(weight, wrestlers) {
+      const cards = wrestlers.map(card).join('');
+      const n = wrestlers.length;
+      return `
+        <section class="weight-row">
+          <div class="row-head pad">
+            <div class="row-weight">${esc(weight)}<span class="unit"> lb</span></div>
+            <div class="row-count">${n} wrestler${n === 1 ? '' : 's'}</div>
+          </div>
+          <div class="row-scroller">
+            <button class="nav prev" aria-label="Scroll left">‹</button>
+            <div class="track" tabindex="0">${cards}</div>
+            <button class="nav next" aria-label="Scroll right">›</button>
+          </div>
+        </section>`;
+    }
+
+    // Wire up arrow buttons + keyboard for one scroller; show arrows only when it overflows.
+    function setupScroller(scroller) {
+      const track = scroller.querySelector('.track');
+      const prev = scroller.querySelector('.nav.prev');
+      const next = scroller.querySelector('.nav.next');
+      const step = () => Math.max(track.clientWidth * 0.9, 280);
+
+      const update = () => {
+        const overflowing = track.scrollWidth - track.clientWidth > 4;
+        scroller.classList.toggle('overflowing', overflowing);
+        const x = track.scrollLeft;
+        prev.disabled = x <= 1;
+        next.disabled = x >= track.scrollWidth - track.clientWidth - 1;
+      };
+
+      prev.addEventListener('click', () => track.scrollBy({ left: -step(), behavior: 'smooth' }));
+      next.addEventListener('click', () => track.scrollBy({ left: step(), behavior: 'smooth' }));
+      track.addEventListener('scroll', update, { passive: true });
+      track.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') { e.preventDefault(); track.scrollBy({ left: step(), behavior: 'smooth' }); }
+        if (e.key === 'ArrowLeft')  { e.preventDefault(); track.scrollBy({ left: -step(), behavior: 'smooth' }); }
+      });
+      window.addEventListener('resize', update);
+      update();
     }
 
     fetch('profiles.json', { cache: 'no-store' })
       .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then((data) => {
         const list = data.wrestlers || [];
+
+        // Group by primary weight class.
+        const byWeight = new Map();
+        for (const w of list) {
+          if (!byWeight.has(w.primaryWeight)) byWeight.set(w.primaryWeight, []);
+          byWeight.get(w.primaryWeight).push(w);
+        }
+        // Rows ascending by weight; wrestlers within a row by most matches this year.
+        const weights = [...byWeight.keys()].sort((a, b) => a - b);
+        for (const wt of weights) {
+          byWeight.get(wt).sort(
+            (a, b) => (b.matchesThisYear - a.matchesThisYear) || a.name.localeCompare(b.name)
+          );
+        }
+
         document.getElementById('title').textContent = data.team || 'Roster';
         document.getElementById('meta').textContent =
-          `${data.season} season · ${list.length} wrestlers with results`;
+          `${data.season} season · ${list.length} wrestlers across ${weights.length} weight classes`;
+
         document.getElementById('root').innerHTML =
-          `<div class="grid">${list.map(card).join('')}</div>
-           <div class="footer">Data parsed ${esc((data.generatedAt || '').slice(0, 10))} · sorted by weight</div>`;
+          weights.map((wt) => weightRow(wt, byWeight.get(wt))).join('') +
+          `<div class="footer pad">Data parsed ${esc((data.generatedAt || '').slice(0, 10))} · swipe or use ‹ › to scroll each weight</div>`;
+
+        document.querySelectorAll('.row-scroller').forEach(setupScroller);
       })
       .catch((err) => {
         document.getElementById('title').textContent = 'Wrestling Scout';
         document.getElementById('root').innerHTML =
-          `<div class="error"><b>Couldn't load profiles.json.</b><br>` +
+          `<div class="error pad"><b>Couldn't load profiles.json.</b><br>` +
           `Run <code>node build.js</code>, then serve this folder ` +
           `(e.g. <code>python -m http.server</code>) and open via http://, not file://.<br><br>` +
           `<small>${esc(err.message)}</small></div>`;

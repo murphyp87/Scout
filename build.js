@@ -140,6 +140,7 @@ function parseCurrent(html) {
     wrestlerClass,
     primaryWeight: primary.weight,
     overall: recordStr(overall),
+    matchesThisYear: overall.wins + overall.losses,
     byWeight: byWeight.map(({ weight, record }) => ({ weight, record })),
   };
 }
@@ -227,6 +228,7 @@ function parseLastYearRecord(prevHtml) {
       class: current.wrestlerClass,
       primaryWeight: current.primaryWeight,
       overall: current.overall,
+      matchesThisYear: current.matchesThisYear,
       byWeight: current.byWeight,
       lastYearOverall: parseLastYearRecord(prevPage.html),
       thisYearNJSIAA,
