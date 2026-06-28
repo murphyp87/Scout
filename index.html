@@ -79,8 +79,10 @@
       margin-top: 14px; padding: 11px 13px; border-radius: 14px;
       background: rgba(242,193,78,.08); border: 1px solid rgba(242,193,78,.35);
     }
-    .njsiaa .label { font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--gold); }
-    .njsiaa .value { font-weight: 700; margin-top: 3px; font-size: 14px; }
+    .njsiaa .label { font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--gold); margin-bottom: 5px; }
+    .nj-row { display: flex; gap: 8px; align-items: baseline; font-size: 13px; margin-top: 4px; }
+    .nj-yr { flex: none; width: 48px; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+    .nj-res { font-weight: 700; }
 
     .tap-hint {
       display: flex; align-items: center; justify-content: center; gap: 6px;
@@ -114,10 +116,15 @@
         ? `<div class="stat"><div class="label">Last Year</div><div class="value">${esc(p.lastYearOverall)}</div></div>`
         : `<div class="stat"><div class="label">Last Year</div><div class="value">—</div></div>`;
 
-      const njsiaa = p.furthestNJSIAA
+      const njRow = (label, val) =>
+        `<div class="nj-row"><span class="nj-yr">${esc(label)}</span><span class="nj-res">${esc(val)}</span></div>`;
+      const njParts = [];
+      if (p.thisYearNJSIAA) njParts.push(njRow('This yr', p.thisYearNJSIAA));
+      if (p.lastYearNJSIAA) njParts.push(njRow('Last yr', p.lastYearNJSIAA));
+      const njsiaa = njParts.length
         ? `<div class="njsiaa">
-             <div class="label">Furthest NJSIAA (last year)</div>
-             <div class="value">${esc(p.furthestNJSIAA)}</div>
+             <div class="label">Furthest NJSIAA</div>
+             ${njParts.join('')}
            </div>`
         : '';
 

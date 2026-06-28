@@ -1,7 +1,7 @@
 {
   "team": "Middletown South",
   "season": "2025-2026",
-  "generatedAt": "2026-06-28T20:37:43.956Z",
+  "generatedAt": "2026-06-28T22:01:47.418Z",
   "wrestlers": [
     {
       "name": "Joseph Reno",
@@ -15,7 +15,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/joseph-reno/wrestling/season/2025-2026"
     },
     {
@@ -30,7 +31,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 17 - 106, Final Round",
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/michael-fielding/wrestling/season/2025-2026"
     },
     {
@@ -49,7 +51,8 @@
         }
       ],
       "lastYearOverall": "10-8",
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 17 - 120, Quarterfinal Round",
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/liam-oreilly/wrestling/season/2025-2026"
     },
     {
@@ -64,7 +67,8 @@
         }
       ],
       "lastYearOverall": "4-1",
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/ryder-hartman/wrestling/season/2025-2026"
     },
     {
@@ -82,8 +86,9 @@
           "record": "1-1"
         }
       ],
-      "lastYearOverall": "2-1",
-      "furthestNJSIAA": null,
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/chase-bernabeo/wrestling/season/2025-2026"
     },
     {
@@ -97,8 +102,9 @@
           "record": "2-0"
         }
       ],
-      "lastYearOverall": "2-0",
-      "furthestNJSIAA": null,
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/christian-luehmann/wrestling/season/2025-2026"
     },
     {
@@ -121,7 +127,8 @@
         }
       ],
       "lastYearOverall": "31-7",
-      "furthestNJSIAA": "2025 NJSIAA State Wrestling Championships - 106, Third-Place Consolations",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 113, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 106, Third-Place Consolations",
       "profileUrl": "https://highschoolsports.nj.com/player/peter-trezza/wrestling/season/2025-2026"
     },
     {
@@ -139,8 +146,9 @@
           "record": "0-1"
         }
       ],
-      "lastYearOverall": "1-1",
-      "furthestNJSIAA": null,
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/aidan-cohen-1/wrestling/season/2025-2026"
     },
     {
@@ -159,7 +167,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 17 - 126, Quarterfinal Round",
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/john-murphy-17/wrestling/season/2025-2026"
     },
     {
@@ -182,7 +191,8 @@
         }
       ],
       "lastYearOverall": "5-7",
-      "furthestNJSIAA": "2025 NJSIAA District 17 - 113, Quarterfinal Round",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 17 - 113, Quarterfinal Round",
       "profileUrl": "https://highschoolsports.nj.com/player/robert-sprague/wrestling/season/2025-2026"
     },
     {
@@ -200,8 +210,9 @@
           "record": "2-0"
         }
       ],
-      "lastYearOverall": "17-9",
-      "furthestNJSIAA": "2026 NJSIAA Region 5 - 132, First Round",
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA Region 5 - 132, First Round",
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/john-pratt/wrestling/season/2025-2026"
     },
     {
@@ -216,7 +227,8 @@
         }
       ],
       "lastYearOverall": "0-2",
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/robert-cook/wrestling/season/2025-2026"
     },
     {
@@ -235,7 +247,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/nikolas-restuccio/wrestling/season/2025-2026"
     },
     {
@@ -254,7 +267,8 @@
         }
       ],
       "lastYearOverall": "26-8",
-      "furthestNJSIAA": "2025 NJSIAA Region 5 - 126, First Round",
+      "thisYearNJSIAA": "2026 NJSIAA Region 5 - 138, Semifinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 5 - 126, First Round",
       "profileUrl": "https://highschoolsports.nj.com/player/ryan-romano-1/wrestling/season/2025-2026"
     },
     {
@@ -272,8 +286,9 @@
           "record": "0-1"
         }
       ],
-      "lastYearOverall": "1-1",
-      "furthestNJSIAA": null,
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/jacob-denicola/wrestling/season/2025-2026"
     },
     {
@@ -292,7 +307,8 @@
         }
       ],
       "lastYearOverall": "16-8",
-      "furthestNJSIAA": "2025 NJSIAA District 17 - 138, Quarterfinal Round",
+      "thisYearNJSIAA": "2026 NJSIAA Region 5 - 144, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 17 - 138, Quarterfinal Round",
       "profileUrl": "https://highschoolsports.nj.com/player/tyler-alweiss/wrestling/season/2025-2026"
     },
     {
@@ -307,7 +323,8 @@
         }
       ],
       "lastYearOverall": "12-8",
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/ben-smolensky-1/wrestling/season/2025-2026"
     },
     {
@@ -330,7 +347,8 @@
         }
       ],
       "lastYearOverall": "4-2",
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 17 - 157, Quarterfinal Round",
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/daniel-alexandre/wrestling/season/2025-2026"
     },
     {
@@ -344,8 +362,9 @@
           "record": "1-0"
         }
       ],
-      "lastYearOverall": "1-0",
-      "furthestNJSIAA": null,
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/michael-gelpke/wrestling/season/2025-2026"
     },
     {
@@ -364,7 +383,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": "2026 NJSIAA Region 5 - 150, First Round",
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/matthew-caccamo/wrestling/season/2025-2026"
     },
     {
@@ -379,7 +399,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/quinn-malinky/wrestling/season/2025-2026"
     },
     {
@@ -402,7 +423,8 @@
         }
       ],
       "lastYearOverall": "1-3",
-      "furthestNJSIAA": "Rahway (47) at Middletown South (27), NJSIAA Team Tournament, Quarterfinal Round, North Jersey, Section 2, Group 4",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/gunnar-hostrup/wrestling/season/2025-2026"
     },
     {
@@ -417,7 +439,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/lucas-rodriguez-6/wrestling/season/2025-2026"
     },
     {
@@ -436,7 +459,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/nicholas-demercurio/wrestling/season/2025-2026"
     },
     {
@@ -455,7 +479,8 @@
         }
       ],
       "lastYearOverall": "23-8",
-      "furthestNJSIAA": "2025 NJSIAA State Wrestling Championships - 157, Third-Place Consolations",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 165, Preliminary Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 157, Third-Place Consolations",
       "profileUrl": "https://highschoolsports.nj.com/player/ryan-willi/wrestling/season/2025-2026"
     },
     {
@@ -474,7 +499,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/alvaro-serrano/wrestling/season/2025-2026"
     },
     {
@@ -489,7 +515,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/charlie-weber/wrestling/season/2025-2026"
     },
     {
@@ -512,7 +539,8 @@
         }
       ],
       "lastYearOverall": "13-12",
-      "furthestNJSIAA": "2025 NJSIAA District 17 - 150, Quarterfinal Round",
+      "thisYearNJSIAA": "2026 NJSIAA Region 5 - 175, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 17 - 150, Quarterfinal Round",
       "profileUrl": "https://highschoolsports.nj.com/player/john-mccormack/wrestling/season/2025-2026"
     },
     {
@@ -531,7 +559,8 @@
         }
       ],
       "lastYearOverall": "12-5",
-      "furthestNJSIAA": "Rahway (47) at Middletown South (27), NJSIAA Team Tournament, Quarterfinal Round, North Jersey, Section 2, Group 4",
+      "thisYearNJSIAA": "2026 NJSIAA Region 5 - 190, Quarterfinal Round",
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/max-alweiss-1/wrestling/season/2025-2026"
     },
     {
@@ -550,7 +579,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/landon-becknel/wrestling/season/2025-2026"
     },
     {
@@ -569,7 +599,8 @@
         }
       ],
       "lastYearOverall": "13-10",
-      "furthestNJSIAA": "2025 NJSIAA District 17 - 175, Third-Place Consolations",
+      "thisYearNJSIAA": "2026 NJSIAA Region 5 - 215, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 17 - 175, Third-Place Consolations",
       "profileUrl": "https://highschoolsports.nj.com/player/liam-brett-1/wrestling/season/2025-2026"
     },
     {
@@ -588,7 +619,8 @@
         }
       ],
       "lastYearOverall": "1-0",
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/matteo-corvasce/wrestling/season/2025-2026"
     },
     {
@@ -603,7 +635,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/oliver-guzman/wrestling/season/2025-2026"
     },
     {
@@ -617,8 +650,9 @@
           "record": "1-0"
         }
       ],
-      "lastYearOverall": "1-0",
-      "furthestNJSIAA": null,
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/sam-gebhardt/wrestling/season/2025-2026"
     },
     {
@@ -637,7 +671,8 @@
         }
       ],
       "lastYearOverall": null,
-      "furthestNJSIAA": null,
+      "thisYearNJSIAA": "2026 NJSIAA Region 5 - 285, First Round",
+      "lastYearNJSIAA": null,
       "profileUrl": "https://highschoolsports.nj.com/player/thomas-gelpke/wrestling/season/2025-2026"
     }
   ]

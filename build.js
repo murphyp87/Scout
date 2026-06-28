@@ -19,6 +19,11 @@ const path = require('path');
 
 const SCHOOL = 'middletown-middletown-south';
 const SEASONS = { current: '2025-2026', previous: '2024-2025' };
+// NJSIAA tournaments happen in the calendar year the season ends (e.g. 2025-2026 -> 2026).
+const YEAR = {
+  current: parseInt(SEASONS.current.split('-')[1], 10),
+  previous: parseInt(SEASONS.previous.split('-')[1], 10),
+};
 
 const rosterUrl = () =>
   `https://highschoolsports.nj.com/school/${SCHOOL}/wrestling/season/${SEASONS.current}/roster`;
@@ -139,22 +144,55 @@ function parseCurrent(html) {
   };
 }
 
-/** Parse a previous-year page: overall record + furthest NJSIAA line (both optional). */
-function parsePrevious(html) {
-  if (!html) return { lastYearOverall: null, furthestNJSIAA: null };
-  const overall = tally(html);
-
+/**
+ * Extract individual NJSIAA tournament results from a page.
+ *
+ * Each result line looks like "2/24/2025, 2025 NJSIAA Region 5 - 126, First Round".
+ * We deliberately skip "NJSIAA Team Tournament" lines (those are team dual meets,
+ * not an individual's postseason placement), and we read the YEAR from the line
+ * itself rather than trusting which season's page it came from — NJ.com sometimes
+ * serves the current season on a previous-year URL.
+ *
+ * Returns [{ year, sortKey, text }], where text drops the leading date.
+ */
+function parseNjsiaa(html) {
+  if (!html) return [];
   const text = html.replace(/<[^>]+>/g, ' ');
-  const njsiaa = text
-    .split(/[\n\r]|\s{2,}/)
-    .map((l) => l.replace(/\s+/g, ' ').trim())
-    .filter((l) => /NJSIAA/.test(l));
-  const last = njsiaa.length ? njsiaa[njsiaa.length - 1] : null;
-  const furthestNJSIAA = last ? last.replace(/^\d{1,2}\/\d{1,2}\/\d{4},\s*/, '') : null;
+  const results = [];
+  text.split(/[\n\r]|\s{2,}/).forEach((raw, idx) => {
+    const line = raw.replace(/\s+/g, ' ').trim();
+    if (!/NJSIAA/.test(line) || /Team Tournament/i.test(line)) return;
+    const m = line.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4}),\s*(\d{4})\s+NJSIAA\b/);
+    if (!m) return; // not an individual-tournament result line
+    const [, mo, da, dateYear, tagYear] = m.map(Number);
+    results.push({
+      year: tagYear,
+      // Latest date wins (deepest stage reached); document order breaks ties (deepest round).
+      sortKey: dateYear * 10000 + mo * 100 + da + idx / 1e6,
+      text: line.replace(/^\d{1,2}\/\d{1,2}\/\d{4},\s*/, ''),
+    });
+  });
+  return results;
+}
 
-  const lastYearOverall =
-    overall.wins + overall.losses > 0 ? recordStr(overall) : null;
-  return { lastYearOverall, furthestNJSIAA };
+/** Furthest NJSIAA result (by latest date / deepest round) for a given year, or null. */
+function furthestNjsiaa(results, year) {
+  const forYear = results.filter((r) => r.year === year);
+  if (!forYear.length) return null;
+  return forYear.reduce((best, r) => (r.sortKey > best.sortKey ? r : best)).text;
+}
+
+/**
+ * Last-year overall W-L from the previous-year page — but only if the page truly
+ * contains previous-season match data. NJ.com sometimes serves the current season
+ * on the previous-year URL, which would otherwise produce a bogus "last year" record.
+ */
+function parseLastYearRecord(prevHtml) {
+  if (!prevHtml) return null;
+  const headerRe = new RegExp(`>${SEASONS.previous}\\s+\\d{2,3}\\s+pound<`, 'i');
+  if (!headerRe.test(prevHtml)) return null;
+  const overall = tally(prevHtml);
+  return overall.wins + overall.losses > 0 ? recordStr(overall) : null;
 }
 
 (async function main() {
@@ -178,7 +216,11 @@ function parsePrevious(html) {
     }
 
     const prevPage = await getCached(`prev-${slug}.html`, playerUrl(slug, SEASONS.previous));
-    const prev = parsePrevious(prevPage.html);
+
+    // NJSIAA lines may appear on either page; bucket by the year tagged in each line.
+    const njsiaa = [...parseNjsiaa(cur.html), ...parseNjsiaa(prevPage.html)];
+    const thisYearNJSIAA = furthestNjsiaa(njsiaa, YEAR.current);
+    const lastYearNJSIAA = furthestNjsiaa(njsiaa, YEAR.previous);
 
     profiles.push({
       name,
@@ -186,8 +228,9 @@ function parsePrevious(html) {
       primaryWeight: current.primaryWeight,
       overall: current.overall,
       byWeight: current.byWeight,
-      lastYearOverall: prev.lastYearOverall,
-      furthestNJSIAA: prev.furthestNJSIAA,
+      lastYearOverall: parseLastYearRecord(prevPage.html),
+      thisYearNJSIAA,
+      lastYearNJSIAA,
       profileUrl: playerUrl(slug, SEASONS.current),
     });
     console.log(`  ✓ ${name} — ${current.primaryWeight} lb, ${current.overall}`);
