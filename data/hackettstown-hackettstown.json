@@ -1,0 +1,529 @@
+{
+  "id": "hackettstown-hackettstown",
+  "team": "Hackettstown",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:38:30.709Z",
+  "wrestlers": [
+    {
+      "name": "Azeem Mirza",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "5-0",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "5-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/azeem-mirza/wrestling/season/2025-2026"
+    },
+    {
+      "name": "James LaRocco",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/james-larocco/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Steven Vidal",
+      "class": "Junior",
+      "primaryWeight": 106,
+      "overall": "33-8",
+      "matchesThisYear": 41,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "29-6"
+        },
+        {
+          "weight": 113,
+          "record": "4-2"
+        }
+      ],
+      "lastYearOverall": "27-6",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 106, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 3 - 106, Third-Place Consolations, Fifth-Place",
+      "profileUrl": "https://highschoolsports.nj.com/player/steven-vidal-710117/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Carmine Granata",
+      "class": null,
+      "primaryWeight": 113,
+      "overall": "9-17",
+      "matchesThisYear": 26,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "8-17"
+        },
+        {
+          "weight": 120,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 113, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/carmine-granata/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Christopher Gonzalez",
+      "class": "Sophomore",
+      "primaryWeight": 120,
+      "overall": "2-2",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "2-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/christopher-gonzalez-4/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Joseph Rowinski",
+      "class": "Junior",
+      "primaryWeight": 120,
+      "overall": "39-4",
+      "matchesThisYear": 43,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "36-4"
+        },
+        {
+          "weight": 126,
+          "record": "3-0"
+        }
+      ],
+      "lastYearOverall": "27-6",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 120, Pre-Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 113, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/joseph-rowinski/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Giovanni Gutierrez",
+      "class": "Junior",
+      "primaryWeight": 126,
+      "overall": "30-7",
+      "matchesThisYear": 37,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "27-7"
+        },
+        {
+          "weight": 132,
+          "record": "3-0"
+        }
+      ],
+      "lastYearOverall": "25-5",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 126, Preliminary Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 3 - 120, Third-Place Consolations, Fifth-Place",
+      "profileUrl": "https://highschoolsports.nj.com/player/giovanni-gutierrez/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Diego Penaloza",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "24-7",
+      "matchesThisYear": 31,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "20-7"
+        },
+        {
+          "weight": 138,
+          "record": "4-0"
+        }
+      ],
+      "lastYearOverall": "11-12",
+      "thisYearNJSIAA": "2026 NJSIAA Region 3 - 132, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 12 - 132, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/diego-penaloza/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Mason Grier",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "9-4",
+      "matchesThisYear": 13,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "4-1"
+        },
+        {
+          "weight": 132,
+          "record": "4-3"
+        },
+        {
+          "weight": 138,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "4-5",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/mason-grier/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Bayron Flores",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "1-0"
+        },
+        {
+          "weight": 144,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/bayron-flores/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Corbin Booth",
+      "class": "Freshman",
+      "primaryWeight": 144,
+      "overall": "23-9",
+      "matchesThisYear": 32,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "4-0"
+        },
+        {
+          "weight": 144,
+          "record": "14-7"
+        },
+        {
+          "weight": 150,
+          "record": "5-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA Region 3 - 144, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/corbin-booth/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Adrian Pinto",
+      "class": "Junior",
+      "primaryWeight": 150,
+      "overall": "25-6",
+      "matchesThisYear": 31,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "6-3"
+        },
+        {
+          "weight": 144,
+          "record": "6-1"
+        },
+        {
+          "weight": 150,
+          "record": "13-2"
+        }
+      ],
+      "lastYearOverall": "17-12",
+      "thisYearNJSIAA": "2026 NJSIAA Region 3 - 138, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 3 - 144, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/adrian-pinto/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Bryan Dougherty",
+      "class": "Junior",
+      "primaryWeight": 150,
+      "overall": "33-8",
+      "matchesThisYear": 41,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "15-0"
+        },
+        {
+          "weight": 144,
+          "record": "5-1"
+        },
+        {
+          "weight": 150,
+          "record": "11-6"
+        },
+        {
+          "weight": 157,
+          "record": "2-1"
+        }
+      ],
+      "lastYearOverall": "17-7",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 150, Preliminary Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 3 - 126, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/bryan-dougherty-2/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Carter Duncan",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "1-2",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": "2-11",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/carter-duncan-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Evan Carr",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "13-16",
+      "matchesThisYear": 29,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "12-13"
+        },
+        {
+          "weight": 165,
+          "record": "1-3"
+        }
+      ],
+      "lastYearOverall": "5-20",
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 157, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 12 - 157, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/evan-carr-756122/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ernesto Milla",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "0-3",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ernesto-milla/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nathaniel Torres",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "5-8",
+      "matchesThisYear": 13,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "3-4"
+        },
+        {
+          "weight": 175,
+          "record": "2-4"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nathaniel-torres-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Rafael Zukoski",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "6-6",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "1-2"
+        },
+        {
+          "weight": 165,
+          "record": "5-4"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/rafael-zukoski/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Darwin Disla",
+      "class": "Senior",
+      "primaryWeight": 175,
+      "overall": "6-12",
+      "matchesThisYear": 18,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "3-7"
+        },
+        {
+          "weight": 190,
+          "record": "2-5"
+        },
+        {
+          "weight": 215,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "9-9",
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 175, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 12 - 165, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/darwin-disla/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Matthew McGovern",
+      "class": "Senior",
+      "primaryWeight": 175,
+      "overall": "11-14",
+      "matchesThisYear": 25,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "6-3"
+        },
+        {
+          "weight": 175,
+          "record": "5-11"
+        }
+      ],
+      "lastYearOverall": "7-11",
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 165, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 12 - 175, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/matthew-mcgovern-2/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Erles Semiefort",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "12-14",
+      "matchesThisYear": 26,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "12-13"
+        },
+        {
+          "weight": 215,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "3-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 190, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 12 - 190, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/erles-semiefort/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Carlos Lopez",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "19-14",
+      "matchesThisYear": 33,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "12-8"
+        },
+        {
+          "weight": 285,
+          "record": "7-6"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 285, Third-Place Consolations",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/carlos-lopez-14/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ryan Katcavage",
+      "class": "Freshman",
+      "primaryWeight": 215,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ryan-katcavage/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Joseph Vasquez",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "3-1",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-0"
+        },
+        {
+          "weight": 285,
+          "record": "2-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/joseph-vasquez-3/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jostin Andrade",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "4-4",
+      "matchesThisYear": 8,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "4-4"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jostin-andrade/wrestling/season/2025-2026"
+    }
+  ]
+}

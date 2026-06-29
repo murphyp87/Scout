@@ -1,0 +1,450 @@
+{
+  "id": "mountain-lakes-mountain-lakes",
+  "team": "Mountain Lakes",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:11:06.238Z",
+  "wrestlers": [
+    {
+      "name": "Ruben Rose",
+      "class": null,
+      "primaryWeight": 113,
+      "overall": "1-17",
+      "matchesThisYear": 18,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "1-17"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ruben-rose/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Javier Mendez",
+      "class": null,
+      "primaryWeight": 120,
+      "overall": "3-24",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "3-23"
+        },
+        {
+          "weight": 126,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/javier-mendez-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Emin Akcay",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "15-13",
+      "matchesThisYear": 28,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "10-11"
+        },
+        {
+          "weight": 132,
+          "record": "3-1"
+        },
+        {
+          "weight": 138,
+          "record": "2-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 5 - 126, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/emin-akcay/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jayden Hernando",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "13-14",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "10-10"
+        },
+        {
+          "weight": 138,
+          "record": "2-2"
+        },
+        {
+          "weight": 144,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": "15-13",
+      "thisYearNJSIAA": "2026 NJSIAA District 5 - 132, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 7 - 126, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/jayden-hernando/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Diego Mendez",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "8-18",
+      "matchesThisYear": 26,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "1-2"
+        },
+        {
+          "weight": 132,
+          "record": "2-5"
+        },
+        {
+          "weight": 138,
+          "record": "4-10"
+        },
+        {
+          "weight": 144,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": "6-18",
+      "thisYearNJSIAA": "2026 NJSIAA District 5 - 144, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 7 - 132, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/diego-mendez-759271/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Izaeya Rivera",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/izaeya-rivera/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Luke Woltman",
+      "class": null,
+      "primaryWeight": 144,
+      "overall": "1-5",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "1-1"
+        },
+        {
+          "weight": 144,
+          "record": "0-4"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/luke-woltman/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Zach Sportelli",
+      "class": null,
+      "primaryWeight": 144,
+      "overall": "12-14",
+      "matchesThisYear": 26,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "5-2"
+        },
+        {
+          "weight": 144,
+          "record": "7-12"
+        }
+      ],
+      "lastYearOverall": "14-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 5 - 138, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 7 - 120, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/zach-sportelli/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Brody Koy",
+      "class": "Senior",
+      "primaryWeight": 150,
+      "overall": "9-16",
+      "matchesThisYear": 25,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "7-15"
+        },
+        {
+          "weight": 157,
+          "record": "2-1"
+        }
+      ],
+      "lastYearOverall": "6-21",
+      "thisYearNJSIAA": "2026 NJSIAA District 5 - 150, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 7 - 138, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/brody-koy/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Blake Gabriel",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/blake-gabriel/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Domenick Sportelli",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "5-22",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "3-0"
+        },
+        {
+          "weight": 150,
+          "record": "0-7"
+        },
+        {
+          "weight": 157,
+          "record": "2-15"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 5 - 157, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/domenick-sportelli/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Leo Giel",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "2-1",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "2-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/leo-giel/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Mete Akcay",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/mete-akcay/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Sam Tarkanpour",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "2-4",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-1"
+        },
+        {
+          "weight": 157,
+          "record": "1-3"
+        }
+      ],
+      "lastYearOverall": "0-3",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/sam-tarkanpour/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jonathan Spell",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jonathan-spell/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nick Drake",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "33-4",
+      "matchesThisYear": 37,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "2-0"
+        },
+        {
+          "weight": 165,
+          "record": "26-4"
+        },
+        {
+          "weight": 175,
+          "record": "5-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA Region 2 - 165, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nick-drake-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Tyler Wills",
+      "class": "Senior",
+      "primaryWeight": 175,
+      "overall": "14-16",
+      "matchesThisYear": 30,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "3-1"
+        },
+        {
+          "weight": 175,
+          "record": "11-15"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 5 - 175, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/tyler-wills/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Joe DiPompeo",
+      "class": "Junior",
+      "primaryWeight": 190,
+      "overall": "20-13",
+      "matchesThisYear": 33,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "20-13"
+        }
+      ],
+      "lastYearOverall": "16-14",
+      "thisYearNJSIAA": "2026 NJSIAA District 5 - 190, Semifinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 2 - 190, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/joe-dipompeo/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Brandon Castro",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "1-2",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/brandon-castro-813000/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jack Brown",
+      "class": "Junior",
+      "primaryWeight": 215,
+      "overall": "13-7",
+      "matchesThisYear": 20,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "13-7"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 5 - 215, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jack-brown-3/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Daniel Rajchel",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "4-4",
+      "matchesThisYear": 8,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "4-4"
+        }
+      ],
+      "lastYearOverall": "2-5",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/daniel-rajchel/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Dustin Gabriel",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "19-8",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "19-8"
+        }
+      ],
+      "lastYearOverall": "13-12",
+      "thisYearNJSIAA": "2026 NJSIAA Region 2 - 285, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 7 - 285, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/dustin-gabriel/wrestling/season/2025-2026"
+    }
+  ]
+}

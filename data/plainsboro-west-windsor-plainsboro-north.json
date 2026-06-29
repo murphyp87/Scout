@@ -1,0 +1,500 @@
+{
+  "id": "plainsboro-west-windsor-plainsboro-north",
+  "team": "West Windsor-Plainsboro North",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T02:07:25.041Z",
+  "wrestlers": [
+    {
+      "name": "Joe Vellara",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "2-3",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "2-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/joe-vellara/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Syum Ray",
+      "class": "Junior",
+      "primaryWeight": 113,
+      "overall": "20-8",
+      "matchesThisYear": 28,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "16-4"
+        },
+        {
+          "weight": 120,
+          "record": "3-0"
+        },
+        {
+          "weight": 126,
+          "record": "1-4"
+        }
+      ],
+      "lastYearOverall": "22-11",
+      "thisYearNJSIAA": "2026 NJSIAA Region 5 - 113, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 5 - 113, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/syum-ray/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Aarit Ray",
+      "class": "Junior",
+      "primaryWeight": 120,
+      "overall": "3-1",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "3-1"
+        }
+      ],
+      "lastYearOverall": "1-4",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/aarit-ray/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Aditya Surikutchi",
+      "class": null,
+      "primaryWeight": 120,
+      "overall": "10-19",
+      "matchesThisYear": 29,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "9-12"
+        },
+        {
+          "weight": 126,
+          "record": "1-5"
+        },
+        {
+          "weight": 132,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": "7-16",
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 120, Semifinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 18 - 120, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/aditya-surikutchi/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nadeesh Kasturi",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "4-15",
+      "matchesThisYear": 19,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "3-13"
+        },
+        {
+          "weight": 132,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nadeesh-kasturi/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Arush Patel",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/arush-patel/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Dev Rehani",
+      "class": "Junior",
+      "primaryWeight": 132,
+      "overall": "11-17",
+      "matchesThisYear": 28,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "8-8"
+        },
+        {
+          "weight": 138,
+          "record": "3-9"
+        }
+      ],
+      "lastYearOverall": "1-4",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/dev-rehani/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Will Van Bodegom",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "1-5",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "1-5"
+        }
+      ],
+      "lastYearOverall": "0-3",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/will-van-bodegom/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ashutosh Tripathi",
+      "class": "Senior",
+      "primaryWeight": 138,
+      "overall": "12-18",
+      "matchesThisYear": 30,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "9-12"
+        },
+        {
+          "weight": 144,
+          "record": "1-0"
+        },
+        {
+          "weight": 150,
+          "record": "2-6"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 138, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ashutosh-tripathi/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Suryakiran Bhattu",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "1-4",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-3"
+        },
+        {
+          "weight": 144,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/suryakiran-bhattu/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Anderson Reyes",
+      "class": "Junior",
+      "primaryWeight": 144,
+      "overall": "29-5",
+      "matchesThisYear": 34,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "27-5"
+        },
+        {
+          "weight": 150,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": "18-10",
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 144, Semifinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 18 - 144, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/anderson-reyes/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Arinjay Singh",
+      "class": null,
+      "primaryWeight": 144,
+      "overall": "0-3",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/arinjay-singh/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ayaan Zahid",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ayaan-zahid/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ibrahim Syed",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ibrahim-syed/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Linus Li",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "12-14",
+      "matchesThisYear": 26,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "10-8"
+        },
+        {
+          "weight": 157,
+          "record": "1-6"
+        },
+        {
+          "weight": 165,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 150, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/linus-li/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ethan Gao",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "1-4",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-1"
+        },
+        {
+          "weight": 157,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ethan-gao/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nameeth Pulimamidi",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "5-21",
+      "matchesThisYear": 26,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "2-13"
+        },
+        {
+          "weight": 165,
+          "record": "3-8"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 157, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nameeth-pulimamidi/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Pardhasaradhi Thummepally",
+      "class": "Senior",
+      "primaryWeight": 157,
+      "overall": "4-14",
+      "matchesThisYear": 18,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "0-4"
+        },
+        {
+          "weight": 157,
+          "record": "3-8"
+        },
+        {
+          "weight": 165,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/pardhasaradhi-thummepally/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Isaac Chait",
+      "class": "Sophomore",
+      "primaryWeight": 165,
+      "overall": "6-21",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "2-14"
+        },
+        {
+          "weight": 175,
+          "record": "4-7"
+        }
+      ],
+      "lastYearOverall": "2-5",
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 165, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/isaac-chait/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Arush Sharma",
+      "class": null,
+      "primaryWeight": 175,
+      "overall": "1-22",
+      "matchesThisYear": 23,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "0-14"
+        },
+        {
+          "weight": 190,
+          "record": "1-5"
+        },
+        {
+          "weight": 215,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 175, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/arush-sharma/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Mohamed Moubarek",
+      "class": "Senior",
+      "primaryWeight": 175,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/mohamed-moubarek/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Sebastian Pichardo",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "6-27",
+      "matchesThisYear": 33,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "4-24"
+        },
+        {
+          "weight": 215,
+          "record": "2-3"
+        }
+      ],
+      "lastYearOverall": "2-16",
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 190, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/sebastian-pichardo/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Brayan Gomez",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "0-5",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/brayan-gomez/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Julian Sanchez",
+      "class": "Senior",
+      "primaryWeight": 285,
+      "overall": "19-14",
+      "matchesThisYear": 33,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "9-4"
+        },
+        {
+          "weight": 285,
+          "record": "10-10"
+        }
+      ],
+      "lastYearOverall": "7-18",
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 215, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 18 - 190, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/julian-sanchez-3/wrestling/season/2025-2026"
+    }
+  ]
+}

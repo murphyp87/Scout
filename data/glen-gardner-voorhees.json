@@ -1,0 +1,332 @@
+{
+  "id": "glen-gardner-voorhees",
+  "team": "Voorhees",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T02:01:52.115Z",
+  "wrestlers": [
+    {
+      "name": "Evan Bollette",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "12-9",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "12-9"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 14 - 106, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/evan-bollette/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Thomas Wilbert",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "4-9",
+      "matchesThisYear": 13,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "0-9"
+        },
+        {
+          "weight": 113,
+          "record": "4-0"
+        }
+      ],
+      "lastYearOverall": "1-0",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/thomas-wilbert/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Cole Dahl",
+      "class": null,
+      "primaryWeight": 113,
+      "overall": "25-11",
+      "matchesThisYear": 36,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "22-10"
+        },
+        {
+          "weight": 120,
+          "record": "3-1"
+        }
+      ],
+      "lastYearOverall": "17-12",
+      "thisYearNJSIAA": "2026 NJSIAA Region 4 - 113, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 4 - 106, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/cole-dahl/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Johnny D`Andrea",
+      "class": "Junior",
+      "primaryWeight": 120,
+      "overall": "11-5",
+      "matchesThisYear": 16,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "10-4"
+        },
+        {
+          "weight": 126,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": "23-5",
+      "thisYearNJSIAA": "2026 NJSIAA Region 4 - 120, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 4 - 113, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/johnny-dandrea/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Tyler Ondovik",
+      "class": "Junior",
+      "primaryWeight": 126,
+      "overall": "12-17",
+      "matchesThisYear": 29,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "10-15"
+        },
+        {
+          "weight": 132,
+          "record": "2-2"
+        }
+      ],
+      "lastYearOverall": "14-9",
+      "thisYearNJSIAA": "2026 NJSIAA District 14 - 126, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 15 - 120, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/tyler-ondovik/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Paul Pasquarella",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "1-14",
+      "matchesThisYear": 15,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "1-14"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/paul-pasquarella/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Chad Ronkiewicz",
+      "class": "Senior",
+      "primaryWeight": 138,
+      "overall": "0-19",
+      "matchesThisYear": 19,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-18"
+        },
+        {
+          "weight": 150,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 14 - 138, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/chad-ronkiewicz/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Christian Bollette",
+      "class": "Senior",
+      "primaryWeight": 144,
+      "overall": "29-7",
+      "matchesThisYear": 36,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "29-7"
+        }
+      ],
+      "lastYearOverall": "25-5",
+      "thisYearNJSIAA": "2026 NJSIAA Region 4 - 144, Semifinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 4 - 132, Third-Place Consolations, Fifth-Place",
+      "profileUrl": "https://highschoolsports.nj.com/player/christian-bollette/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jaxon Garner",
+      "class": "Junior",
+      "primaryWeight": 150,
+      "overall": "13-8",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "8-6"
+        },
+        {
+          "weight": 157,
+          "record": "5-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 14 - 150, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jaxon-garner/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Peter Galladay",
+      "class": "Senior",
+      "primaryWeight": 150,
+      "overall": "7-18",
+      "matchesThisYear": 25,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "2-12"
+        },
+        {
+          "weight": 157,
+          "record": "5-6"
+        }
+      ],
+      "lastYearOverall": "5-16",
+      "thisYearNJSIAA": "2026 NJSIAA District 14 - 157, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/peter-galladay/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Caden Cookson",
+      "class": "Junior",
+      "primaryWeight": 165,
+      "overall": "7-20",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "7-19"
+        },
+        {
+          "weight": 175,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "1-14",
+      "thisYearNJSIAA": "2026 NJSIAA District 14 - 165, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/caden-cookson/wrestling/season/2025-2026"
+    },
+    {
+      "name": "James Jardinella",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "1-4",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "1-0"
+        },
+        {
+          "weight": 190,
+          "record": "0-4"
+        }
+      ],
+      "lastYearOverall": "0-12",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/james-jardinella/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Matteo Tramutola",
+      "class": "Senior",
+      "primaryWeight": 190,
+      "overall": "9-3",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "7-2"
+        },
+        {
+          "weight": 215,
+          "record": "0-1"
+        },
+        {
+          "weight": 285,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 14 - 190, Final Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/matteo-tramutola/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Dimos Maroulis",
+      "class": "Senior",
+      "primaryWeight": 215,
+      "overall": "19-4",
+      "matchesThisYear": 23,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "15-3"
+        },
+        {
+          "weight": 285,
+          "record": "4-1"
+        }
+      ],
+      "lastYearOverall": "15-12",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA Region 4 - 215, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/dimos-maroulis/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Dimosthenis Maroulis",
+      "class": "Senior",
+      "primaryWeight": 215,
+      "overall": "3-3",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "3-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 14 - 215, Semifinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/dimosthenis-maroulis/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jacob Lombardo",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "4-6",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "3-4"
+        },
+        {
+          "weight": 285,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jacob-lombardo/wrestling/season/2025-2026"
+    }
+  ]
+}

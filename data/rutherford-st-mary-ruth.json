@@ -1,0 +1,118 @@
+{
+  "id": "rutherford-st-mary-ruth",
+  "team": "St. Mary (Ruth.)",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:53:45.549Z",
+  "wrestlers": [
+    {
+      "name": "Danel Figueroa",
+      "class": "Senior",
+      "primaryWeight": 132,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "11-13",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 9 - 126, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/danel-figueroa/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jason Rolon",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "0-8",
+      "matchesThisYear": 8,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "0-5"
+        },
+        {
+          "weight": 165,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": "5-12",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jason-rolon/wrestling/season/2025-2026"
+    },
+    {
+      "name": "James Williams",
+      "class": "Junior",
+      "primaryWeight": 175,
+      "overall": "1-12",
+      "matchesThisYear": 13,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "0-2"
+        },
+        {
+          "weight": 175,
+          "record": "1-9"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 11 - 175, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/james-williams-6/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Isaias Pitanga",
+      "class": "Sophomore",
+      "primaryWeight": 190,
+      "overall": "17-5",
+      "matchesThisYear": 22,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "17-5"
+        }
+      ],
+      "lastYearOverall": "14-12",
+      "thisYearNJSIAA": "2026 NJSIAA Region 3 - 190, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 9 - 190, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/isaias-pitanga/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Santiago Vinces",
+      "class": "Junior",
+      "primaryWeight": 215,
+      "overall": "5-1",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "5-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/santiago-vinces-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Tyler DiNardo",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "1-6",
+      "matchesThisYear": 7,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "1-6"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/tyler-dinardo/wrestling/season/2025-2026"
+    }
+  ]
+}

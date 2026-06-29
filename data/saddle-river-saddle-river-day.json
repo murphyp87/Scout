@@ -1,0 +1,198 @@
+{
+  "id": "saddle-river-saddle-river-day",
+  "team": "Saddle River Day",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:42:47.713Z",
+  "wrestlers": [
+    {
+      "name": "Sachin Shah",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "0-5",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "0-4"
+        },
+        {
+          "weight": 113,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/sachin-shah/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Vincenzo Giardina",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "0-4",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "0-3"
+        },
+        {
+          "weight": 132,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/vincenzo-giardina/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Arthur Lekht",
+      "class": "Junior",
+      "primaryWeight": 132,
+      "overall": "0-5",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "0-4"
+        },
+        {
+          "weight": 138,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/arthur-lekht/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jaden Dimentman",
+      "class": "Senior",
+      "primaryWeight": 138,
+      "overall": "4-3",
+      "matchesThisYear": 7,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "4-2"
+        },
+        {
+          "weight": 144,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": "2026 NJSIAA District 3 - 138, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 2 - 144, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/jaden-dimentman/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Makar Bykovski",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "3-2",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "3-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 3 - 150, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/makar-bykovski/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Aidan Walsh",
+      "class": "Sophomore",
+      "primaryWeight": 157,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/aidan-walsh-4/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Henry Casey",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "0-3",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/henry-casey/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ihsan Kosar",
+      "class": null,
+      "primaryWeight": 175,
+      "overall": "0-4",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "0-4"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ihsan-kosar/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Gorazd Oracevski",
+      "class": "Junior",
+      "primaryWeight": 190,
+      "overall": "0-3",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "0-2"
+        },
+        {
+          "weight": 215,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/gorazd-oracevski/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Luca Escobar",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/luca-escobar/wrestling/season/2025-2026"
+    }
+  ]
+}

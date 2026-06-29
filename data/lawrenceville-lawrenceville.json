@@ -1,0 +1,308 @@
+{
+  "id": "lawrenceville-lawrenceville",
+  "team": "Lawrenceville",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:54:15.675Z",
+  "wrestlers": [
+    {
+      "name": "Nick Ma",
+      "class": null,
+      "primaryWeight": 113,
+      "overall": "2-0",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nick-ma/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nelson Liu",
+      "class": null,
+      "primaryWeight": 120,
+      "overall": "2-0",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": "2-0",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nelson-liu/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Channing DeFrancesco",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/channing-defrancesco/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Pacey Qi",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "0-1"
+        },
+        {
+          "weight": 132,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/pacey-qi/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Levi Mellor",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "0-3",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "0-2"
+        },
+        {
+          "weight": 138,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/levi-mellor/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Yongtai Wan",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "2-0",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/yongtai-wan/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Christopher Yang",
+      "class": null,
+      "primaryWeight": 144,
+      "overall": "1-2",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "0-2"
+        },
+        {
+          "weight": 150,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "2-0",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/christopher-yang/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Chris Miliaresis",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "0-3",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "0-1"
+        },
+        {
+          "weight": 150,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/chris-miliaresis/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nicolas Chacko",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "2-1",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "2-0"
+        },
+        {
+          "weight": 165,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nicolas-chacko/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Charles Axelbaum",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "1-2",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "0-1"
+        },
+        {
+          "weight": 165,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": "1-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/charles-axelbaum/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nick Leonard",
+      "class": null,
+      "primaryWeight": 175,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nick-leonard/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Noah Mondello",
+      "class": null,
+      "primaryWeight": 175,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "0-2",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/noah-mondello/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Connor Manning",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "0-1"
+        },
+        {
+          "weight": 215,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/connor-manning-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Kokoro Alexis",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/kokoro-alexis/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Cristian Freeman",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/cristian-freeman/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Darren Nguyen",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "2-1",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "2-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/darren-nguyen-1/wrestling/season/2025-2026"
+    }
+  ]
+}

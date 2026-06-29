@@ -1,0 +1,236 @@
+{
+  "id": "delran-holy-cross-prep",
+  "team": "Holy Cross Prep",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:45:06.834Z",
+  "wrestlers": [
+    {
+      "name": "Ben Hopkins",
+      "class": "Freshman",
+      "primaryWeight": 106,
+      "overall": "7-8",
+      "matchesThisYear": 15,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "5-8"
+        },
+        {
+          "weight": 120,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 106, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ben-hopkins/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jayden Anthony",
+      "class": "Sophomore",
+      "primaryWeight": 113,
+      "overall": "13-4",
+      "matchesThisYear": 17,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "13-4"
+        }
+      ],
+      "lastYearOverall": "18-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 113, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 21 - 106, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/jayden-anthony/wrestling/season/2025-2026"
+    },
+    {
+      "name": "John D'Ambrosio",
+      "class": "Junior",
+      "primaryWeight": 120,
+      "overall": "11-9",
+      "matchesThisYear": 20,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "1-0"
+        },
+        {
+          "weight": 120,
+          "record": "10-9"
+        }
+      ],
+      "lastYearOverall": "8-11",
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 120, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 21 - 113, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/john-dambrosio/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Richie Haase",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "11-11",
+      "matchesThisYear": 22,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "9-7"
+        },
+        {
+          "weight": 132,
+          "record": "2-4"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 126, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/richie-haase/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Sam Major",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": "10-7",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/sam-major/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Aiden Peters",
+      "class": "Freshman",
+      "primaryWeight": 132,
+      "overall": "2-13",
+      "matchesThisYear": 15,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "2-13"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 132, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/aiden-peters-2/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Will Minarcik",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/will-minarcik/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Albert Bucchi",
+      "class": null,
+      "primaryWeight": 144,
+      "overall": "6-13",
+      "matchesThisYear": 19,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "6-13"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 144, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/albert-bucchi/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Kevin Peters",
+      "class": "Freshman",
+      "primaryWeight": 150,
+      "overall": "11-11",
+      "matchesThisYear": 22,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "11-9"
+        },
+        {
+          "weight": 157,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 150, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/kevin-peters/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Blake Bowman",
+      "class": "Junior",
+      "primaryWeight": 157,
+      "overall": "6-15",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "6-13"
+        },
+        {
+          "weight": 165,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": "2-25",
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 157, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 21 - 150, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/blake-bowman/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nathan Wurzburger",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "4-12",
+      "matchesThisYear": 16,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "3-12"
+        },
+        {
+          "weight": 285,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 215, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nathan-wurzburger/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nick Wurzburger",
+      "class": "Junior",
+      "primaryWeight": 285,
+      "overall": "10-11",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "10-11"
+        }
+      ],
+      "lastYearOverall": "2-1",
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 285, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nick-wurzburger/wrestling/season/2025-2026"
+    }
+  ]
+}

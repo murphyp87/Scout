@@ -1,0 +1,29 @@
+{
+  "id": "gloucester-city-gloucester-catholic",
+  "team": "Gloucester Catholic",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:37:22.177Z",
+  "wrestlers": [
+    {
+      "name": "Luke Goss",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "6-1",
+      "matchesThisYear": 7,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "6-0"
+        },
+        {
+          "weight": 175,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "12-12",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 28 - 150, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/luke-goss/wrestling/season/2025-2026"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "id": "martinsville-pingry",
+  "team": "Pingry",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:31:10.337Z",
+  "wrestlers": [
+    {
+      "name": "Jared Finkelstein",
+      "class": null,
+      "primaryWeight": 113,
+      "overall": "9-14",
+      "matchesThisYear": 23,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "9-14"
+        }
+      ],
+      "lastYearOverall": "3-11",
+      "thisYearNJSIAA": "2026 NJSIAA District 15 - 113, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jared-finkelstein/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Evan Murnick",
+      "class": "Junior",
+      "primaryWeight": 120,
+      "overall": "10-13",
+      "matchesThisYear": 23,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "10-12"
+        },
+        {
+          "weight": 126,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "14-12",
+      "thisYearNJSIAA": "2026 NJSIAA District 15 - 120, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/evan-murnick/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Colin Flood",
+      "class": "Junior",
+      "primaryWeight": 126,
+      "overall": "7-13",
+      "matchesThisYear": 20,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "6-10"
+        },
+        {
+          "weight": 132,
+          "record": "1-3"
+        }
+      ],
+      "lastYearOverall": "2-2",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/colin-flood-711953/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jakob Braun",
+      "class": "Junior",
+      "primaryWeight": 132,
+      "overall": "12-6",
+      "matchesThisYear": 18,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "4-2"
+        },
+        {
+          "weight": 132,
+          "record": "8-4"
+        }
+      ],
+      "lastYearOverall": "5-0",
+      "thisYearNJSIAA": "2026 NJSIAA District 15 - 126, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jakob-braun/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Hudson Crotty",
+      "class": "Sophomore",
+      "primaryWeight": 138,
+      "overall": "13-9",
+      "matchesThisYear": 22,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "5-3"
+        },
+        {
+          "weight": 138,
+          "record": "8-5"
+        },
+        {
+          "weight": 144,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "11-14",
+      "thisYearNJSIAA": "2026 NJSIAA District 15 - 132, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/hudson-crotty/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jack Abramson",
+      "class": "Junior",
+      "primaryWeight": 138,
+      "overall": "31-3",
+      "matchesThisYear": 34,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "18-3"
+        },
+        {
+          "weight": 144,
+          "record": "13-0"
+        }
+      ],
+      "lastYearOverall": "27-6",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 138, Pre-Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 120, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/jack-abramson/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Max Ventura",
+      "class": "Senior",
+      "primaryWeight": 144,
+      "overall": "25-4",
+      "matchesThisYear": 29,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "13-2"
+        },
+        {
+          "weight": 150,
+          "record": "8-2"
+        },
+        {
+          "weight": 157,
+          "record": "4-0"
+        }
+      ],
+      "lastYearOverall": "21-11",
+      "thisYearNJSIAA": "2026 NJSIAA Region 4 - 144, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 4 - 144, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/max-ventura/wrestling/season/2025-2026"
+    },
+    {
+      "name": "James Gordon",
+      "class": "Sophomore",
+      "primaryWeight": 150,
+      "overall": "4-17",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "3-9"
+        },
+        {
+          "weight": 157,
+          "record": "1-5"
+        },
+        {
+          "weight": 165,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": "1-0",
+      "thisYearNJSIAA": "2026 NJSIAA District 15 - 150, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/james-gordon-2/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Chris Birrittella",
+      "class": "Sophomore",
+      "primaryWeight": 165,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "0-1"
+        },
+        {
+          "weight": 175,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "4-12",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/chris-birrittella/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Mathew Hauck",
+      "class": "Sophomore",
+      "primaryWeight": 165,
+      "overall": "1-19",
+      "matchesThisYear": 20,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "0-9"
+        },
+        {
+          "weight": 165,
+          "record": "1-9"
+        },
+        {
+          "weight": 175,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/matthew-hauck/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Matias Stevenson",
+      "class": "Junior",
+      "primaryWeight": 165,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 15 - 165, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/matias-stevenson/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Finn Cavanaugh",
+      "class": "Senior",
+      "primaryWeight": 190,
+      "overall": "27-6",
+      "matchesThisYear": 33,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "3-0"
+        },
+        {
+          "weight": 190,
+          "record": "22-6"
+        },
+        {
+          "weight": 215,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": "26-10",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 190, Preliminary Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 175, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/finn-cavanaugh/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Austin Mau",
+      "class": "Senior",
+      "primaryWeight": 215,
+      "overall": "9-8",
+      "matchesThisYear": 17,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "6-8"
+        },
+        {
+          "weight": 285,
+          "record": "3-0"
+        }
+      ],
+      "lastYearOverall": "16-10",
+      "thisYearNJSIAA": "2026 NJSIAA District 15 - 215, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/austin-mau/wrestling/season/2025-2026"
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "id": "pine-hill-overbrook",
+  "team": "Overbrook",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:21:51.442Z",
+  "wrestlers": [
+    {
+      "name": "Jackob Sole",
+      "class": "Sophomore",
+      "primaryWeight": 113,
+      "overall": "5-0",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "4-0"
+        },
+        {
+          "weight": 120,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "14-10",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 31 - 106, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/jackob-sole/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Kayden Branco",
+      "class": "Senior",
+      "primaryWeight": 120,
+      "overall": "1-5",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "1-4"
+        },
+        {
+          "weight": 126,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "15-11",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/kayden-branco/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Alan Marcos",
+      "class": "Junior",
+      "primaryWeight": 126,
+      "overall": "3-10",
+      "matchesThisYear": 13,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "3-9"
+        },
+        {
+          "weight": 132,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "6-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 29 - 126, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/alan-marcos/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jaden Marshall",
+      "class": "Freshman",
+      "primaryWeight": 138,
+      "overall": "13-18",
+      "matchesThisYear": 31,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "12-17"
+        },
+        {
+          "weight": 144,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 29 - 138, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jaden-marshall-2/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Karter Reed",
+      "class": "Sophomore",
+      "primaryWeight": 144,
+      "overall": "10-20",
+      "matchesThisYear": 30,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "6-9"
+        },
+        {
+          "weight": 150,
+          "record": "4-11"
+        }
+      ],
+      "lastYearOverall": "7-25",
+      "thisYearNJSIAA": "2026 NJSIAA District 29 - 144, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 31 - 144, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/karter-reed/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Caden Murray",
+      "class": "Senior",
+      "primaryWeight": 157,
+      "overall": "3-0",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-0"
+        },
+        {
+          "weight": 157,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/caden-murray-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jaevon Mitchell",
+      "class": "Junior",
+      "primaryWeight": 157,
+      "overall": "6-4",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "2-2"
+        },
+        {
+          "weight": 157,
+          "record": "3-2"
+        },
+        {
+          "weight": 165,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "4-10",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jaevon-mitchell/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Randall Ringstaff",
+      "class": "Junior",
+      "primaryWeight": 175,
+      "overall": "3-1",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "1-1"
+        },
+        {
+          "weight": 190,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": "1-9",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/randall-ringstaff/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Xyon Marshall",
+      "class": "Junior",
+      "primaryWeight": 175,
+      "overall": "22-11",
+      "matchesThisYear": 33,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "22-11"
+        }
+      ],
+      "lastYearOverall": "15-8",
+      "thisYearNJSIAA": "2026 NJSIAA Region 8 - 175, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 31 - 175, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/xyon-marshall/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jayden Devan",
+      "class": "Junior",
+      "primaryWeight": 190,
+      "overall": "10-6",
+      "matchesThisYear": 16,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "9-6"
+        },
+        {
+          "weight": 215,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 29 - 190, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jayden-devan/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Tyjeir Goodman",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "3-7",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "0-1"
+        },
+        {
+          "weight": 190,
+          "record": "3-6"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/tyjeir-goodman/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Augustus Guzman",
+      "class": "Junior",
+      "primaryWeight": 215,
+      "overall": "10-16",
+      "matchesThisYear": 26,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "10-15"
+        },
+        {
+          "weight": 285,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "3-3",
+      "thisYearNJSIAA": "2026 NJSIAA District 29 - 215, Semifinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/augustus-guzman/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Syhir Scarborough",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "2-9",
+      "matchesThisYear": 11,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "2-4"
+        },
+        {
+          "weight": 285,
+          "record": "0-5"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/syhir-scarborough/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Cooper Himes",
+      "class": "Senior",
+      "primaryWeight": 285,
+      "overall": "9-7",
+      "matchesThisYear": 16,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "9-7"
+        }
+      ],
+      "lastYearOverall": "17-9",
+      "thisYearNJSIAA": "2026 NJSIAA District 29 - 285, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 31 - 215, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/cooper-himes/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Giovanni Carbarnaro",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "5-10",
+      "matchesThisYear": 15,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "2-1"
+        },
+        {
+          "weight": 285,
+          "record": "3-9"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/giovanni-carbarnaro/wrestling/season/2025-2026"
+    }
+  ]
+}

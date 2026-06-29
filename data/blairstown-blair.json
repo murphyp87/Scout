@@ -1,0 +1,389 @@
+{
+  "id": "blairstown-blair",
+  "team": "Blair",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:08:13.076Z",
+  "wrestlers": [
+    {
+      "name": "Jack Anello",
+      "class": "Freshman",
+      "primaryWeight": 106,
+      "overall": "2-0",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jack-anello/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Luke Hosonitz",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/luke-hosonitz/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Eric Bocanegra",
+      "class": "Junior",
+      "primaryWeight": 113,
+      "overall": "2-0",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/eric-bocanegra/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Michael Batista",
+      "class": "Junior",
+      "primaryWeight": 120,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": "3-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/michael-batista-707573/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Wyatt Stauffer",
+      "class": "Sophomore",
+      "primaryWeight": 120,
+      "overall": "2-2",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "1-1"
+        },
+        {
+          "weight": 132,
+          "record": "1-0"
+        },
+        {
+          "weight": 138,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/wyatt-stauffer/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Edward George",
+      "class": "Sophomore",
+      "primaryWeight": 126,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/edward-george-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Finnegan O'Brien",
+      "class": "Sophomore",
+      "primaryWeight": 126,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/finnegan-obrien/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Vincenzo Anello",
+      "class": "Junior",
+      "primaryWeight": 132,
+      "overall": "2-0",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "1-0"
+        },
+        {
+          "weight": 138,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "4-0",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/vincenzo-anello/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ronan Montes",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ronan-montes/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Weston Borgers",
+      "class": "Sophomore",
+      "primaryWeight": 144,
+      "overall": "2-0",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": "2-0",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/weston-borgers/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Benjamin Koch",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": "0-2",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/benjamin-koch/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Joseph Schinder",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "2-0",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": "3-0",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/joseph-schinder/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Michael Lynch",
+      "class": "Senior",
+      "primaryWeight": 157,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/michael-lynch-745958/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Barry Norman Jr.",
+      "class": "Senior",
+      "primaryWeight": 165,
+      "overall": "2-0",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "1-0"
+        },
+        {
+          "weight": 175,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "4-0",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/barry-norman-jr/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Vedwin Nivas",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "1-2",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/vedwin-nivas/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Luca Cenatiempo",
+      "class": null,
+      "primaryWeight": 175,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/luca-cenatiempo/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ryan Meier",
+      "class": "Senior",
+      "primaryWeight": 175,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "1-0"
+        },
+        {
+          "weight": 190,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ryan-meier/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Salah Tsarni",
+      "class": "Junior",
+      "primaryWeight": 190,
+      "overall": "2-0",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "1-0"
+        },
+        {
+          "weight": 215,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/salah-tsarni/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Thomas Kellas",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "1-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/thomas-kellas/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Cael Mielnik",
+      "class": "Junior",
+      "primaryWeight": 285,
+      "overall": "2-0",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/cael-mielnik/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Dylan Emond",
+      "class": "Junior",
+      "primaryWeight": 285,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/dylan-emond-1/wrestling/season/2025-2026"
+    }
+  ]
+}

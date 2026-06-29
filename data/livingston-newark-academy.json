@@ -1,0 +1,256 @@
+{
+  "id": "livingston-newark-academy",
+  "team": "Newark Academy",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:13:03.859Z",
+  "wrestlers": [
+    {
+      "name": "Ezra Rzetelny",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "1-8",
+      "matchesThisYear": 9,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "0-1"
+        },
+        {
+          "weight": 126,
+          "record": "1-6"
+        },
+        {
+          "weight": 138,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ezra-rzetelny/wrestling/season/2025-2026"
+    },
+    {
+      "name": "RJ Pepling",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "9-10",
+      "matchesThisYear": 19,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "8-9"
+        },
+        {
+          "weight": 138,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": "1-2",
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 132, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/rj-pepling/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Lucas Balsera",
+      "class": "Sophomore",
+      "primaryWeight": 144,
+      "overall": "1-17",
+      "matchesThisYear": 18,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "1-13"
+        },
+        {
+          "weight": 150,
+          "record": "0-1"
+        },
+        {
+          "weight": 157,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 144, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/lucas-balsera-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jackson Flores",
+      "class": "Senior",
+      "primaryWeight": 150,
+      "overall": "16-11",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "16-11"
+        }
+      ],
+      "lastYearOverall": "13-15",
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 150, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 12 - 144, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/jackson-flores/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Sebastian Eaton",
+      "class": "Junior",
+      "primaryWeight": 157,
+      "overall": "8-13",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "8-13"
+        }
+      ],
+      "lastYearOverall": "7-14",
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 157, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 12 - 157, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/sebastian-eaton/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Garrett Selig",
+      "class": "Freshman",
+      "primaryWeight": 165,
+      "overall": "3-22",
+      "matchesThisYear": 25,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "0-1"
+        },
+        {
+          "weight": 165,
+          "record": "3-21"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/garrett-selig/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Niccolo Marazzi Marazzi",
+      "class": null,
+      "primaryWeight": 175,
+      "overall": "7-15",
+      "matchesThisYear": 22,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "0-1"
+        },
+        {
+          "weight": 175,
+          "record": "6-14"
+        },
+        {
+          "weight": 190,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 165, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/niccolo-marazzi-marazzi/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Joesph Murphy",
+      "class": "Junior",
+      "primaryWeight": 190,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": "4-11",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/joesph-murphy/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Langston Harris",
+      "class": "Junior",
+      "primaryWeight": 190,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": "0-2",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/langston-harris/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nikhil Chatterjee",
+      "class": "Senior",
+      "primaryWeight": 190,
+      "overall": "11-10",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "4-2"
+        },
+        {
+          "weight": 190,
+          "record": "7-7"
+        },
+        {
+          "weight": 215,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "3-6",
+      "thisYearNJSIAA": "2026 NJSIAA District 12 - 175, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nikhil-chatterjee/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Zach Freed",
+      "class": "Senior",
+      "primaryWeight": 215,
+      "overall": "3-18",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "3-17"
+        },
+        {
+          "weight": 285,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/zach-freed-2/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Corey Hobbs",
+      "class": "Senior",
+      "primaryWeight": 285,
+      "overall": "2-6",
+      "matchesThisYear": 8,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "2-6"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/corey-hobbs-1/wrestling/season/2025-2026"
+    }
+  ]
+}

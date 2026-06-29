@@ -11,12 +11,11 @@ Wrestlers with no current-season match data are skipped.
 
 ## Teams
 
-Teams are configured in the `SCHOOLS` array at the top of `build.js` (each has an
-`id`, display `name`, and NJ.com `slug`). Add an entry and re-run the build to
-scout another team. Currently:
-
-- Middletown South
-- Middletown North
+Teams are listed in `schools.json` (each has an `id`, display `name`, and NJ.com
+`slug`); `build.js` reads that file. The current set covers every NJ.com school
+that fields a wrestling team this season (318 teams). Schools with a roster but no
+wrestlers with match data are dropped from the team list automatically. Add or
+remove entries in `schools.json` and re-run the build to change coverage.
 
 ## Use
 

@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-title" content="Scout" />
   <meta name="theme-color" content="#0b1220" />
   <title>Wrestling Scout</title>
-  <link rel="icon" type="image/svg+xml" href="icon.svg" />
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
   <link rel="apple-touch-icon" href="icon-180.png" />
   <link rel="manifest" href="manifest.webmanifest" />
   <style>
@@ -125,7 +125,15 @@
     .nj-res { font-weight: 700; }
 
     /* ---- landing: list of schools ---- */
-    .team-list { display: grid; gap: 12px; margin-top: 18px; max-width: 560px; }
+    .search {
+      width: 100%; max-width: 560px; margin-top: 16px;
+      background: var(--card); color: var(--text);
+      border: 1px solid var(--card-edge); border-radius: 12px;
+      padding: 12px 14px; font: inherit; font-size: 16px; /* 16px avoids iOS zoom-on-focus */
+    }
+    .search:focus { outline: none; border-color: var(--accent); }
+    .search::placeholder { color: var(--muted); }
+    .team-list { display: grid; gap: 12px; margin-top: 14px; max-width: 560px; }
     .team-item {
       display: flex; align-items: center; gap: 14px; text-decoration: none; color: inherit;
       background: linear-gradient(180deg, var(--card) 0%, #0f1726 100%);
@@ -272,17 +280,36 @@
 
     // ---- landing view: list of schools ----
     function showTeamList(index) {
+      const teams = index.teams || [];
       titleEl.textContent = 'Teams';
-      metaEl.textContent = 'Select a school to scout';
-      const items = (index.teams || []).map((t) => `
-        <a class="team-item" href="#${esc(t.id)}">
+      metaEl.textContent = `Select a school to scout · ${teams.length} teams`;
+      const items = teams.map((t) => `
+        <a class="team-item" href="#${esc(t.id)}" data-name="${esc(t.name.toLowerCase())}">
           <div class="team-info">
             <div class="team-name">${esc(t.name)}</div>
             <div class="team-sub">${esc(t.season)} season · ${esc(t.wrestlers)} wrestlers</div>
           </div>
           <div class="team-go">›</div>
         </a>`).join('');
-      root.innerHTML = `<div class="team-list pad">${items}</div>`;
+      root.innerHTML =
+        `<div class="pad"><input id="team-search" class="search" type="search"
+            placeholder="Search ${teams.length} teams…" autocomplete="off" /></div>
+         <div class="team-list pad" id="team-list">${items}</div>
+         <div class="footer pad" id="no-match" style="display:none">No teams match.</div>`;
+
+      const search = document.getElementById('team-search');
+      const noMatch = document.getElementById('no-match');
+      const cards = [...document.querySelectorAll('.team-item')];
+      search.addEventListener('input', () => {
+        const q = search.value.trim().toLowerCase();
+        let shown = 0;
+        for (const el of cards) {
+          const hit = !q || el.dataset.name.includes(q);
+          el.style.display = hit ? '' : 'none';
+          if (hit) shown++;
+        }
+        noMatch.style.display = shown ? 'none' : '';
+      });
     }
 
     // ---- team view: per-weight rows ----

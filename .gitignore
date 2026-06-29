@@ -22,3 +22,7 @@ Thumbs.db
 .claude/settings.local.json
 
 # NOTE: profile.json is intentionally NOT ignored — the static site needs it.
+
+# --- one-off discovery artifacts ---
+discover.py
+discovery.json

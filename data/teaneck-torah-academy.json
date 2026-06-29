@@ -1,0 +1,59 @@
+{
+  "id": "teaneck-torah-academy",
+  "team": "Torah Academy",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:59:00.406Z",
+  "wrestlers": [
+    {
+      "name": "Ozi Schwimmer",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ozi-schwimmer/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Tvzi Huff",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/tvzi-huff/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ezra Silber",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ezra-silber/wrestling/season/2025-2026"
+    }
+  ]
+}

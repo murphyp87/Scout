@@ -1,0 +1,114 @@
+{
+  "id": "teterboro-bergen-charter",
+  "team": "Bergen Charter",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:07:12.181Z",
+  "wrestlers": [
+    {
+      "name": "Waseem Jamhour",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/waseem-jamhour/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ammar Shehdah",
+      "class": null,
+      "primaryWeight": 144,
+      "overall": "1-2",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-1"
+        },
+        {
+          "weight": 144,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 7 - 144, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ammar-shehdah/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Dimitrius Voutsas",
+      "class": "Senior",
+      "primaryWeight": 157,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/dimitrius-voutsas-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Mateo Oujo",
+      "class": null,
+      "primaryWeight": 175,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/mateo-oujo/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Sando Choi",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/sando-choi/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Yusuf Omar",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/yusuf-omar/wrestling/season/2025-2026"
+    }
+  ]
+}

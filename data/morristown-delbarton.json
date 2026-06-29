@@ -1,0 +1,423 @@
+{
+  "id": "morristown-delbarton",
+  "team": "Delbarton",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:24:40.629Z",
+  "wrestlers": [
+    {
+      "name": "Anthony Lopera",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "4-0",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "3-0"
+        },
+        {
+          "weight": 113,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/anthony-lopera/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Finn Andersen",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "26-6",
+      "matchesThisYear": 32,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "26-6"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 106, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/finn-andersen/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Alex Rosciano",
+      "class": "Sophomore",
+      "primaryWeight": 113,
+      "overall": "19-9",
+      "matchesThisYear": 28,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "19-9"
+        }
+      ],
+      "lastYearOverall": "7-3",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 113, Preliminary Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/alex-rosciano/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Cameron Sontz",
+      "class": "Junior",
+      "primaryWeight": 120,
+      "overall": "33-0",
+      "matchesThisYear": 33,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "32-0"
+        },
+        {
+          "weight": 126,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "32-0",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 120, Final Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 113, Final Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/cameron-sontz/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Tommy Marchetti",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "29-2",
+      "matchesThisYear": 31,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "29-2"
+        }
+      ],
+      "lastYearOverall": "30-3",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 126, Final Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 120, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/tommy-marchetti/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Braden Jones",
+      "class": "Sophomore",
+      "primaryWeight": 132,
+      "overall": "7-4",
+      "matchesThisYear": 11,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "1-3"
+        },
+        {
+          "weight": 138,
+          "record": "3-0"
+        },
+        {
+          "weight": 144,
+          "record": "3-1"
+        }
+      ],
+      "lastYearOverall": "21-10",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 126, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/braden-jones-2/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Connor Glory",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "6-4",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "6-4"
+        }
+      ],
+      "lastYearOverall": "3-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/connor-glory/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Peter Terranova",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "11-5",
+      "matchesThisYear": 16,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "11-5"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 132, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/peter-terranova-807809/wrestling/season/2025-2026"
+    },
+    {
+      "name": "PJ Terranova",
+      "class": "Junior",
+      "primaryWeight": 132,
+      "overall": "3-1",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "3-1"
+        }
+      ],
+      "lastYearOverall": "22-4",
+      "thisYearNJSIAA": "2026 NJSIAA District 9 - 132, Final Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 106, Third-Place Consolations, Fifth-Place",
+      "profileUrl": "https://highschoolsports.nj.com/player/peter-terranova-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nico Marchetti",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "21-8",
+      "matchesThisYear": 29,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "21-8"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 138, Pre-Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nicholas-marchetti/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Andrew Matter",
+      "class": "Junior",
+      "primaryWeight": 144,
+      "overall": "1-2",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/andrew-matter-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ryan DeGeorge",
+      "class": "Junior",
+      "primaryWeight": 144,
+      "overall": "22-3",
+      "matchesThisYear": 25,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "22-3"
+        }
+      ],
+      "lastYearOverall": "28-6",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 144, Final Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 132, Final Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/ryan-degeorge/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nicholas Schwartz",
+      "class": "Sophomore",
+      "primaryWeight": 150,
+      "overall": "30-2",
+      "matchesThisYear": 32,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "30-2"
+        }
+      ],
+      "lastYearOverall": "23-11",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 150, Final Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 144, Third-Place Consolations, Fifth-Place",
+      "profileUrl": "https://highschoolsports.nj.com/player/nicholas-schwartz/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Trevor Jones",
+      "class": "Senior",
+      "primaryWeight": 157,
+      "overall": "27-6",
+      "matchesThisYear": 33,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "27-6"
+        }
+      ],
+      "lastYearOverall": "29-6",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 157, Semifinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 157, Third-Place Consolations, Seventh-Place",
+      "profileUrl": "https://highschoolsports.nj.com/player/trevor-jones-660003/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Atlas Majagah",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "2-2",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "2-2"
+        }
+      ],
+      "lastYearOverall": "1-3",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/atlas-majagah/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jayden James",
+      "class": "Senior",
+      "primaryWeight": 165,
+      "overall": "28-0",
+      "matchesThisYear": 28,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "28-0"
+        }
+      ],
+      "lastYearOverall": "39-0",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 165, Final Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 150, Final Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/jayden-james/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Thine Sohn",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/thine-sohn/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Gabe Logan",
+      "class": "Junior",
+      "primaryWeight": 175,
+      "overall": "19-2",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "19-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 175, Final Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/gabe-logan/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ryder Bernholz",
+      "class": null,
+      "primaryWeight": 175,
+      "overall": "3-7",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "3-7"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ryder-bernholz/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Carl Betz",
+      "class": "Senior",
+      "primaryWeight": 190,
+      "overall": "32-0",
+      "matchesThisYear": 32,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "30-0"
+        },
+        {
+          "weight": 215,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": "31-4",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 190, Final Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 190, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/carl-betz/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Brody Ismael",
+      "class": "Sophomore",
+      "primaryWeight": 215,
+      "overall": "22-3",
+      "matchesThisYear": 25,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "22-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 215, Pre-Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/brody-ismael-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jesse DeNegri",
+      "class": "Junior",
+      "primaryWeight": 215,
+      "overall": "4-2",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "1-1"
+        },
+        {
+          "weight": 215,
+          "record": "3-1"
+        }
+      ],
+      "lastYearOverall": "24-8",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 175, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/jesse-denegri/wrestling/season/2025-2026"
+    },
+    {
+      "name": "August Moser",
+      "class": "Junior",
+      "primaryWeight": 285,
+      "overall": "25-7",
+      "matchesThisYear": 32,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "25-7"
+        }
+      ],
+      "lastYearOverall": "23-11",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 285, Pre-Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 285, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/august-moser/wrestling/season/2025-2026"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "id": "lambertville-south-hunterdon",
+  "team": "South Hunterdon",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:48:42.176Z",
+  "wrestlers": [
+    {
+      "name": "Mateo Baker",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "12-9",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "12-9"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/mateo-baker/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Matthew Hyland",
+      "class": null,
+      "primaryWeight": 113,
+      "overall": "7-11",
+      "matchesThisYear": 18,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "7-11"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/matthew-hyland-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Matthew Nelson",
+      "class": "Freshman",
+      "primaryWeight": 120,
+      "overall": "2-6",
+      "matchesThisYear": 8,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "2-6"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/matthew-nelson-812477/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Will Murzenski",
+      "class": "Junior",
+      "primaryWeight": 126,
+      "overall": "13-9",
+      "matchesThisYear": 22,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "13-8"
+        },
+        {
+          "weight": 132,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "4-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 126, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 14 - 120, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/will-murzenski/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Daniel Murzenski",
+      "class": "Freshman",
+      "primaryWeight": 132,
+      "overall": "14-6",
+      "matchesThisYear": 20,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "13-6"
+        },
+        {
+          "weight": 138,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 132, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/daniel-murzenski/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Francis Parzych",
+      "class": "Freshman",
+      "primaryWeight": 138,
+      "overall": "2-1",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "1-0"
+        },
+        {
+          "weight": 138,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/francis-parzych/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jorge Lopez Ruiz",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "3-9",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "2-7"
+        },
+        {
+          "weight": 144,
+          "record": "0-1"
+        },
+        {
+          "weight": 150,
+          "record": "1-0"
+        },
+        {
+          "weight": 157,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "1-4",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jorge-lopez-ruiz/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Lev Bott",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "3-9",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "1-2"
+        },
+        {
+          "weight": 138,
+          "record": "2-7"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/lev-bott/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Mitchell Ege",
+      "class": "Junior",
+      "primaryWeight": 144,
+      "overall": "9-14",
+      "matchesThisYear": 23,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "9-12"
+        },
+        {
+          "weight": 150,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": "2-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 144, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/mitchell-ege/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Edward Smith",
+      "class": "Junior",
+      "primaryWeight": 150,
+      "overall": "3-5",
+      "matchesThisYear": 8,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-5"
+        },
+        {
+          "weight": 157,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/edward-smith-3/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Henry Brusca",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "10-11",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "8-7"
+        },
+        {
+          "weight": 157,
+          "record": "2-4"
+        }
+      ],
+      "lastYearOverall": "7-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 150, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 14 - 138, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/henry-brusca/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Quinn Thompson",
+      "class": "Junior",
+      "primaryWeight": 157,
+      "overall": "7-7",
+      "matchesThisYear": 14,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "7-5"
+        },
+        {
+          "weight": 165,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": "3-11",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 14 - 150, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/quinn-thompson/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Milo Dopp",
+      "class": "Junior",
+      "primaryWeight": 165,
+      "overall": "17-6",
+      "matchesThisYear": 23,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "16-6"
+        },
+        {
+          "weight": 175,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "5-4",
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 165, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 14 - 165, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/milo-dopp/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Dayton Ratkowski",
+      "class": "Senior",
+      "primaryWeight": 175,
+      "overall": "3-0",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "2-0"
+        },
+        {
+          "weight": 190,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/dayton-ratkowski/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Deegan Manfready",
+      "class": "Senior",
+      "primaryWeight": 175,
+      "overall": "17-5",
+      "matchesThisYear": 22,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "15-4"
+        },
+        {
+          "weight": 190,
+          "record": "2-1"
+        }
+      ],
+      "lastYearOverall": "4-8",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/deegan-manfready/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jose Bermeo",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "4-4",
+      "matchesThisYear": 8,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "3-2"
+        },
+        {
+          "weight": 215,
+          "record": "1-1"
+        },
+        {
+          "weight": 285,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "2-3",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jose-bermeo/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Phineas Baker",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "14-7",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "8-6"
+        },
+        {
+          "weight": 215,
+          "record": "5-1"
+        },
+        {
+          "weight": 285,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/phineas-baker/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Parker Rampel",
+      "class": "Senior",
+      "primaryWeight": 215,
+      "overall": "16-7",
+      "matchesThisYear": 23,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "10-7"
+        },
+        {
+          "weight": 285,
+          "record": "6-0"
+        }
+      ],
+      "lastYearOverall": "7-7",
+      "thisYearNJSIAA": "2026 NJSIAA District 19 - 215, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 14 - 190, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/parker-rampel/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jonathan Herrera",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "3-6",
+      "matchesThisYear": 9,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "3-6"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jonathan-herrera-2/wrestling/season/2025-2026"
+    }
+  ]
+}

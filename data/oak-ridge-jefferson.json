@@ -1,0 +1,298 @@
+{
+  "id": "oak-ridge-jefferson",
+  "team": "Jefferson",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:49:15.930Z",
+  "wrestlers": [
+    {
+      "name": "Connor Frey",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "10-14",
+      "matchesThisYear": 24,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "9-5"
+        },
+        {
+          "weight": 113,
+          "record": "1-9"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/connor-frey-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nathaniel Cappello",
+      "class": null,
+      "primaryWeight": 113,
+      "overall": "9-16",
+      "matchesThisYear": 25,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "3-9"
+        },
+        {
+          "weight": 113,
+          "record": "6-7"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 2 - 106, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nathaniel-cappello/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Aydin Harun",
+      "class": null,
+      "primaryWeight": 120,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/aydin-harun/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Frank Figel",
+      "class": "Junior",
+      "primaryWeight": 120,
+      "overall": "21-4",
+      "matchesThisYear": 25,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "7-3"
+        },
+        {
+          "weight": 120,
+          "record": "14-1"
+        }
+      ],
+      "lastYearOverall": "26-8",
+      "thisYearNJSIAA": "2026 NJSIAA State Wrestling Championships - 113, Preliminary Round",
+      "lastYearNJSIAA": "2025 NJSIAA State Wrestling Championships - 113, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/frank-figel/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jayden San Lucas",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "9-15",
+      "matchesThisYear": 24,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "0-1"
+        },
+        {
+          "weight": 126,
+          "record": "9-14"
+        }
+      ],
+      "lastYearOverall": "0-12",
+      "thisYearNJSIAA": "2026 NJSIAA District 2 - 126, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jayden-san-lucas/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Lucas DaSilva",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "12-12",
+      "matchesThisYear": 24,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "12-12"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 2 - 132, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/lucas-dasilva-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Christopher Frank",
+      "class": "Senior",
+      "primaryWeight": 138,
+      "overall": "22-6",
+      "matchesThisYear": 28,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "22-6"
+        }
+      ],
+      "lastYearOverall": "21-7",
+      "thisYearNJSIAA": "2026 NJSIAA Region 1 - 138, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 1 - 126, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/christopher-frank/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Anthony DiPalma",
+      "class": null,
+      "primaryWeight": 144,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "0-2",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/anthony-dipalma-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Sean Cestra",
+      "class": "Sophomore",
+      "primaryWeight": 144,
+      "overall": "5-19",
+      "matchesThisYear": 24,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "3-14"
+        },
+        {
+          "weight": 150,
+          "record": "1-3"
+        },
+        {
+          "weight": 157,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": "0-4",
+      "thisYearNJSIAA": "2026 NJSIAA District 2 - 144, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/sean-cestra/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Braedan Cummings",
+      "class": "Junior",
+      "primaryWeight": 150,
+      "overall": "16-12",
+      "matchesThisYear": 28,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "10-8"
+        },
+        {
+          "weight": 157,
+          "record": "6-4"
+        }
+      ],
+      "lastYearOverall": "7-13",
+      "thisYearNJSIAA": "2026 NJSIAA Region 1 - 157, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 1 - 138, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/braedan-cummings/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Kelan Rich",
+      "class": "Junior",
+      "primaryWeight": 165,
+      "overall": "10-14",
+      "matchesThisYear": 24,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "3-4"
+        },
+        {
+          "weight": 165,
+          "record": "7-10"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 2 - 165, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/kelan-rich/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Justin Piovesan",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "6-15",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "3-4"
+        },
+        {
+          "weight": 190,
+          "record": "1-10"
+        },
+        {
+          "weight": 215,
+          "record": "2-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 2 - 175, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/justin-piovesan/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Alexander DaSilva",
+      "class": "Senior",
+      "primaryWeight": 215,
+      "overall": "21-6",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "12-4"
+        },
+        {
+          "weight": 285,
+          "record": "9-2"
+        }
+      ],
+      "lastYearOverall": "17-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 2 - 215, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 1 - 215, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/alexander-dasilva/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Aiden Molina",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "9-15",
+      "matchesThisYear": 24,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "4-4"
+        },
+        {
+          "weight": 215,
+          "record": "2-5"
+        },
+        {
+          "weight": 285,
+          "record": "3-6"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 2 - 190, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/aiden-molina/wrestling/season/2025-2026"
+    }
+  ]
+}

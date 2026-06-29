@@ -1,0 +1,441 @@
+{
+  "id": "seabrook-cumberland",
+  "team": "Cumberland",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:23:35.120Z",
+  "wrestlers": [
+    {
+      "name": "Geno DiJoseph",
+      "class": "Freshman",
+      "primaryWeight": 106,
+      "overall": "35-5",
+      "matchesThisYear": 40,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "34-5"
+        },
+        {
+          "weight": 113,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA Region 8 - 106, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/geno-dijoseph/wrestling/season/2025-2026"
+    },
+    {
+      "name": "DeAnthony Harden",
+      "class": "Senior",
+      "primaryWeight": 113,
+      "overall": "30-9",
+      "matchesThisYear": 39,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "23-7"
+        },
+        {
+          "weight": 120,
+          "record": "7-2"
+        }
+      ],
+      "lastYearOverall": "29-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 31 - 113, Final Round",
+      "lastYearNJSIAA": "2025 NJSIAA Region 8 - 113, Third-Place Consolations, Fifth-Place",
+      "profileUrl": "https://highschoolsports.nj.com/player/deanthony-harden-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Omar Pacheco",
+      "class": null,
+      "primaryWeight": 113,
+      "overall": "5-6",
+      "matchesThisYear": 11,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "4-3"
+        },
+        {
+          "weight": 120,
+          "record": "1-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/omar-pacheco/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Elvis Lima",
+      "class": "Freshman",
+      "primaryWeight": 120,
+      "overall": "5-16",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "4-14"
+        },
+        {
+          "weight": 126,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 31 - 120, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/elvis-lima/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Kolton Sheppard",
+      "class": "Sophomore",
+      "primaryWeight": 126,
+      "overall": "26-7",
+      "matchesThisYear": 33,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "25-7"
+        },
+        {
+          "weight": 132,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "22-9",
+      "thisYearNJSIAA": "2026 NJSIAA Region 8 - 126, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 30 - 120, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/kolton-sheppard/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Logan Smith",
+      "class": "Sophomore",
+      "primaryWeight": 132,
+      "overall": "10-22",
+      "matchesThisYear": 32,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "10-22"
+        }
+      ],
+      "lastYearOverall": "5-11",
+      "thisYearNJSIAA": "2026 NJSIAA District 31 - 132, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/logan-smith-9/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ayden Bowen",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "3-7",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "1-7"
+        },
+        {
+          "weight": 144,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ayden-bowen/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Matthew Lucas",
+      "class": "Sophomore",
+      "primaryWeight": 138,
+      "overall": "13-14",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "13-14"
+        }
+      ],
+      "lastYearOverall": "8-9",
+      "thisYearNJSIAA": "2026 NJSIAA District 31 - 138, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 30 - 126, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/matthew-lucas-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Anthony Aponte",
+      "class": "Freshman",
+      "primaryWeight": 144,
+      "overall": "10-13",
+      "matchesThisYear": 23,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "7-10"
+        },
+        {
+          "weight": 150,
+          "record": "3-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/anthony-aponte-4/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Killian McGraw",
+      "class": "Sophomore",
+      "primaryWeight": 144,
+      "overall": "10-9",
+      "matchesThisYear": 19,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "9-7"
+        },
+        {
+          "weight": 150,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": "13-7",
+      "thisYearNJSIAA": "2026 NJSIAA District 31 - 144, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 30 - 132, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/killian-mcgraw/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Chase Sooy",
+      "class": "Sophomore",
+      "primaryWeight": 150,
+      "overall": "11-21",
+      "matchesThisYear": 32,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "8-18"
+        },
+        {
+          "weight": 157,
+          "record": "3-3"
+        }
+      ],
+      "lastYearOverall": "3-5",
+      "thisYearNJSIAA": "2026 NJSIAA District 31 - 150, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/chase-sooy/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Chase Williams",
+      "class": "Junior",
+      "primaryWeight": 157,
+      "overall": "17-11",
+      "matchesThisYear": 28,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "15-11"
+        },
+        {
+          "weight": 165,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": "18-7",
+      "thisYearNJSIAA": "2026 NJSIAA Region 8 - 157, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 30 - 138, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/chase-williams-8/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Justin Dang",
+      "class": "Senior",
+      "primaryWeight": 157,
+      "overall": "1-10",
+      "matchesThisYear": 11,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "0-1"
+        },
+        {
+          "weight": 150,
+          "record": "0-1"
+        },
+        {
+          "weight": 157,
+          "record": "1-7"
+        },
+        {
+          "weight": 165,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/justin-dang-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "David Seeger",
+      "class": "Senior",
+      "primaryWeight": 165,
+      "overall": "16-17",
+      "matchesThisYear": 33,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "9-14"
+        },
+        {
+          "weight": 175,
+          "record": "7-3"
+        }
+      ],
+      "lastYearOverall": "7-9",
+      "thisYearNJSIAA": "2026 NJSIAA District 31 - 175, Semifinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/david-seeger-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Zyon McCoy",
+      "class": "Sophomore",
+      "primaryWeight": 165,
+      "overall": "3-10",
+      "matchesThisYear": 13,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "2-6"
+        },
+        {
+          "weight": 175,
+          "record": "1-4"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 31 - 165, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/zyon-mccoy/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Gary Albert",
+      "class": "Junior",
+      "primaryWeight": 175,
+      "overall": "22-8",
+      "matchesThisYear": 30,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "15-6"
+        },
+        {
+          "weight": 190,
+          "record": "7-2"
+        }
+      ],
+      "lastYearOverall": "13-5",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 30 - 157, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/gary-albert-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Davauhn Petty",
+      "class": "Senior",
+      "primaryWeight": 190,
+      "overall": "6-6",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "4-3"
+        },
+        {
+          "weight": 215,
+          "record": "2-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/devaun-petty/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ralph Hitchner",
+      "class": "Sophomore",
+      "primaryWeight": 190,
+      "overall": "19-8",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "17-6"
+        },
+        {
+          "weight": 215,
+          "record": "2-2"
+        }
+      ],
+      "lastYearOverall": "10-10",
+      "thisYearNJSIAA": "2026 NJSIAA Region 8 - 190, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 30 - 215, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/ralph-hitchner/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Austin Williams",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/austin-williams-8/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Steven Williams",
+      "class": "Freshman",
+      "primaryWeight": 215,
+      "overall": "17-16",
+      "matchesThisYear": 33,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "13-13"
+        },
+        {
+          "weight": 285,
+          "record": "4-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 31 - 215, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/steven-williams-3/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Andrew Mosley",
+      "class": "Senior",
+      "primaryWeight": 285,
+      "overall": "7-19",
+      "matchesThisYear": 26,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "7-19"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 31 - 285, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/andrew-mosley/wrestling/season/2025-2026"
+    }
+  ]
+}

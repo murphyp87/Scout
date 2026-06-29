@@ -1,0 +1,201 @@
+{
+  "id": "absecon-holy-spirit",
+  "team": "Holy Spirit",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:45:16.079Z",
+  "wrestlers": [
+    {
+      "name": "Ryan Eykyn",
+      "class": null,
+      "primaryWeight": 113,
+      "overall": "10-19",
+      "matchesThisYear": 29,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "10-17"
+        },
+        {
+          "weight": 120,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": "12-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 30 - 113, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 29 - 106, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/ryan-eykyn/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jonah Vidro",
+      "class": "Junior",
+      "primaryWeight": 132,
+      "overall": "3-8",
+      "matchesThisYear": 11,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "3-8"
+        }
+      ],
+      "lastYearOverall": "3-4",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jonah-vidro/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Mason Sproles",
+      "class": "Freshman",
+      "primaryWeight": 132,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "0-1"
+        },
+        {
+          "weight": 165,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/mason-sproles/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Seamus Crowder",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "1-6",
+      "matchesThisYear": 7,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "1-5"
+        },
+        {
+          "weight": 138,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/seamus-crowder/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Carmine Lovallo",
+      "class": "Senior",
+      "primaryWeight": 138,
+      "overall": "9-22",
+      "matchesThisYear": 31,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "2-6"
+        },
+        {
+          "weight": 138,
+          "record": "7-14"
+        },
+        {
+          "weight": 144,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": "8-11",
+      "thisYearNJSIAA": "2026 NJSIAA District 30 - 138, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 29 - 132, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/carmine-lovallo/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Anthony Lovallo",
+      "class": null,
+      "primaryWeight": 144,
+      "overall": "11-14",
+      "matchesThisYear": 25,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "10-14"
+        },
+        {
+          "weight": 150,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/anthony-lovallo/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Gavin Mensch",
+      "class": "Senior",
+      "primaryWeight": 150,
+      "overall": "33-8",
+      "matchesThisYear": 41,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "0-1"
+        },
+        {
+          "weight": 150,
+          "record": "28-4"
+        },
+        {
+          "weight": 157,
+          "record": "5-3"
+        }
+      ],
+      "lastYearOverall": "22-3",
+      "thisYearNJSIAA": "2026 NJSIAA Region 8 - 157, Third-Place Consolations",
+      "lastYearNJSIAA": "2025 NJSIAA Region 8 - 126, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/gavin-mensch/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Gabriel Nell",
+      "class": "Senior",
+      "primaryWeight": 157,
+      "overall": "4-4",
+      "matchesThisYear": 8,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "4-4"
+        }
+      ],
+      "lastYearOverall": "14-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 29 - 157, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/gabriel-nell/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Patrick Voss",
+      "class": "Senior",
+      "primaryWeight": 157,
+      "overall": "15-17",
+      "matchesThisYear": 32,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-1"
+        },
+        {
+          "weight": 157,
+          "record": "10-13"
+        },
+        {
+          "weight": 165,
+          "record": "4-3"
+        }
+      ],
+      "lastYearOverall": "6-7",
+      "thisYearNJSIAA": "2026 NJSIAA District 30 - 150, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/patrick-voss/wrestling/season/2025-2026"
+    }
+  ]
+}

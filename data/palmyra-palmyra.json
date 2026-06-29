@@ -1,0 +1,289 @@
+{
+  "id": "palmyra-palmyra",
+  "team": "Palmyra",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:22:02.601Z",
+  "wrestlers": [
+    {
+      "name": "Chase Moritz",
+      "class": "Junior",
+      "primaryWeight": 132,
+      "overall": "10-9",
+      "matchesThisYear": 19,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "7-8"
+        },
+        {
+          "weight": 138,
+          "record": "2-1"
+        },
+        {
+          "weight": 150,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/chase-moritz/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Zaid Aziz",
+      "class": "Freshman",
+      "primaryWeight": 132,
+      "overall": "0-5",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "0-1"
+        },
+        {
+          "weight": 132,
+          "record": "0-4"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/zaid-aziz/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Sebastian dela Pena",
+      "class": "Sophomore",
+      "primaryWeight": 138,
+      "overall": "2-8",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "1-7"
+        },
+        {
+          "weight": 144,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/sebastian-dela-pena/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Shane Mulherin",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "2-14",
+      "matchesThisYear": 16,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "1-3"
+        },
+        {
+          "weight": 132,
+          "record": "0-2"
+        },
+        {
+          "weight": 138,
+          "record": "1-9"
+        }
+      ],
+      "lastYearOverall": "3-19",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 27 - 132, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/shane-mulherin/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Chace Mulherin",
+      "class": "Senior",
+      "primaryWeight": 144,
+      "overall": "13-6",
+      "matchesThisYear": 19,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-1"
+        },
+        {
+          "weight": 144,
+          "record": "11-4"
+        },
+        {
+          "weight": 150,
+          "record": "2-1"
+        }
+      ],
+      "lastYearOverall": "14-14",
+      "thisYearNJSIAA": "2026 NJSIAA District 27 - 144, Semifinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 27 - 138, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/chace-mulherin/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nicholas Rex",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "12-9",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "8-8"
+        },
+        {
+          "weight": 157,
+          "record": "3-1"
+        },
+        {
+          "weight": 165,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "8-10",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 27 - 165, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/nicholas-rex/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Sykeem Muse",
+      "class": "Junior",
+      "primaryWeight": 157,
+      "overall": "10-5",
+      "matchesThisYear": 15,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "10-4"
+        },
+        {
+          "weight": 165,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/sykeem-muse/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Burak Sayin",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "11-9",
+      "matchesThisYear": 20,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "6-6"
+        },
+        {
+          "weight": 175,
+          "record": "4-3"
+        },
+        {
+          "weight": 190,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "12-18",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 27 - 175, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/burak-sayin/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Luke Vansciver",
+      "class": "Senior",
+      "primaryWeight": 175,
+      "overall": "1-3",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "0-2"
+        },
+        {
+          "weight": 190,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/luke-vansciver/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ian Smith",
+      "class": "Senior",
+      "primaryWeight": 190,
+      "overall": "9-3",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "3-0"
+        },
+        {
+          "weight": 190,
+          "record": "6-3"
+        }
+      ],
+      "lastYearOverall": "1-4",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ian-smith-7/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Kelvin Conde",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/kelvin-conde/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Deakon Haines",
+      "class": "Senior",
+      "primaryWeight": 215,
+      "overall": "11-5",
+      "matchesThisYear": 16,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "11-5"
+        }
+      ],
+      "lastYearOverall": "15-9",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/deakon-haines/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Omar Kane",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "3-6",
+      "matchesThisYear": 9,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "3-6"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 27 - 285, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/omar-kane/wrestling/season/2025-2026"
+    }
+  ]
+}

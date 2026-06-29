@@ -17,11 +17,9 @@
 const fs = require('fs');
 const path = require('path');
 
-// Teams to scout. `id` is the short key used for the data file + landing-page link.
-const SCHOOLS = [
-  { id: 'south', name: 'Middletown South', slug: 'middletown-middletown-south' },
-  { id: 'north', name: 'Middletown North', slug: 'middletown-middletown-north' },
-];
+// Teams to scout (id/name/slug). Generated from the NJ.com school index; edit
+// schools.json to add/remove teams. `id` is also the data-file name + landing link.
+const SCHOOLS = require('./schools.json');
 const SEASONS = { current: '2025-2026', previous: '2024-2025' };
 // NJSIAA tournaments happen in the calendar year the season ends (e.g. 2025-2026 -> 2026).
 const YEAR = {
@@ -41,13 +39,31 @@ const UA =
   '(KHTML, like Gecko) Chrome/120.0 Safari/537.36';
 
 const REFRESH = process.argv.includes('--refresh');
-const POLITE_DELAY_MS = 700;
+const POLITE_DELAY_MS = 250;
+const CONCURRENCY = 4; // wrestlers fetched in parallel per team (balance speed vs. load)
+const NET_RETRIES = 3; // transient network errors are retried (matters over long runs)
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/** Run `fn` over `items` with a fixed-size worker pool; preserves input order in results. */
+async function mapPool(items, concurrency, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (true) {
+      const i = next++;
+      if (i >= items.length) return;
+      results[i] = await fn(items[i], i);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, worker));
+  return results;
+}
 
 /**
  * Fetch a URL, caching the HTML locally so we don't hammer NJ.com.
- * Returns { html, status }. On a non-200 (e.g. a missing previous-year page)
- * html is null but we don't throw — the caller decides what's optional.
+ * Returns { html, status }. A missing page (HTTP error) caches an empty file and
+ * returns html=null. A persistent network error returns html=null WITHOUT caching,
+ * so a later re-run retries it.
  */
 async function getCached(cacheName, url) {
   fs.mkdirSync(CACHE_DIR, { recursive: true });
@@ -58,22 +74,36 @@ async function getCached(cacheName, url) {
     return { html: html === '' ? null : html, status: 'cache' };
   }
 
-  await sleep(POLITE_DELAY_MS); // be polite between live requests
-  let res;
-  try {
-    res = await fetch(url, { headers: { 'User-Agent': UA } });
-  } catch (err) {
-    console.log(`  ! network error for ${url}: ${err.message}`);
-    return { html: null, status: 'error' };
+  for (let attempt = 1; attempt <= NET_RETRIES; attempt++) {
+    await sleep(POLITE_DELAY_MS); // be polite between live requests
+    let res;
+    try {
+      res = await fetch(url, { headers: { 'User-Agent': UA } });
+    } catch (err) {
+      if (attempt === NET_RETRIES) {
+        console.log(`  ! network error for ${url}: ${err.message}`);
+        return { html: null, status: 'error' };
+      }
+      await sleep(POLITE_DELAY_MS * attempt * 4); // back off, then retry
+      continue;
+    }
+    // Rate-limit / server hiccup: back off and retry; never cache it as "empty".
+    if (res.status === 429 || res.status >= 500) {
+      if (attempt === NET_RETRIES) {
+        console.log(`  ! HTTP ${res.status} (gave up) for ${url}`);
+        return { html: null, status: res.status };
+      }
+      await sleep(POLITE_DELAY_MS * attempt * 8); // longer back off for rate limits
+      continue;
+    }
+    if (!res.ok) {
+      fs.writeFileSync(cacheFile, ''); // genuine "nothing here" (e.g. 404)
+      return { html: null, status: res.status };
+    }
+    const html = await res.text();
+    fs.writeFileSync(cacheFile, html);
+    return { html, status: res.status };
   }
-  if (!res.ok) {
-    // Cache an empty file so we remember "nothing here" and don't refetch.
-    fs.writeFileSync(cacheFile, '');
-    return { html: null, status: res.status };
-  }
-  const html = await res.text();
-  fs.writeFileSync(cacheFile, html);
-  return { html, status: res.status };
 }
 
 const count = (html, re) => (html.match(re) || []).length;
@@ -200,24 +230,26 @@ function parseLastYearRecord(prevHtml) {
   return overall.wins + overall.losses > 0 ? recordStr(overall) : null;
 }
 
-/** Build one school's profiles, write data/<id>.json, return a summary for the index. */
+/**
+ * Build one school's profiles, write data/<id>.json, return a summary for the index.
+ * Returns null if the school has no roster (so it's dropped from the team list).
+ */
 async function buildTeam(school) {
-  console.log(`\n=== ${school.name} ===`);
   const roster = await getCached(`roster-${school.slug}-${SEASONS.current}.html`, rosterUrl(school.slug));
-  if (!roster.html) throw new Error(`Could not load roster page for ${school.name}.`);
-  const wrestlers = parseRoster(roster.html);
-  console.log(`· ${wrestlers.length} wrestlers on roster`);
+  const wrestlers = roster.html ? parseRoster(roster.html) : [];
+  if (!wrestlers.length) {
+    console.log(`– ${school.name}: no roster, skipped`);
+    return null;
+  }
 
-  const profiles = [];
   const skipped = [];
 
-  for (const { slug, name } of wrestlers) {
+  const built = await mapPool(wrestlers, CONCURRENCY, async ({ slug, name }) => {
     const cur = await getCached(`current-${slug}.html`, playerUrl(slug, SEASONS.current));
     const current = cur.html ? parseCurrent(cur.html) : null;
-
     if (!current) {
       skipped.push(name);
-      continue;
+      return null;
     }
 
     const prevPage = await getCached(`prev-${slug}.html`, playerUrl(slug, SEASONS.previous));
@@ -227,7 +259,7 @@ async function buildTeam(school) {
     const thisYearNJSIAA = furthestNjsiaa(njsiaa, YEAR.current);
     const lastYearNJSIAA = furthestNjsiaa(njsiaa, YEAR.previous);
 
-    profiles.push({
+    return {
       name,
       class: current.wrestlerClass,
       primaryWeight: current.primaryWeight,
@@ -238,11 +270,13 @@ async function buildTeam(school) {
       thisYearNJSIAA,
       lastYearNJSIAA,
       profileUrl: playerUrl(slug, SEASONS.current),
-    });
-  }
+    };
+  });
 
   // Sort cards by primary weight (lightest first), then name.
-  profiles.sort((a, b) => a.primaryWeight - b.primaryWeight || a.name.localeCompare(b.name));
+  const profiles = built
+    .filter(Boolean)
+    .sort((a, b) => a.primaryWeight - b.primaryWeight || a.name.localeCompare(b.name));
 
   const generatedAt = new Date().toISOString();
   const out = {
@@ -259,17 +293,28 @@ async function buildTeam(school) {
   return { id: school.id, name: school.name, season: SEASONS.current, wrestlers: profiles.length, generatedAt };
 }
 
-(async function main() {
-  const teams = [];
-  for (const school of SCHOOLS) {
-    teams.push(await buildTeam(school));
-  }
-
+function writeTeamsIndex(teams) {
+  const sorted = [...teams].sort((a, b) => a.name.localeCompare(b.name));
   fs.mkdirSync(DATA_DIR, { recursive: true });
   fs.writeFileSync(
     path.join(DATA_DIR, 'teams.json'),
-    JSON.stringify({ generatedAt: new Date().toISOString(), teams }, null, 2) + '\n'
+    JSON.stringify({ generatedAt: new Date().toISOString(), teams: sorted }, null, 2) + '\n'
   );
+}
+
+(async function main() {
+  const teams = [];
+  let i = 0;
+  for (const school of SCHOOLS) {
+    i++;
+    process.stdout.write(`[${i}/${SCHOOLS.length}] `);
+    const summary = await buildTeam(school);
+    if (summary) {
+      teams.push(summary);
+      writeTeamsIndex(teams); // keep the index current so partial runs are usable
+    }
+  }
+  writeTeamsIndex(teams);
   console.log(`\n✓ wrote data/teams.json — ${teams.length} teams.`);
 })().catch((err) => {
   console.error('\n✗ build failed:', err.message);

@@ -1,0 +1,224 @@
+{
+  "id": "clifton-pioneer-academy",
+  "team": "Pioneer Academy",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:31:18.306Z",
+  "wrestlers": [
+    {
+      "name": "Brayden Alam",
+      "class": "Freshman",
+      "primaryWeight": 120,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/brayden-alam/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Bryant Segura",
+      "class": "Sophomore",
+      "primaryWeight": 132,
+      "overall": "0-4",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "0-1"
+        },
+        {
+          "weight": 132,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/bryant-segura/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Kerem Nakiboglu",
+      "class": "Sophomore",
+      "primaryWeight": 132,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/kerem-nakiboglu/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Musab Dagdagan",
+      "class": "Sophomore",
+      "primaryWeight": 138,
+      "overall": "1-4",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "1-4"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/musab-dagdagon/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ersin Akhoroz",
+      "class": "Senior",
+      "primaryWeight": 144,
+      "overall": "7-2",
+      "matchesThisYear": 9,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "7-2"
+        }
+      ],
+      "lastYearOverall": "2-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 6 - 144, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 8 - 138, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/ersin-akhoroz/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Heda Luo",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "1-3",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-2"
+        },
+        {
+          "weight": 157,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/heda-luo/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Yusuf Dagdagan",
+      "class": "Sophomore",
+      "primaryWeight": 150,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/yusuf-dagdagon/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ahmet Tas",
+      "class": "Senior",
+      "primaryWeight": 157,
+      "overall": "1-2",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "0-2"
+        },
+        {
+          "weight": 165,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ahmet-tas/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Sheng Jie Li",
+      "class": "Junior",
+      "primaryWeight": 165,
+      "overall": "1-6",
+      "matchesThisYear": 7,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "1-6"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/sheng-jie-li/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ihsan Aksoy",
+      "class": "Junior",
+      "primaryWeight": 175,
+      "overall": "6-4",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "6-4"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 6 - 175, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ihsan-aksoy/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Peter Hong",
+      "class": "Sophomore",
+      "primaryWeight": 215,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/peter-hong/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Murad Ozbilgin",
+      "class": "Senior",
+      "primaryWeight": 285,
+      "overall": "7-2",
+      "matchesThisYear": 9,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "7-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 6 - 285, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/murad-ozbilgin/wrestling/season/2025-2026"
+    }
+  ]
+}

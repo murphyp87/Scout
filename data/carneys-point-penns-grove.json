@@ -1,0 +1,306 @@
+{
+  "id": "carneys-point-penns-grove",
+  "team": "Penns Grove",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:28:19.180Z",
+  "wrestlers": [
+    {
+      "name": "Jose Santiago",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "14-13",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "12-11"
+        },
+        {
+          "weight": 113,
+          "record": "1-1"
+        },
+        {
+          "weight": 120,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": "7-11",
+      "thisYearNJSIAA": "2026 NJSIAA District 32 - 106, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 32 - 106, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/jose-santiago-9/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Doel Torres",
+      "class": "Sophomore",
+      "primaryWeight": 113,
+      "overall": "8-8",
+      "matchesThisYear": 16,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "7-6"
+        },
+        {
+          "weight": 120,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 32 - 113, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/doel-torres/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Adan Gonzalez",
+      "class": "Senior",
+      "primaryWeight": 126,
+      "overall": "10-17",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "10-13"
+        },
+        {
+          "weight": 132,
+          "record": "0-4"
+        }
+      ],
+      "lastYearOverall": "4-6",
+      "thisYearNJSIAA": "2026 NJSIAA District 32 - 126, Semifinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/adan-gonzalez/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nyhla West",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "7-16",
+      "matchesThisYear": 23,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "4-8"
+        },
+        {
+          "weight": 138,
+          "record": "3-8"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 32 - 132, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nyhla-west/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Cameron Vile",
+      "class": "Junior",
+      "primaryWeight": 144,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "0-1"
+        },
+        {
+          "weight": 215,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/cameron-vile-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Cristian Garcia",
+      "class": null,
+      "primaryWeight": 144,
+      "overall": "1-6",
+      "matchesThisYear": 7,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-3"
+        },
+        {
+          "weight": 144,
+          "record": "1-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/cristian-garcia-4/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Angel Ocasio",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "5-16",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "3-6"
+        },
+        {
+          "weight": 150,
+          "record": "2-9"
+        },
+        {
+          "weight": 157,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "2-8",
+      "thisYearNJSIAA": "2026 NJSIAA District 32 - 144, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 32 - 144, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/angel-ocasio/wrestling/season/2025-2026"
+    },
+    {
+      "name": "AbdulMuta`Alie IbnAbdulHailmTart",
+      "class": null,
+      "primaryWeight": 157,
+      "overall": "13-10",
+      "matchesThisYear": 23,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "1-5"
+        },
+        {
+          "weight": 150,
+          "record": "2-0"
+        },
+        {
+          "weight": 157,
+          "record": "10-4"
+        },
+        {
+          "weight": 165,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "9-11",
+      "thisYearNJSIAA": "2026 NJSIAA District 32 - 157, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 32 - 138, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/abdulmutaalie-ibnabdulhailmtart/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Payton Seamster",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "1-2",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/payton-seamster/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Rogelio Fraga-Martinez",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "0-4",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "0-1"
+        },
+        {
+          "weight": 165,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/rogelio-fraga-martinez/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Richard Simmons",
+      "class": null,
+      "primaryWeight": 175,
+      "overall": "1-8",
+      "matchesThisYear": 9,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "1-8"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/richard-simmons/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Zaviyon Veney",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "5-13",
+      "matchesThisYear": 18,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "2-4"
+        },
+        {
+          "weight": 215,
+          "record": "3-9"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 32 - 190, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/zaviyon-veney/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Antonio Cooper",
+      "class": "Senior",
+      "primaryWeight": 285,
+      "overall": "13-13",
+      "matchesThisYear": 26,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "7-3"
+        },
+        {
+          "weight": 285,
+          "record": "6-10"
+        }
+      ],
+      "lastYearOverall": "9-13",
+      "thisYearNJSIAA": "2026 NJSIAA District 32 - 215, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 32 - 215, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/antonio-cooper/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Maliq Reddick",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "2-7",
+      "matchesThisYear": 9,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "2-7"
+        }
+      ],
+      "lastYearOverall": "1-3",
+      "thisYearNJSIAA": "2026 NJSIAA District 32 - 285, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/maliq-reddick/wrestling/season/2025-2026"
+    }
+  ]
+}

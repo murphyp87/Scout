@@ -1,0 +1,451 @@
+{
+  "id": "hightstown-peddie",
+  "team": "Peddie",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:27:40.739Z",
+  "wrestlers": [
+    {
+      "name": "Lucas Goodman",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "1-5",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "1-5"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/lucas-goodman-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Riley Allen",
+      "class": null,
+      "primaryWeight": 106,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 106,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/riley-allen-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Zane Shama",
+      "class": null,
+      "primaryWeight": 113,
+      "overall": "6-6",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "6-6"
+        }
+      ],
+      "lastYearOverall": "12-6",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/zane-sharma/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Addison Collins",
+      "class": "Junior",
+      "primaryWeight": 120,
+      "overall": "2-0",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "1-0"
+        },
+        {
+          "weight": 132,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "2-0",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/addison-collins/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Matt Kleinhandler",
+      "class": "Freshman",
+      "primaryWeight": 120,
+      "overall": "0-10",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "0-9"
+        },
+        {
+          "weight": 126,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/matt-kleinhandler/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ryan Horner",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "11-2",
+      "matchesThisYear": 13,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "9-2"
+        },
+        {
+          "weight": 132,
+          "record": "1-0"
+        },
+        {
+          "weight": 190,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "18-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ryan-horner-2/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Anthony Stover",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "10-2",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "8-2"
+        },
+        {
+          "weight": 138,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/anthony-stover/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Beck Smith-Freitag",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/beck-smith-freitag/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Landon Lill",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "9-3",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "7-3"
+        },
+        {
+          "weight": 144,
+          "record": "1-0"
+        },
+        {
+          "weight": 150,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/landon-lill/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ryan McRoberts",
+      "class": "Freshman",
+      "primaryWeight": 144,
+      "overall": "1-8",
+      "matchesThisYear": 9,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "1-8"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ryan-mcroberts/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Aiden Wan",
+      "class": "Senior",
+      "primaryWeight": 150,
+      "overall": "0-5",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "0-5"
+        }
+      ],
+      "lastYearOverall": "1-4",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/aiden-wan/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Benedict Kiely",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "0-6",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "0-5"
+        },
+        {
+          "weight": 157,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "2-3",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/benedict-kiely/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Justin Tang",
+      "class": "Junior",
+      "primaryWeight": 150,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/justin-tang-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Massimo Sheinin",
+      "class": "Junior",
+      "primaryWeight": 157,
+      "overall": "2-10",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "2-10"
+        }
+      ],
+      "lastYearOverall": "2-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/massimo-sheinin/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Caleb Feinberg",
+      "class": "Junior",
+      "primaryWeight": 165,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/caleb-feinberg-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Charlie White",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "1-9",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "1-8"
+        },
+        {
+          "weight": 175,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/charlie-white-2/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Oliver Goodman",
+      "class": "Senior",
+      "primaryWeight": 175,
+      "overall": "3-2",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "3-2"
+        }
+      ],
+      "lastYearOverall": "10-5",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/oliver-goodman-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Xzavier Torres",
+      "class": "Freshman",
+      "primaryWeight": 175,
+      "overall": "3-3",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "2-3"
+        },
+        {
+          "weight": 190,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/xzavier-torres/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Brandon Yang",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "1-1",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/brandon-yang/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Chris Horsch",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "8-4",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "1-1"
+        },
+        {
+          "weight": 190,
+          "record": "6-3"
+        },
+        {
+          "weight": 215,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "5-8",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/chris-horsch/wrestling/season/2025-2026"
+    },
+    {
+      "name": "August Cassidy",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "6-3",
+      "matchesThisYear": 9,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "5-3"
+        },
+        {
+          "weight": 285,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/august-cassidy-2/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Rajose Francois",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/rajose-francois/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Adem Amar",
+      "class": "Junior",
+      "primaryWeight": 285,
+      "overall": "1-11",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "1-11"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/adem-amar/wrestling/season/2025-2026"
+    }
+  ]
+}

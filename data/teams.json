@@ -1,19 +1,2231 @@
 {
-  "generatedAt": "2026-06-28T22:29:34.078Z",
+  "generatedAt": "2026-06-29T02:11:24.701Z",
   "teams": [
     {
-      "id": "south",
-      "name": "Middletown South",
+      "id": "galloway-absegami",
+      "name": "Absegami",
       "season": "2025-2026",
-      "wrestlers": 35,
-      "generatedAt": "2026-06-28T22:29:30.840Z"
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:07:11.016Z"
     },
     {
-      "id": "north",
+      "id": "allentown-allentown",
+      "name": "Allentown",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:07:11.120Z"
+    },
+    {
+      "id": "asbury-park-asbury-park",
+      "name": "Asbury Park",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:07:11.212Z"
+    },
+    {
+      "id": "atlantic-city-atlantic-city",
+      "name": "Atlantic City",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T00:07:11.294Z"
+    },
+    {
+      "id": "audubon-audubon",
+      "name": "Audubon",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T00:07:11.410Z"
+    },
+    {
+      "id": "barnegat-barnegat",
+      "name": "Barnegat",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T00:07:11.545Z"
+    },
+    {
+      "id": "newark-barringer",
+      "name": "Barringer",
+      "season": "2025-2026",
+      "wrestlers": 14,
+      "generatedAt": "2026-06-29T00:07:11.609Z"
+    },
+    {
+      "id": "bayonne-bayonne",
+      "name": "Bayonne",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T00:07:11.746Z"
+    },
+    {
+      "id": "east-rutherford-becton",
+      "name": "Becton",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T00:07:11.870Z"
+    },
+    {
+      "id": "belleville-belleville",
+      "name": "Belleville",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:07:11.972Z"
+    },
+    {
+      "id": "belvidere-belvidere",
+      "name": "Belvidere",
+      "season": "2025-2026",
+      "wrestlers": 16,
+      "generatedAt": "2026-06-29T00:07:12.036Z"
+    },
+    {
+      "id": "oradell-bergen-catholic",
+      "name": "Bergen Catholic",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:07:12.153Z"
+    },
+    {
+      "id": "teterboro-bergen-charter",
+      "name": "Bergen Charter",
+      "season": "2025-2026",
+      "wrestlers": 6,
+      "generatedAt": "2026-06-29T00:07:12.181Z"
+    },
+    {
+      "id": "bergenfield-bergenfield",
+      "name": "Bergenfield",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T00:07:43.166Z"
+    },
+    {
+      "id": "bernardsville-bernards",
+      "name": "Bernards",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T00:08:04.542Z"
+    },
+    {
+      "id": "blairstown-blair",
+      "name": "Blair",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T00:08:13.076Z"
+    },
+    {
+      "id": "bloomfield-bloomfield",
+      "name": "Bloomfield",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T00:08:46.003Z"
+    },
+    {
+      "id": "boonton-boonton",
+      "name": "Boonton",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:09:10.293Z"
+    },
+    {
+      "id": "bordentown-bordentown",
+      "name": "Bordentown",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T00:09:41.692Z"
+    },
+    {
+      "id": "bound-brook-bound-brook",
+      "name": "Bound Brook",
+      "season": "2025-2026",
+      "wrestlers": 18,
+      "generatedAt": "2026-06-29T00:10:07.155Z"
+    },
+    {
+      "id": "kenilworth-brearley",
+      "name": "Brearley",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T00:10:32.978Z"
+    },
+    {
+      "id": "brick-brick-memorial",
+      "name": "Brick Memorial",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T00:10:56.751Z"
+    },
+    {
+      "id": "brick-brick-township",
+      "name": "Brick Township",
+      "season": "2025-2026",
+      "wrestlers": 35,
+      "generatedAt": "2026-06-29T00:11:36.181Z"
+    },
+    {
+      "id": "bridgewater-bridgewater-raritan",
+      "name": "Bridgewater-Raritan",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T00:11:59.462Z"
+    },
+    {
+      "id": "buena-buena",
+      "name": "Buena",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T00:12:18.144Z"
+    },
+    {
+      "id": "burlington-burlington-city",
+      "name": "Burlington City",
+      "season": "2025-2026",
+      "wrestlers": 18,
+      "generatedAt": "2026-06-29T00:12:32.497Z"
+    },
+    {
+      "id": "burlington-twp-burlington-township",
+      "name": "Burlington Township",
+      "season": "2025-2026",
+      "wrestlers": 34,
+      "generatedAt": "2026-06-29T00:12:56.210Z"
+    },
+    {
+      "id": "butler-butler",
+      "name": "Butler",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T00:13:17.516Z"
+    },
+    {
+      "id": "west-caldwell-caldwell",
+      "name": "Caldwell",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T00:13:37.858Z"
+    },
+    {
+      "id": "camden-camden",
+      "name": "Camden",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T00:13:50.716Z"
+    },
+    {
+      "id": "cherry-hill-camden-catholic",
+      "name": "Camden Catholic",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:14:14.053Z"
+    },
+    {
+      "id": "carteret-carteret",
+      "name": "Carteret",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:14:43.963Z"
+    },
+    {
+      "id": "egg-harbor-city-cedar-creek",
+      "name": "Cedar Creek",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T00:15:12.674Z"
+    },
+    {
+      "id": "cedar-grove-cedar-grove",
+      "name": "Cedar Grove",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:15:36.205Z"
+    },
+    {
+      "id": "somerset-central-jersey-college-charter",
+      "name": "Central Jersey College Charter",
+      "season": "2025-2026",
+      "wrestlers": 16,
+      "generatedAt": "2026-06-29T00:15:47.174Z"
+    },
+    {
+      "id": "bayville-central-regional",
+      "name": "Central Regional",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T00:16:23.241Z"
+    },
+    {
+      "id": "marlton-cherokee",
+      "name": "Cherokee",
+      "season": "2025-2026",
+      "wrestlers": 33,
+      "generatedAt": "2026-06-29T00:16:59.232Z"
+    },
+    {
+      "id": "cherry-hill-cherry-hill-east",
+      "name": "Cherry Hill East",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T00:17:31.451Z"
+    },
+    {
+      "id": "cherry-hill-cherry-hill-west",
+      "name": "Cherry Hill West",
+      "season": "2025-2026",
+      "wrestlers": 34,
+      "generatedAt": "2026-06-29T00:18:12.592Z"
+    },
+    {
+      "id": "lincroft-christian-brothers",
+      "name": "Christian Brothers",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T00:18:43.883Z"
+    },
+    {
+      "id": "cinnaminson-cinnaminson",
+      "name": "Cinnaminson",
+      "season": "2025-2026",
+      "wrestlers": 33,
+      "generatedAt": "2026-06-29T00:19:09.656Z"
+    },
+    {
+      "id": "clayton-clayton",
+      "name": "Clayton",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T00:19:37.824Z"
+    },
+    {
+      "id": "mullica-hill-clearview",
+      "name": "Clearview",
+      "season": "2025-2026",
+      "wrestlers": 17,
+      "generatedAt": "2026-06-29T00:19:52.787Z"
+    },
+    {
+      "id": "cliffside-park-cliffside-park",
+      "name": "Cliffside Park",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:20:11.761Z"
+    },
+    {
+      "id": "clifton-clifton",
+      "name": "Clifton",
+      "season": "2025-2026",
+      "wrestlers": 33,
+      "generatedAt": "2026-06-29T00:20:44.130Z"
+    },
+    {
+      "id": "paterson-college-achieve-paterson",
+      "name": "College Achieve Paterson",
+      "season": "2025-2026",
+      "wrestlers": 8,
+      "generatedAt": "2026-06-29T00:20:49.540Z"
+    },
+    {
+      "id": "collingswood-collingswood",
+      "name": "Collingswood",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T00:21:13.715Z"
+    },
+    {
+      "id": "colonia-colonia",
+      "name": "Colonia",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T00:21:39.166Z"
+    },
+    {
+      "id": "colts-neck-colts-neck",
+      "name": "Colts Neck",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T00:22:02.544Z"
+    },
+    {
+      "id": "maplewood-columbia",
+      "name": "Columbia",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T00:22:32.607Z"
+    },
+    {
+      "id": "cranford-cranford",
+      "name": "Cranford",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T00:22:49.015Z"
+    },
+    {
+      "id": "cresskill-cresskill",
+      "name": "Cresskill",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T00:23:12.719Z"
+    },
+    {
+      "id": "seabrook-cumberland",
+      "name": "Cumberland",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T00:23:35.120Z"
+    },
+    {
+      "id": "alexandria-delaware-valley",
+      "name": "Delaware Valley",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T00:24:12.941Z"
+    },
+    {
+      "id": "morristown-delbarton",
+      "name": "Delbarton",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:24:40.629Z"
+    },
+    {
+      "id": "delran-delran",
+      "name": "Delran",
+      "season": "2025-2026",
+      "wrestlers": 32,
+      "generatedAt": "2026-06-29T00:25:41.231Z"
+    },
+    {
+      "id": "franklinville-delsea",
+      "name": "Delsea",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:26:10.817Z"
+    },
+    {
+      "id": "demarest-demarest",
+      "name": "Demarest",
+      "season": "2025-2026",
+      "wrestlers": 34,
+      "generatedAt": "2026-06-29T00:26:45.226Z"
+    },
+    {
+      "id": "wayne-depaul",
+      "name": "DePaul",
+      "season": "2025-2026",
+      "wrestlers": 15,
+      "generatedAt": "2026-06-29T00:23:48.405Z"
+    },
+    {
+      "id": "deptford-deptford",
+      "name": "Deptford",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T00:27:15.957Z"
+    },
+    {
+      "id": "ramsey-don-bosco-prep",
+      "name": "Don Bosco Prep",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:27:39.255Z"
+    },
+    {
+      "id": "dover-dover",
+      "name": "Dover",
+      "season": "2025-2026",
+      "wrestlers": 35,
+      "generatedAt": "2026-06-29T00:28:19.868Z"
+    },
+    {
+      "id": "dumont-dumont",
+      "name": "Dumont",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:28:44.717Z"
+    },
+    {
+      "id": "englewood-dwight-morrow",
+      "name": "Dwight-Morrow",
+      "season": "2025-2026",
+      "wrestlers": 18,
+      "generatedAt": "2026-06-29T00:28:59.987Z"
+    },
+    {
+      "id": "east-brunswick-east-brunswick",
+      "name": "East Brunswick",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T00:29:31.029Z"
+    },
+    {
+      "id": "east-orange-east-orange",
+      "name": "East Orange",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T00:29:50.169Z"
+    },
+    {
+      "id": "voorhees-eastern",
+      "name": "Eastern",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T00:30:26.964Z"
+    },
+    {
+      "id": "edison-edison",
+      "name": "Edison",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T00:31:02.519Z"
+    },
+    {
+      "id": "egg-harbor-twp-egg-harbor",
+      "name": "Egg Harbor",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T00:31:33.698Z"
+    },
+    {
+      "id": "elizabeth-elizabeth",
+      "name": "Elizabeth",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T00:32:09.664Z"
+    },
+    {
+      "id": "elmwood-park-elmwood-park",
+      "name": "Elmwood Park",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T00:32:30.110Z"
+    },
+    {
+      "id": "emerson-emerson-boro",
+      "name": "Emerson Boro",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:32:52.615Z"
+    },
+    {
+      "id": "ewing-ewing",
+      "name": "Ewing",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T00:33:15.225Z"
+    },
+    {
+      "id": "fair-lawn-fair-lawn",
+      "name": "Fair Lawn",
+      "season": "2025-2026",
+      "wrestlers": 33,
+      "generatedAt": "2026-06-29T00:33:38.235Z"
+    },
+    {
+      "id": "fort-lee-fort-lee",
+      "name": "Fort Lee",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T00:33:58.251Z"
+    },
+    {
+      "id": "somerset-franklin",
+      "name": "Franklin",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T00:34:29.795Z"
+    },
+    {
+      "id": "freehold-freehold-borough",
+      "name": "Freehold Borough",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T00:35:05.022Z"
+    },
+    {
+      "id": "freehold-freehold-township",
+      "name": "Freehold Township",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T00:35:39.474Z"
+    },
+    {
+      "id": "garfield-garfield",
+      "name": "Garfield",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:36:06.825Z"
+    },
+    {
+      "id": "woodbury-hts-gateway",
+      "name": "Gateway",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T00:36:25.835Z"
+    },
+    {
+      "id": "glen-ridge-glen-ridge",
+      "name": "Glen Ridge",
+      "season": "2025-2026",
+      "wrestlers": 15,
+      "generatedAt": "2026-06-29T00:36:38.934Z"
+    },
+    {
+      "id": "glen-rock-glen-rock",
+      "name": "Glen Rock",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T00:37:01.452Z"
+    },
+    {
+      "id": "gloucester-city-gloucester",
+      "name": "Gloucester",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T00:37:19.744Z"
+    },
+    {
+      "id": "gloucester-city-gloucester-catholic",
+      "name": "Gloucester Catholic",
+      "season": "2025-2026",
+      "wrestlers": 1,
+      "generatedAt": "2026-06-29T00:37:22.177Z"
+    },
+    {
+      "id": "berkeley-hts-gov-livingston",
+      "name": "Gov. Livingston",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T00:37:48.003Z"
+    },
+    {
+      "id": "hackensack-hackensack",
+      "name": "Hackensack",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:38:07.092Z"
+    },
+    {
+      "id": "hackettstown-hackettstown",
+      "name": "Hackettstown",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:38:30.709Z"
+    },
+    {
+      "id": "haddon-heights-haddon-heights",
+      "name": "Haddon Heights",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T00:38:56.415Z"
+    },
+    {
+      "id": "westmont-haddon-township",
+      "name": "Haddon Township",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T00:39:19.815Z"
+    },
+    {
+      "id": "haddonfield-haddonfield",
+      "name": "Haddonfield",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T00:39:43.954Z"
+    },
+    {
+      "id": "hamilton-hamilton-west",
+      "name": "Hamilton West",
+      "season": "2025-2026",
+      "wrestlers": 34,
+      "generatedAt": "2026-06-29T00:40:14.406Z"
+    },
+    {
+      "id": "hammonton-hammonton",
+      "name": "Hammonton",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T00:40:50.243Z"
+    },
+    {
+      "id": "east-hanover-hanover-park",
+      "name": "Hanover Park",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T00:41:09.867Z"
+    },
+    {
+      "id": "hasbrouck-hts-hasbrouck-heights",
+      "name": "Hasbrouck Heights",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T00:41:32.951Z"
+    },
+    {
+      "id": "hawthorne-hawthorne",
+      "name": "Hawthorne",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T00:41:48.848Z"
+    },
+    {
+      "id": "sussex-high-point",
+      "name": "High Point",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:42:07.363Z"
+    },
+    {
+      "id": "blackwood-highland",
+      "name": "Highland",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T00:42:32.299Z"
+    },
+    {
+      "id": "highland-park-highland-park",
+      "name": "Highland Park",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T00:42:56.306Z"
+    },
+    {
+      "id": "hightstown-hightstown",
+      "name": "Hightstown",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T00:43:23.145Z"
+    },
+    {
+      "id": "hillsborough-hillsborough",
+      "name": "Hillsborough",
+      "season": "2025-2026",
+      "wrestlers": 34,
+      "generatedAt": "2026-06-29T00:44:02.841Z"
+    },
+    {
+      "id": "hillside-hillside",
+      "name": "Hillside",
+      "season": "2025-2026",
+      "wrestlers": 14,
+      "generatedAt": "2026-06-29T00:44:10.913Z"
+    },
+    {
+      "id": "hoboken-hoboken",
+      "name": "Hoboken",
+      "season": "2025-2026",
+      "wrestlers": 16,
+      "generatedAt": "2026-06-29T00:44:32.797Z"
+    },
+    {
+      "id": "holmdel-holmdel",
+      "name": "Holmdel",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T00:44:54.253Z"
+    },
+    {
+      "id": "delran-holy-cross-prep",
+      "name": "Holy Cross Prep",
+      "season": "2025-2026",
+      "wrestlers": 12,
+      "generatedAt": "2026-06-29T00:45:06.834Z"
+    },
+    {
+      "id": "absecon-holy-spirit",
+      "name": "Holy Spirit",
+      "season": "2025-2026",
+      "wrestlers": 9,
+      "generatedAt": "2026-06-29T00:45:16.079Z"
+    },
+    {
+      "id": "pennington-hopewell-valley",
+      "name": "Hopewell Valley",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T00:45:34.597Z"
+    },
+    {
+      "id": "farmingdale-howell",
+      "name": "Howell",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T00:46:05.107Z"
+    },
+    {
+      "id": "flemington-hunterdon-central",
+      "name": "Hunterdon Central",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T00:46:32.313Z"
+    },
+    {
+      "id": "somerville-immaculata",
+      "name": "Immaculata",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:46:54.662Z"
+    },
+    {
+      "id": "oakland-indian-hills",
+      "name": "Indian Hills",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T00:47:16.768Z"
+    },
+    {
+      "id": "irvington-irvington",
+      "name": "Irvington",
+      "season": "2025-2026",
+      "wrestlers": 18,
+      "generatedAt": "2026-06-29T00:47:33.308Z"
+    },
+    {
+      "id": "iselin-iselin-kennedy",
+      "name": "Iselin Kennedy",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T00:48:06.950Z"
+    },
+    {
+      "id": "edison-jp-stevens",
+      "name": "J.P. Stevens",
+      "season": "2025-2026",
+      "wrestlers": 32,
+      "generatedAt": "2026-06-29T00:48:35.485Z"
+    },
+    {
+      "id": "jackson-jackson-township",
+      "name": "Jackson Township",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:48:58.620Z"
+    },
+    {
+      "id": "oak-ridge-jefferson",
+      "name": "Jefferson",
+      "season": "2025-2026",
+      "wrestlers": 14,
+      "generatedAt": "2026-06-29T00:49:15.930Z"
+    },
+    {
+      "id": "clark-johnson",
+      "name": "Johnson",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T00:49:48.935Z"
+    },
+    {
+      "id": "keansburg-keansburg",
+      "name": "Keansburg",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T00:50:12.525Z"
+    },
+    {
+      "id": "kearny-kearny",
+      "name": "Kearny",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:50:42.765Z"
+    },
+    {
+      "id": "keyport-keyport",
+      "name": "Keyport",
+      "season": "2025-2026",
+      "wrestlers": 16,
+      "generatedAt": "2026-06-29T00:50:56.559Z"
+    },
+    {
+      "id": "woolwich-twp-kingsway",
+      "name": "Kingsway",
+      "season": "2025-2026",
+      "wrestlers": 32,
+      "generatedAt": "2026-06-29T00:51:34.896Z"
+    },
+    {
+      "id": "kinnelon-kinnelon",
+      "name": "Kinnelon",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:51:56.504Z"
+    },
+    {
+      "id": "newton-kittatinny",
+      "name": "Kittatinny",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:52:25.354Z"
+    },
+    {
+      "id": "livingston-kushner",
+      "name": "Kushner",
+      "season": "2025-2026",
+      "wrestlers": 12,
+      "generatedAt": "2026-06-29T00:52:28.877Z"
+    },
+    {
+      "id": "lanoka-harbor-lacey",
+      "name": "Lacey",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T00:52:48.418Z"
+    },
+    {
+      "id": "wanaque-lakeland",
+      "name": "Lakeland",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T00:53:17.834Z"
+    },
+    {
+      "id": "lakewood-lakewood",
+      "name": "Lakewood",
+      "season": "2025-2026",
+      "wrestlers": 36,
+      "generatedAt": "2026-06-29T00:53:46.959Z"
+    },
+    {
+      "id": "lawrenceville-lawrence",
+      "name": "Lawrence",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T00:54:10.230Z"
+    },
+    {
+      "id": "lawrenceville-lawrenceville",
+      "name": "Lawrenceville",
+      "season": "2025-2026",
+      "wrestlers": 16,
+      "generatedAt": "2026-06-29T00:54:15.675Z"
+    },
+    {
+      "id": "medford-lenape",
+      "name": "Lenape",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:54:32.356Z"
+    },
+    {
+      "id": "stanhope-lenape-valley",
+      "name": "Lenape Valley",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T00:55:01.208Z"
+    },
+    {
+      "id": "leonia-leonia",
+      "name": "Leonia",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:55:28.199Z"
+    },
+    {
+      "id": "linden-linden",
+      "name": "Linden",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T00:55:59.244Z"
+    },
+    {
+      "id": "lindenwold-lindenwold",
+      "name": "Lindenwold",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T00:56:18.274Z"
+    },
+    {
+      "id": "livingston-livingston",
+      "name": "Livingston",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T00:57:08.656Z"
+    },
+    {
+      "id": "lodi-lodi",
+      "name": "Lodi",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T00:57:39.622Z"
+    },
+    {
+      "id": "long-branch-long-branch",
+      "name": "Long Branch",
+      "season": "2025-2026",
+      "wrestlers": 34,
+      "generatedAt": "2026-06-29T00:58:06.051Z"
+    },
+    {
+      "id": "erma-lower-cape-may",
+      "name": "Lower Cape May",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:58:28.275Z"
+    },
+    {
+      "id": "lyndhurst-lyndhurst",
+      "name": "Lyndhurst",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T00:58:48.312Z"
+    },
+    {
+      "id": "madison-madison",
+      "name": "Madison",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T00:59:15.237Z"
+    },
+    {
+      "id": "mahwah-mahwah",
+      "name": "Mahwah",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T00:59:41.294Z"
+    },
+    {
+      "id": "linwood-mainland",
+      "name": "Mainland",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T01:00:06.046Z"
+    },
+    {
+      "id": "manalapan-manalapan",
+      "name": "Manalapan",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T01:00:38.084Z"
+    },
+    {
+      "id": "manasquan-manasquan",
+      "name": "Manasquan",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T01:00:59.030Z"
+    },
+    {
+      "id": "haledon-manchester-regional",
+      "name": "Manchester Regional",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T01:01:25.043Z"
+    },
+    {
+      "id": "manchester-manchester-township",
+      "name": "Manchester Township",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T01:01:51.622Z"
+    },
+    {
+      "id": "manville-manville",
+      "name": "Manville",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T01:02:18.446Z"
+    },
+    {
+      "id": "maple-shade-maple-shade",
+      "name": "Maple Shade",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T01:02:38.048Z"
+    },
+    {
+      "id": "marlboro-marlboro",
+      "name": "Marlboro",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:03:28.461Z"
+    },
+    {
+      "id": "aberdeen-matawan",
+      "name": "Matawan",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T01:03:52.524Z"
+    },
+    {
+      "id": "mendham-mendham",
+      "name": "Mendham",
+      "season": "2025-2026",
+      "wrestlers": 17,
+      "generatedAt": "2026-06-29T01:04:11.408Z"
+    },
+    {
+      "id": "metuchen-metuchen",
+      "name": "Metuchen",
+      "season": "2025-2026",
+      "wrestlers": 18,
+      "generatedAt": "2026-06-29T01:04:29.040Z"
+    },
+    {
+      "id": "cape-may-ct-hse-middle-township",
+      "name": "Middle Township",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T01:04:56.008Z"
+    },
+    {
+      "id": "middlesex-middlesex",
+      "name": "Middlesex",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T01:05:13.415Z"
+    },
+    {
+      "id": "middletown-middletown-north",
       "name": "Middletown North",
       "season": "2025-2026",
       "wrestlers": 29,
-      "generatedAt": "2026-06-28T22:29:34.077Z"
+      "generatedAt": "2026-06-29T01:05:13.534Z"
+    },
+    {
+      "id": "middletown-middletown-south",
+      "name": "Middletown South",
+      "season": "2025-2026",
+      "wrestlers": 35,
+      "generatedAt": "2026-06-29T01:05:13.679Z"
+    },
+    {
+      "id": "millburn-millburn",
+      "name": "Millburn",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T01:05:36.177Z"
+    },
+    {
+      "id": "millville-millville",
+      "name": "Millville",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T01:05:59.179Z"
+    },
+    {
+      "id": "tinton-falls-monmouth",
+      "name": "Monmouth",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T01:06:22.226Z"
+    },
+    {
+      "id": "monroe-twp-monroe",
+      "name": "Monroe",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:06:43.642Z"
+    },
+    {
+      "id": "montclair-montclair",
+      "name": "Montclair",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T01:07:06.014Z"
+    },
+    {
+      "id": "skillman-montgomery",
+      "name": "Montgomery",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T01:07:38.390Z"
+    },
+    {
+      "id": "montville-montville",
+      "name": "Montville",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T01:08:02.162Z"
+    },
+    {
+      "id": "moorestown-moorestown",
+      "name": "Moorestown",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T01:08:24.233Z"
+    },
+    {
+      "id": "rockaway-morris-hills",
+      "name": "Morris Hills",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T01:08:48.154Z"
+    },
+    {
+      "id": "rockaway-morris-knolls",
+      "name": "Morris Knolls",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T01:09:31.648Z"
+    },
+    {
+      "id": "morristown-morristown",
+      "name": "Morristown",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T01:10:17.562Z"
+    },
+    {
+      "id": "flanders-mount-olive",
+      "name": "Mount Olive",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T01:10:46.285Z"
+    },
+    {
+      "id": "mountain-lakes-mountain-lakes",
+      "name": "Mountain Lakes",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T01:11:06.238Z"
+    },
+    {
+      "id": "neptune-neptune",
+      "name": "Neptune",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:11:29.049Z"
+    },
+    {
+      "id": "new-brunswick-new-brunswick",
+      "name": "New Brunswick",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T01:11:58.077Z"
+    },
+    {
+      "id": "new-egypt-new-egypt",
+      "name": "New Egypt",
+      "season": "2025-2026",
+      "wrestlers": 16,
+      "generatedAt": "2026-06-29T01:12:12.533Z"
+    },
+    {
+      "id": "new-milford-new-milford",
+      "name": "New Milford",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T01:12:30.530Z"
+    },
+    {
+      "id": "new-providence-new-providence",
+      "name": "New Providence",
+      "season": "2025-2026",
+      "wrestlers": 18,
+      "generatedAt": "2026-06-29T01:12:54.574Z"
+    },
+    {
+      "id": "livingston-newark-academy",
+      "name": "Newark Academy",
+      "season": "2025-2026",
+      "wrestlers": 12,
+      "generatedAt": "2026-06-29T01:13:03.859Z"
+    },
+    {
+      "id": "newark-newark-collegiate",
+      "name": "Newark Collegiate",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T01:13:20.358Z"
+    },
+    {
+      "id": "newark-newark-east-side",
+      "name": "Newark East Side",
+      "season": "2025-2026",
+      "wrestlers": 40,
+      "generatedAt": "2026-06-29T01:14:01.561Z"
+    },
+    {
+      "id": "newton-newton",
+      "name": "Newton",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T01:14:30.973Z"
+    },
+    {
+      "id": "north-bergen-north-bergen",
+      "name": "North Bergen",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T01:15:05.741Z"
+    },
+    {
+      "id": "north-brunswick-north-brunswick",
+      "name": "North Brunswick",
+      "season": "2025-2026",
+      "wrestlers": 37,
+      "generatedAt": "2026-06-29T01:15:46.894Z"
+    },
+    {
+      "id": "annandale-north-hunterdon",
+      "name": "North Hunterdon",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T01:16:05.645Z"
+    },
+    {
+      "id": "no-plainfield-north-plainfield",
+      "name": "North Plainfield",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T01:16:32.279Z"
+    },
+    {
+      "id": "newark-north-star-academy",
+      "name": "North Star Academy",
+      "season": "2025-2026",
+      "wrestlers": 17,
+      "generatedAt": "2026-06-29T01:16:44.931Z"
+    },
+    {
+      "id": "blairstown-north-warren",
+      "name": "North Warren",
+      "season": "2025-2026",
+      "wrestlers": 10,
+      "generatedAt": "2026-06-29T01:16:59.276Z"
+    },
+    {
+      "id": "columbus-northern-burlington",
+      "name": "Northern Burlington",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:17:22.602Z"
+    },
+    {
+      "id": "allendale-northern-highlands",
+      "name": "Northern Highlands",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T01:17:46.004Z"
+    },
+    {
+      "id": "lawrenceville-notre-dame",
+      "name": "Notre Dame",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T01:18:12.384Z"
+    },
+    {
+      "id": "hamilton-nottingham",
+      "name": "Nottingham",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T01:18:48.965Z"
+    },
+    {
+      "id": "nutley-nutley",
+      "name": "Nutley",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:19:11.436Z"
+    },
+    {
+      "id": "mays-landing-oakcrest",
+      "name": "Oakcrest",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T01:19:31.376Z"
+    },
+    {
+      "id": "ocean-city-ocean-city",
+      "name": "Ocean City",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T01:19:57.859Z"
+    },
+    {
+      "id": "oakhurst-ocean-township",
+      "name": "Ocean Township",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:20:21.855Z"
+    },
+    {
+      "id": "matawan-old-bridge",
+      "name": "Old Bridge",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:20:45.639Z"
+    },
+    {
+      "id": "old-tappan-old-tappan",
+      "name": "Old Tappan",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:21:14.519Z"
+    },
+    {
+      "id": "orange-orange",
+      "name": "Orange",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:21:36.939Z"
+    },
+    {
+      "id": "pine-hill-overbrook",
+      "name": "Overbrook",
+      "season": "2025-2026",
+      "wrestlers": 15,
+      "generatedAt": "2026-06-29T01:21:51.442Z"
+    },
+    {
+      "id": "palmyra-palmyra",
+      "name": "Palmyra",
+      "season": "2025-2026",
+      "wrestlers": 13,
+      "generatedAt": "2026-06-29T01:22:02.601Z"
+    },
+    {
+      "id": "paramus-paramus",
+      "name": "Paramus",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:22:25.165Z"
+    },
+    {
+      "id": "paramus-paramus-catholic",
+      "name": "Paramus Catholic",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T01:22:45.320Z"
+    },
+    {
+      "id": "parsippany-parsippany",
+      "name": "Parsippany",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T01:23:13.213Z"
+    },
+    {
+      "id": "morris-plains-parsippany-hills",
+      "name": "Parsippany Hills",
+      "season": "2025-2026",
+      "wrestlers": 32,
+      "generatedAt": "2026-06-29T01:23:49.818Z"
+    },
+    {
+      "id": "montvale-pascack-hills",
+      "name": "Pascack Hills",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T01:24:19.742Z"
+    },
+    {
+      "id": "hillsdale-pascack-valley",
+      "name": "Pascack Valley",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T01:24:46.393Z"
+    },
+    {
+      "id": "passaic-passaic",
+      "name": "Passaic",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T01:25:18.904Z"
+    },
+    {
+      "id": "wayne-passaic-tech",
+      "name": "Passaic Tech",
+      "season": "2025-2026",
+      "wrestlers": 43,
+      "generatedAt": "2026-06-29T01:25:53.918Z"
+    },
+    {
+      "id": "little-falls-passaic-valley",
+      "name": "Passaic Valley",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T01:26:08.242Z"
+    },
+    {
+      "id": "paterson-paterson-eastside",
+      "name": "Paterson Eastside",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T01:26:21.729Z"
+    },
+    {
+      "id": "paterson-paterson-kennedy",
+      "name": "Paterson Kennedy",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T01:26:39.483Z"
+    },
+    {
+      "id": "haddonfield-paul-vi",
+      "name": "Paul VI",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:27:04.297Z"
+    },
+    {
+      "id": "paulsboro-paulsboro",
+      "name": "Paulsboro",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T01:27:27.240Z"
+    },
+    {
+      "id": "hightstown-peddie",
+      "name": "Peddie",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T01:27:40.739Z"
+    },
+    {
+      "id": "pemberton-pemberton",
+      "name": "Pemberton",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:28:08.270Z"
+    },
+    {
+      "id": "carneys-point-penns-grove",
+      "name": "Penns Grove",
+      "season": "2025-2026",
+      "wrestlers": 14,
+      "generatedAt": "2026-06-29T01:28:19.180Z"
+    },
+    {
+      "id": "pennsauken-pennsauken",
+      "name": "Pennsauken",
+      "season": "2025-2026",
+      "wrestlers": 32,
+      "generatedAt": "2026-06-29T01:28:56.837Z"
+    },
+    {
+      "id": "pennsville-pennsville",
+      "name": "Pennsville",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T01:29:25.052Z"
+    },
+    {
+      "id": "pompton-plains-pequannock",
+      "name": "Pequannock",
+      "season": "2025-2026",
+      "wrestlers": 16,
+      "generatedAt": "2026-06-29T01:29:42.244Z"
+    },
+    {
+      "id": "perth-amboy-perth-amboy",
+      "name": "Perth Amboy",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T01:30:09.268Z"
+    },
+    {
+      "id": "phillipsburg-phillipsburg",
+      "name": "Phillipsburg",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T01:30:25.525Z"
+    },
+    {
+      "id": "tuckerton-pinelands",
+      "name": "Pinelands",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T01:30:55.096Z"
+    },
+    {
+      "id": "martinsville-pingry",
+      "name": "Pingry",
+      "season": "2025-2026",
+      "wrestlers": 13,
+      "generatedAt": "2026-06-29T01:31:10.337Z"
+    },
+    {
+      "id": "clifton-pioneer-academy",
+      "name": "Pioneer Academy",
+      "season": "2025-2026",
+      "wrestlers": 12,
+      "generatedAt": "2026-06-29T01:31:18.306Z"
+    },
+    {
+      "id": "piscataway-piscataway",
+      "name": "Piscataway",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T01:31:54.870Z"
+    },
+    {
+      "id": "pitman-pitman",
+      "name": "Pitman",
+      "season": "2025-2026",
+      "wrestlers": 18,
+      "generatedAt": "2026-06-29T01:32:12.425Z"
+    },
+    {
+      "id": "plainfield-plainfield",
+      "name": "Plainfield",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T01:32:43.213Z"
+    },
+    {
+      "id": "pt-pleasant-bch-point-pleasant-beach",
+      "name": "Point Pleasant Beach",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T01:33:06.157Z"
+    },
+    {
+      "id": "pt-pleasant-point-pleasant-boro",
+      "name": "Point Pleasant Boro",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T01:33:31.001Z"
+    },
+    {
+      "id": "pompton-lakes-pompton-lakes",
+      "name": "Pompton Lakes",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T01:33:54.495Z"
+    },
+    {
+      "id": "sparta-pope-john",
+      "name": "Pope John",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T01:34:13.854Z"
+    },
+    {
+      "id": "princeton-princeton",
+      "name": "Princeton",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T01:34:47.251Z"
+    },
+    {
+      "id": "rahway-rahway",
+      "name": "Rahway",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T01:35:09.924Z"
+    },
+    {
+      "id": "franklin-lakes-ramapo",
+      "name": "Ramapo",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T01:35:30.970Z"
+    },
+    {
+      "id": "ramsey-ramsey",
+      "name": "Ramsey",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T01:35:56.611Z"
+    },
+    {
+      "id": "mount-holly-rancocas-valley",
+      "name": "Rancocas Valley",
+      "season": "2025-2026",
+      "wrestlers": 32,
+      "generatedAt": "2026-06-29T01:36:20.220Z"
+    },
+    {
+      "id": "randolph-randolph",
+      "name": "Randolph",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T01:36:54.545Z"
+    },
+    {
+      "id": "hazlet-raritan",
+      "name": "Raritan",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:37:13.953Z"
+    },
+    {
+      "id": "red-bank-red-bank-catholic",
+      "name": "Red Bank Catholic",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T01:37:34.886Z"
+    },
+    {
+      "id": "little-silver-red-bank-regional",
+      "name": "Red Bank Regional",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T01:38:07.623Z"
+    },
+    {
+      "id": "basking-ridge-ridge",
+      "name": "Ridge",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T01:38:34.204Z"
+    },
+    {
+      "id": "ridgefield-ridgefield",
+      "name": "Ridgefield",
+      "season": "2025-2026",
+      "wrestlers": 15,
+      "generatedAt": "2026-06-29T01:38:42.703Z"
+    },
+    {
+      "id": "ridgefield-park-ridgefield-park",
+      "name": "Ridgefield Park",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:38:59.287Z"
+    },
+    {
+      "id": "ridgewood-ridgewood",
+      "name": "Ridgewood",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:39:24.257Z"
+    },
+    {
+      "id": "oradell-river-dell",
+      "name": "River Dell",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T01:39:51.019Z"
+    },
+    {
+      "id": "riverside-riverside",
+      "name": "Riverside",
+      "season": "2025-2026",
+      "wrestlers": 14,
+      "generatedAt": "2026-06-29T01:40:06.189Z"
+    },
+    {
+      "id": "robbinsville-robbinsville",
+      "name": "Robbinsville",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T01:40:23.476Z"
+    },
+    {
+      "id": "roselle-roselle",
+      "name": "Roselle",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T01:40:38.428Z"
+    },
+    {
+      "id": "roselle-park-roselle-park",
+      "name": "Roselle Park",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:41:09.182Z"
+    },
+    {
+      "id": "succasunna-roxbury",
+      "name": "Roxbury",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T01:41:35.512Z"
+    },
+    {
+      "id": "rumson-rumson-fair-haven",
+      "name": "Rumson-Fair Haven",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T01:41:59.507Z"
+    },
+    {
+      "id": "somerset-rutgers-prep",
+      "name": "Rutgers Prep",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T01:42:21.375Z"
+    },
+    {
+      "id": "rutherford-rutherford",
+      "name": "Rutherford",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T01:42:41.826Z"
+    },
+    {
+      "id": "saddle-brook-saddle-brook",
+      "name": "Saddle Brook",
+      "season": "2025-2026",
+      "wrestlers": 2,
+      "generatedAt": "2026-06-29T01:42:43.185Z"
+    },
+    {
+      "id": "saddle-river-saddle-river-day",
+      "name": "Saddle River Day",
+      "season": "2025-2026",
+      "wrestlers": 10,
+      "generatedAt": "2026-06-29T01:42:47.713Z"
+    },
+    {
+      "id": "salem-salem",
+      "name": "Salem",
+      "season": "2025-2026",
+      "wrestlers": 17,
+      "generatedAt": "2026-06-29T01:43:05.202Z"
+    },
+    {
+      "id": "parlin-sayreville",
+      "name": "Sayreville",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T01:43:37.911Z"
+    },
+    {
+      "id": "pittsgrove-schalick",
+      "name": "Schalick",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:44:17.624Z"
+    },
+    {
+      "id": "scotch-plains-scotch-plains-fanwood",
+      "name": "Scotch Plains-Fanwood",
+      "season": "2025-2026",
+      "wrestlers": 45,
+      "generatedAt": "2026-06-29T01:45:15.401Z"
+    },
+    {
+      "id": "secaucus-secaucus",
+      "name": "Secaucus",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T01:45:32.829Z"
+    },
+    {
+      "id": "tabernacle-seneca",
+      "name": "Seneca",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:45:52.077Z"
+    },
+    {
+      "id": "west-orange-seton-hall-prep",
+      "name": "Seton Hall Prep",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T01:46:17.643Z"
+    },
+    {
+      "id": "medford-shawnee",
+      "name": "Shawnee",
+      "season": "2025-2026",
+      "wrestlers": 32,
+      "generatedAt": "2026-06-29T01:46:54.515Z"
+    },
+    {
+      "id": "w-long-branch-shore",
+      "name": "Shore",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T01:47:15.752Z"
+    },
+    {
+      "id": "somerville-somerville",
+      "name": "Somerville",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:47:46.976Z"
+    },
+    {
+      "id": "monmouth-jct-south-brunswick",
+      "name": "South Brunswick",
+      "season": "2025-2026",
+      "wrestlers": 38,
+      "generatedAt": "2026-06-29T01:48:26.143Z"
+    },
+    {
+      "id": "lambertville-south-hunterdon",
+      "name": "South Hunterdon",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T01:48:42.176Z"
+    },
+    {
+      "id": "so-plainfield-south-plainfield",
+      "name": "South Plainfield",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T01:49:05.411Z"
+    },
+    {
+      "id": "south-river-south-river",
+      "name": "South River",
+      "season": "2025-2026",
+      "wrestlers": 17,
+      "generatedAt": "2026-06-29T01:49:28.214Z"
+    },
+    {
+      "id": "manahawkin-southern",
+      "name": "Southern",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T01:50:01.057Z"
+    },
+    {
+      "id": "sparta-sparta",
+      "name": "Sparta",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T01:50:26.262Z"
+    },
+    {
+      "id": "spotswood-spotswood",
+      "name": "Spotswood",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T01:50:58.880Z"
+    },
+    {
+      "id": "richland-st-augustine",
+      "name": "St. Augustine",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T01:51:23.464Z"
+    },
+    {
+      "id": "newark-st-benedicts",
+      "name": "St. Benedict's",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T01:51:52.815Z"
+    },
+    {
+      "id": "holmdel-st-john-vianney",
+      "name": "St. John Vianney",
+      "season": "2025-2026",
+      "wrestlers": 18,
+      "generatedAt": "2026-06-29T01:52:21.129Z"
+    },
+    {
+      "id": "hammonton-st-joseph-hamm",
+      "name": "St. Joseph (Hamm.)",
+      "season": "2025-2026",
+      "wrestlers": 12,
+      "generatedAt": "2026-06-29T01:52:36.007Z"
+    },
+    {
+      "id": "metuchen-st-joseph-met",
+      "name": "St. Joseph (Met.)",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T01:53:09.739Z"
+    },
+    {
+      "id": "montvale-st-joseph-mont",
+      "name": "St. Joseph (Mont.)",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T01:53:36.319Z"
+    },
+    {
+      "id": "rutherford-st-mary-ruth",
+      "name": "St. Mary (Ruth.)",
+      "season": "2025-2026",
+      "wrestlers": 6,
+      "generatedAt": "2026-06-29T01:53:45.549Z"
+    },
+    {
+      "id": "jersey-city-st-peters-prep",
+      "name": "St. Peter's Prep",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T01:54:11.925Z"
+    },
+    {
+      "id": "edison-st-thomas-aquinas-formerly-bishop-ahr",
+      "name": "St. Thomas Aquinas",
+      "season": "2025-2026",
+      "wrestlers": 16,
+      "generatedAt": "2026-06-29T01:54:31.605Z"
+    },
+    {
+      "id": "hamilton-steinert",
+      "name": "Steinert",
+      "season": "2025-2026",
+      "wrestlers": 32,
+      "generatedAt": "2026-06-29T01:55:06.596Z"
+    },
+    {
+      "id": "somerdale-sterling",
+      "name": "Sterling",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:55:31.942Z"
+    },
+    {
+      "id": "summit-summit",
+      "name": "Summit",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T01:56:00.393Z"
+    },
+    {
+      "id": "teaneck-teaneck",
+      "name": "Teaneck",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:56:27.201Z"
+    },
+    {
+      "id": "tenafly-tenafly",
+      "name": "Tenafly",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:56:49.329Z"
+    },
+    {
+      "id": "erial-timber-creek",
+      "name": "Timber Creek",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T01:57:18.316Z"
+    },
+    {
+      "id": "toms-river-toms-river-east",
+      "name": "Toms River East",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T01:57:44.771Z"
+    },
+    {
+      "id": "toms-river-toms-river-north",
+      "name": "Toms River North",
+      "season": "2025-2026",
+      "wrestlers": 35,
+      "generatedAt": "2026-06-29T01:58:25.090Z"
+    },
+    {
+      "id": "toms-river-toms-river-south",
+      "name": "Toms River South",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T01:58:58.358Z"
+    },
+    {
+      "id": "teaneck-torah-academy",
+      "name": "Torah Academy",
+      "season": "2025-2026",
+      "wrestlers": 3,
+      "generatedAt": "2026-06-29T01:59:00.406Z"
+    },
+    {
+      "id": "trenton-trenton",
+      "name": "Trenton",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:59:22.934Z"
+    },
+    {
+      "id": "union-union",
+      "name": "Union",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T01:59:42.012Z"
+    },
+    {
+      "id": "union-city-union-city",
+      "name": "Union City",
+      "season": "2025-2026",
+      "wrestlers": 41,
+      "generatedAt": "2026-06-29T02:00:27.002Z"
+    },
+    {
+      "id": "vernon-vernon",
+      "name": "Vernon",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T02:00:43.968Z"
+    },
+    {
+      "id": "verona-verona",
+      "name": "Verona",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T02:01:03.509Z"
+    },
+    {
+      "id": "vineland-vineland",
+      "name": "Vineland",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T02:01:32.933Z"
+    },
+    {
+      "id": "glen-gardner-voorhees",
+      "name": "Voorhees",
+      "season": "2025-2026",
+      "wrestlers": 16,
+      "generatedAt": "2026-06-29T02:01:52.115Z"
+    },
+    {
+      "id": "waldwick-waldwick",
+      "name": "Waldwick",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T02:02:17.279Z"
+    },
+    {
+      "id": "wall-wall",
+      "name": "Wall",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T02:02:36.190Z"
+    },
+    {
+      "id": "hamburg-wallkill-valley",
+      "name": "Wallkill Valley",
+      "season": "2025-2026",
+      "wrestlers": 19,
+      "generatedAt": "2026-06-29T02:02:53.264Z"
+    },
+    {
+      "id": "washington-warren-hills",
+      "name": "Warren Hills",
+      "season": "2025-2026",
+      "wrestlers": 27,
+      "generatedAt": "2026-06-29T02:03:16.609Z"
+    },
+    {
+      "id": "sewell-washington-township",
+      "name": "Washington Township",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T02:03:33.661Z"
+    },
+    {
+      "id": "warren-watchung-hills",
+      "name": "Watchung Hills",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T02:03:53.302Z"
+    },
+    {
+      "id": "wayne-wayne-hills",
+      "name": "Wayne Hills",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T02:04:27.437Z"
+    },
+    {
+      "id": "wayne-wayne-valley",
+      "name": "Wayne Valley",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T02:04:45.846Z"
+    },
+    {
+      "id": "westville-west-deptford",
+      "name": "West Deptford",
+      "season": "2025-2026",
+      "wrestlers": 31,
+      "generatedAt": "2026-06-29T02:05:10.733Z"
+    },
+    {
+      "id": "north-caldwell-west-essex",
+      "name": "West Essex",
+      "season": "2025-2026",
+      "wrestlers": 22,
+      "generatedAt": "2026-06-29T02:05:27.894Z"
+    },
+    {
+      "id": "west-milford-west-milford",
+      "name": "West Milford",
+      "season": "2025-2026",
+      "wrestlers": 30,
+      "generatedAt": "2026-06-29T02:05:57.660Z"
+    },
+    {
+      "id": "chester-west-morris",
+      "name": "West Morris",
+      "season": "2025-2026",
+      "wrestlers": 28,
+      "generatedAt": "2026-06-29T02:06:20.485Z"
+    },
+    {
+      "id": "west-orange-west-orange",
+      "name": "West Orange",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T02:06:54.115Z"
+    },
+    {
+      "id": "plainsboro-west-windsor-plainsboro-north",
+      "name": "West Windsor-Plainsboro North",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T02:07:25.041Z"
+    },
+    {
+      "id": "princeton-jct-west-windsor-plainsboro-south",
+      "name": "West Windsor-Plainsboro South",
+      "season": "2025-2026",
+      "wrestlers": 20,
+      "generatedAt": "2026-06-29T02:07:43.580Z"
+    },
+    {
+      "id": "westampton-westampton-tech",
+      "name": "Westampton Tech",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T02:08:06.033Z"
+    },
+    {
+      "id": "westfield-westfield",
+      "name": "Westfield",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T02:08:31.393Z"
+    },
+    {
+      "id": "washington-twp-westwood",
+      "name": "Westwood",
+      "season": "2025-2026",
+      "wrestlers": 21,
+      "generatedAt": "2026-06-29T02:08:54.131Z"
+    },
+    {
+      "id": "whippany-whippany-park",
+      "name": "Whippany Park",
+      "season": "2025-2026",
+      "wrestlers": 17,
+      "generatedAt": "2026-06-29T02:09:14.829Z"
+    },
+    {
+      "id": "williamstown-williamstown",
+      "name": "Williamstown",
+      "season": "2025-2026",
+      "wrestlers": 25,
+      "generatedAt": "2026-06-29T02:09:39.502Z"
+    },
+    {
+      "id": "willingboro-willingboro",
+      "name": "Willingboro",
+      "season": "2025-2026",
+      "wrestlers": 24,
+      "generatedAt": "2026-06-29T02:10:02.334Z"
+    },
+    {
+      "id": "atco-winslow",
+      "name": "Winslow",
+      "season": "2025-2026",
+      "wrestlers": 29,
+      "generatedAt": "2026-06-29T02:10:26.822Z"
+    },
+    {
+      "id": "woodbridge-woodbridge",
+      "name": "Woodbridge",
+      "season": "2025-2026",
+      "wrestlers": 26,
+      "generatedAt": "2026-06-29T02:10:56.222Z"
+    },
+    {
+      "id": "woodstown-woodstown",
+      "name": "Woodstown",
+      "season": "2025-2026",
+      "wrestlers": 23,
+      "generatedAt": "2026-06-29T02:11:24.699Z"
     }
   ]
 }

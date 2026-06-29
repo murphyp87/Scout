@@ -1,0 +1,299 @@
+{
+  "id": "glen-ridge-glen-ridge",
+  "team": "Glen Ridge",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:36:38.934Z",
+  "wrestlers": [
+    {
+      "name": "Jacob Weinstein",
+      "class": null,
+      "primaryWeight": 113,
+      "overall": "2-4",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "2-4"
+        }
+      ],
+      "lastYearOverall": "5-4",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 11 - 106, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/jacob-weinstein/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Narito Radomski",
+      "class": "Senior",
+      "primaryWeight": 113,
+      "overall": "20-9",
+      "matchesThisYear": 29,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "12-4"
+        },
+        {
+          "weight": 120,
+          "record": "8-5"
+        }
+      ],
+      "lastYearOverall": "15-7",
+      "thisYearNJSIAA": "2026 NJSIAA Region 3 - 113, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 11 - 113, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/narito-radomski/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Colin Boyle",
+      "class": "Sophomore",
+      "primaryWeight": 126,
+      "overall": "1-2",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "1-1"
+        },
+        {
+          "weight": 132,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 10 - 126, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/colin-boyle-2/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Mihir Parmar",
+      "class": "Senior",
+      "primaryWeight": 126,
+      "overall": "3-7",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "0-3"
+        },
+        {
+          "weight": 126,
+          "record": "3-4"
+        }
+      ],
+      "lastYearOverall": "3-7",
+      "thisYearNJSIAA": "2026 NJSIAA District 10 - 120, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/mihir-parmar/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Colin Boyle",
+      "class": null,
+      "primaryWeight": 132,
+      "overall": "5-8",
+      "matchesThisYear": 13,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "3-3"
+        },
+        {
+          "weight": 132,
+          "record": "2-5"
+        }
+      ],
+      "lastYearOverall": "2-5",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 11 - 126, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/colin-boyle-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Max Liola",
+      "class": "Junior",
+      "primaryWeight": 138,
+      "overall": "4-3",
+      "matchesThisYear": 7,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "3-3"
+        },
+        {
+          "weight": 144,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/max-liola/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Atticus Lebien",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "4-3",
+      "matchesThisYear": 7,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "4-3"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/atticus-lebien/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Luke Mrozinski",
+      "class": null,
+      "primaryWeight": 150,
+      "overall": "0-2",
+      "matchesThisYear": 2,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "0-1"
+        },
+        {
+          "weight": 157,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 10 - 150, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/luke-mrozinski/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Hayden Hughes",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "3-0",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "2-0"
+        },
+        {
+          "weight": 190,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "5-7",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 11 - 157, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/hayden-hughes/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Julian Besen-Cassino",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/julian-besen-cassino/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Manny Guardiola",
+      "class": null,
+      "primaryWeight": 165,
+      "overall": "4-8",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "4-8"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 10 - 165, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/manny-guardiola/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Hunter Sicoli",
+      "class": "Junior",
+      "primaryWeight": 175,
+      "overall": "12-9",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "10-8"
+        },
+        {
+          "weight": 190,
+          "record": "2-1"
+        }
+      ],
+      "lastYearOverall": "2-4",
+      "thisYearNJSIAA": "2026 NJSIAA Region 3 - 175, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/hunter-sicoli/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Alexander Bowmon",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "9-11",
+      "matchesThisYear": 20,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "3-4"
+        },
+        {
+          "weight": 190,
+          "record": "6-7"
+        }
+      ],
+      "lastYearOverall": "0-1",
+      "thisYearNJSIAA": "2026 NJSIAA District 10 - 190, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/alexander-bowmon/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Sean Horsky",
+      "class": "Senior",
+      "primaryWeight": 190,
+      "overall": "4-0",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "4-0"
+        }
+      ],
+      "lastYearOverall": "4-10",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 11 - 165, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/sean-horsky/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Noah Magalnick",
+      "class": "Sophomore",
+      "primaryWeight": 285,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "1-1",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 11 - 285, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/noah-magalnick-1/wrestling/season/2025-2026"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "id": "riverside-riverside",
+  "team": "Riverside",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T01:40:06.189Z",
+  "wrestlers": [
+    {
+      "name": "Michael Willitts",
+      "class": "Freshman",
+      "primaryWeight": 126,
+      "overall": "11-17",
+      "matchesThisYear": 28,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "9-15"
+        },
+        {
+          "weight": 132,
+          "record": "2-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 126, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/michael-willitts/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Brayden Atzert",
+      "class": "Sophomore",
+      "primaryWeight": 138,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "7-5",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/braden-atzert/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Bryan Araudo",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/bryan-araudo/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Erick Oliveira",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "6-9",
+      "matchesThisYear": 15,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "3-7"
+        },
+        {
+          "weight": 144,
+          "record": "3-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/erick-oliveira/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Terence Barnes",
+      "class": "Sophomore",
+      "primaryWeight": 144,
+      "overall": "12-2",
+      "matchesThisYear": 14,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "4-1"
+        },
+        {
+          "weight": 150,
+          "record": "5-0"
+        },
+        {
+          "weight": 157,
+          "record": "3-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/terence-barnes-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Xzavion Funches",
+      "class": "Junior",
+      "primaryWeight": 150,
+      "overall": "20-7",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 150,
+          "record": "13-7"
+        },
+        {
+          "weight": 157,
+          "record": "7-0"
+        }
+      ],
+      "lastYearOverall": "5-6",
+      "thisYearNJSIAA": "2026 NJSIAA Region 6 - 150, First Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 22 - 138, Quarterfinal Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/xzavion-funches/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Lyan Martin",
+      "class": "Sophomore",
+      "primaryWeight": 157,
+      "overall": "7-12",
+      "matchesThisYear": 19,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "4-10"
+        },
+        {
+          "weight": 165,
+          "record": "3-0"
+        },
+        {
+          "weight": 175,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 157, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/lyan-martin/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Eduardo Oliveira",
+      "class": "Senior",
+      "primaryWeight": 165,
+      "overall": "32-7",
+      "matchesThisYear": 39,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-2"
+        },
+        {
+          "weight": 157,
+          "record": "1-0"
+        },
+        {
+          "weight": 165,
+          "record": "29-5"
+        },
+        {
+          "weight": 175,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": "22-7",
+      "thisYearNJSIAA": "2026 NJSIAA Region 6 - 165, Semifinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 22 - 157, Third-Place Consolations",
+      "profileUrl": "https://highschoolsports.nj.com/player/eduardo-oliveira/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Brennen Lopez",
+      "class": "Sophomore",
+      "primaryWeight": 175,
+      "overall": "10-12",
+      "matchesThisYear": 22,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "9-11"
+        },
+        {
+          "weight": 190,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 175, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/brennen-lopez/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Martin Lyan",
+      "class": null,
+      "primaryWeight": 175,
+      "overall": "0-1",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/martin-lyan/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Samuel Ribeiro",
+      "class": null,
+      "primaryWeight": 175,
+      "overall": "1-0",
+      "matchesThisYear": 1,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/samuel-ribeiro/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Joshua Bland",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "13-15",
+      "matchesThisYear": 28,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "13-13"
+        },
+        {
+          "weight": 215,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": "1-3",
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 190, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/joshua-bland/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Liam Darragh",
+      "class": null,
+      "primaryWeight": 215,
+      "overall": "11-15",
+      "matchesThisYear": 26,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "0-2"
+        },
+        {
+          "weight": 215,
+          "record": "11-13"
+        }
+      ],
+      "lastYearOverall": "1-4",
+      "thisYearNJSIAA": "2026 NJSIAA District 21 - 215, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/liam-darragh/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jonathan Cabrera Borero",
+      "class": null,
+      "primaryWeight": 285,
+      "overall": "6-6",
+      "matchesThisYear": 12,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "6-6"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jonathan-cabrera-borero/wrestling/season/2025-2026"
+    }
+  ]
+}

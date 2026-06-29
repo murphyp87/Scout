@@ -1,0 +1,420 @@
+{
+  "id": "camden-camden",
+  "team": "Camden",
+  "season": "2025-2026",
+  "generatedAt": "2026-06-29T00:13:50.716Z",
+  "wrestlers": [
+    {
+      "name": "Fahim Bright",
+      "class": "Sophomore",
+      "primaryWeight": 113,
+      "overall": "11-16",
+      "matchesThisYear": 27,
+      "byWeight": [
+        {
+          "weight": 113,
+          "record": "8-14"
+        },
+        {
+          "weight": 120,
+          "record": "3-2"
+        }
+      ],
+      "lastYearOverall": "7-18",
+      "thisYearNJSIAA": "2026 NJSIAA District 25 - 120, Quarterfinal Round",
+      "lastYearNJSIAA": "2025 NJSIAA District 25 - 113, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/fahim-bright/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ja'dir Edwards",
+      "class": null,
+      "primaryWeight": 120,
+      "overall": "4-2",
+      "matchesThisYear": 6,
+      "byWeight": [
+        {
+          "weight": 120,
+          "record": "2-2"
+        },
+        {
+          "weight": 126,
+          "record": "2-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jadir-edwards/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Adrian De'jesus",
+      "class": null,
+      "primaryWeight": 126,
+      "overall": "5-11",
+      "matchesThisYear": 16,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "4-10"
+        },
+        {
+          "weight": 132,
+          "record": "0-1"
+        },
+        {
+          "weight": 138,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 25 - 126, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/adrian-dejesus-3/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Adrian Dejesus",
+      "class": "Junior",
+      "primaryWeight": 126,
+      "overall": "1-6",
+      "matchesThisYear": 7,
+      "byWeight": [
+        {
+          "weight": 126,
+          "record": "0-6"
+        },
+        {
+          "weight": 138,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": "4-15",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 25 - 126, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/adrian-dejesus-760370/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Iyzuhs Abreu",
+      "class": "Senior",
+      "primaryWeight": 132,
+      "overall": "6-20",
+      "matchesThisYear": 26,
+      "byWeight": [
+        {
+          "weight": 132,
+          "record": "5-20"
+        },
+        {
+          "weight": 138,
+          "record": "1-0"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 25 - 132, First Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/iyzuhs-abreu/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Johan Hurtado",
+      "class": null,
+      "primaryWeight": 138,
+      "overall": "1-2",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "1-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/johan-hurtado/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ne'Lye Underdue",
+      "class": "Sophomore",
+      "primaryWeight": 138,
+      "overall": "2-8",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "2-6"
+        },
+        {
+          "weight": 144,
+          "record": "0-2"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/nelye-underdue/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Andrew Graham",
+      "class": "Senior",
+      "primaryWeight": 150,
+      "overall": "6-7",
+      "matchesThisYear": 13,
+      "byWeight": [
+        {
+          "weight": 144,
+          "record": "0-1"
+        },
+        {
+          "weight": 150,
+          "record": "5-4"
+        },
+        {
+          "weight": 157,
+          "record": "1-1"
+        },
+        {
+          "weight": 165,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": "5-11",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 25 - 144, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/andrew-graham/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ahmad Crosson",
+      "class": "Junior",
+      "primaryWeight": 157,
+      "overall": "3-2",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "2-1"
+        },
+        {
+          "weight": 165,
+          "record": "1-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 25 - 165, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ahmad-crosson/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Ahmad Crosson",
+      "class": "Junior",
+      "primaryWeight": 157,
+      "overall": "5-10",
+      "matchesThisYear": 15,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "5-10"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/ahmad-clossen/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Na'eem Grays",
+      "class": "Freshman",
+      "primaryWeight": 165,
+      "overall": "4-6",
+      "matchesThisYear": 10,
+      "byWeight": [
+        {
+          "weight": 165,
+          "record": "4-5"
+        },
+        {
+          "weight": 175,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/naeem-grays/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Nekai Underdue",
+      "class": "Junior",
+      "primaryWeight": 165,
+      "overall": "4-14",
+      "matchesThisYear": 18,
+      "byWeight": [
+        {
+          "weight": 138,
+          "record": "0-1"
+        },
+        {
+          "weight": 150,
+          "record": "1-0"
+        },
+        {
+          "weight": 165,
+          "record": "3-10"
+        },
+        {
+          "weight": 175,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": "6-16",
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": "2025 NJSIAA District 25 - 165, First Round",
+      "profileUrl": "https://highschoolsports.nj.com/player/nekai-underdue-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Levar Wilson-Morant",
+      "class": "Junior",
+      "primaryWeight": 175,
+      "overall": "5-16",
+      "matchesThisYear": 21,
+      "byWeight": [
+        {
+          "weight": 157,
+          "record": "0-1"
+        },
+        {
+          "weight": 175,
+          "record": "5-15"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/levar-wilson-morant-1/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jesus Ramos",
+      "class": null,
+      "primaryWeight": 190,
+      "overall": "3-2",
+      "matchesThisYear": 5,
+      "byWeight": [
+        {
+          "weight": 175,
+          "record": "0-1"
+        },
+        {
+          "weight": 190,
+          "record": "3-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jesus-ramos/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Terrance Rothmiller",
+      "class": "Sophomore",
+      "primaryWeight": 190,
+      "overall": "5-12",
+      "matchesThisYear": 17,
+      "byWeight": [
+        {
+          "weight": 190,
+          "record": "5-11"
+        },
+        {
+          "weight": 215,
+          "record": "0-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/terrance-rothmiller/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Devon'Te Tatum",
+      "class": "Sophomore",
+      "primaryWeight": 215,
+      "overall": "0-3",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "0-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/devonte-tatum/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Gabriel Marshall",
+      "class": "Sophomore",
+      "primaryWeight": 215,
+      "overall": "11-5",
+      "matchesThisYear": 16,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "11-5"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/gabriel-gabe-marshall/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jose Tollinche",
+      "class": "Sophomore",
+      "primaryWeight": 215,
+      "overall": "1-3",
+      "matchesThisYear": 4,
+      "byWeight": [
+        {
+          "weight": 215,
+          "record": "1-3"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jose-tollinche/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Anthony Nelson",
+      "class": "Sophomore",
+      "primaryWeight": 285,
+      "overall": "13-5",
+      "matchesThisYear": 18,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "13-5"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": "2026 NJSIAA District 25 - 285, Quarterfinal Round",
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/anthony-nelson-728474/wrestling/season/2025-2026"
+    },
+    {
+      "name": "Jaythan Candelario",
+      "class": "Senior",
+      "primaryWeight": 285,
+      "overall": "2-1",
+      "matchesThisYear": 3,
+      "byWeight": [
+        {
+          "weight": 285,
+          "record": "2-1"
+        }
+      ],
+      "lastYearOverall": null,
+      "thisYearNJSIAA": null,
+      "lastYearNJSIAA": null,
+      "profileUrl": "https://highschoolsports.nj.com/player/jaythan-candelario/wrestling/season/2025-2026"
+    }
+  ]
+}
