@@ -3,11 +3,52 @@
 A small personal tool to scout NJ high school wrestling teams. A local Node build
 step scrapes each wrestler's public [NJ.com](https://highschoolsports.nj.com)
 profile, parses their records, and writes one JSON file per team under `data/`.
-A static, iPhone-formatted page (`index.html`) lists the teams; tapping a team
-shows a horizontal row per weight class (wrestlers ordered by match count), and
-each card opens that wrestler's current-year NJ.com profile.
+A static, iPhone-formatted page (`index.html`) renders it.
 
 Wrestlers with no current-season match data are skipped.
+
+## Pages
+
+The home screen has three choices:
+
+- **Teams** — browse every team; tap one to see a horizontal row per weight class
+  (wrestlers ordered by match count). Each card opens that wrestler's NJ.com profile.
+- **Team Matchup** — pick a Home and Away team; see each weight class's **main wrestler**
+  (the most-active wrestler at that weight) from both teams, side by side.
+- **Individual Matchup** — pick *My Wrestler* (School → Name → Weight) and an *Opponent*
+  school (name optional). With no opponent name, up to 5 likely opponents around that
+  weight (±1 class) are shown, each scored — see formulas below.
+
+## Matchup formulas
+
+Both scores are transparent heuristics (estimates, not guarantees). Weight "class
+distance" is measured on the standard NJ ladder:
+`106 113 120 126 132 138 144 150 157 165 175 190 215 285`. For a wrestler,
+`matches = wins + losses` (this season).
+
+**Matchup Probability** — how likely an opponent is the one actually faced. Candidates
+are opponents whose primary weight is at the selected weight or one class up/down:
+
+```
+weightFactor = 1.0 (same class) | 0.4 (one class up/down)
+weight_i     = weightFactor × matches_i           # more matches ⇒ likely the starter
+MatchupProbability_i = weight_i / Σ(weight over all candidates)
+```
+
+**Win Probability** — estimated chance My Wrestler wins. Each wrestler's win rate is
+shrunk toward 50% (pseudo-count `s = 5`) so small samples don't dominate, then compared
+with a per-class size adjustment (`β = 0.4`):
+
+```
+adjWinRate(X) = (wins + s/2) / (matches + s)
+rating(X)     = ln( adjWinRate / (1 − adjWinRate) )         # log-odds
+Δclass        = classIndex(opponent) − classIndex(myWeight) # + if opponent is heavier
+logit         = rating(My) − rating(Opponent) − β × Δclass
+WinProbability = 1 / (1 + e^(−logit))
+```
+
+Tunable constants live at the top of the script in `index.html`
+(`weightFactor`, `SHRINK = s`, `BETA = β`).
 
 ## Teams
 

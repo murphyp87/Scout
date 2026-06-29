@@ -79,7 +79,6 @@
     }
 
     a.card {
-      flex: 0 0 var(--card-w); width: var(--card-w); scroll-snap-align: start;
       display: block; text-decoration: none; color: inherit;
       background: linear-gradient(180deg, var(--card) 0%, #0f1726 100%);
       border: 1px solid var(--card-edge);
@@ -88,6 +87,8 @@
       box-shadow: 0 10px 28px rgba(0,0,0,.45);
       transition: transform .08s ease, border-color .15s ease;
     }
+    /* fixed width only inside a horizontal weight scroller; elsewhere cards fill their column */
+    .track > a.card { flex: 0 0 var(--card-w); width: var(--card-w); scroll-snap-align: start; }
     a.card:active { transform: scale(.985); border-color: var(--accent); }
     @media (hover: hover) { a.card:hover { border-color: var(--accent); } }
 
@@ -176,6 +177,77 @@
       .back:hover { filter: brightness(1.08); }
       .team-switch:hover { border-color: var(--accent); }
     }
+
+    /* ---- home menu (3 choices) ---- */
+    .home-menu { display: grid; gap: 14px; margin-top: 20px; max-width: 560px; }
+    .home-choice {
+      display: flex; align-items: center; gap: 16px; text-decoration: none; color: inherit;
+      background: linear-gradient(180deg, var(--card) 0%, #0f1726 100%);
+      border: 1px solid var(--card-edge); border-radius: 18px; padding: 20px;
+      box-shadow: 0 10px 28px rgba(0,0,0,.45); transition: transform .08s ease, border-color .15s ease;
+    }
+    .home-choice:active { transform: scale(.99); }
+    @media (hover: hover) { .home-choice:hover { border-color: var(--accent); } }
+    .home-choice .ico { font-size: 30px; flex: none; width: 40px; text-align: center; }
+    .home-choice .h-title { font-size: 19px; font-weight: 800; }
+    .home-choice .h-sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
+    .home-choice .team-go { margin-left: auto; color: var(--muted); font-size: 26px; }
+
+    /* ---- top nav bar (back / home on sub-pages) ---- */
+    .navbar {
+      position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 10px;
+      padding: 10px 16px; margin-bottom: 4px;
+      background: rgba(11,18,32,.88); backdrop-filter: blur(8px); border-bottom: 1px solid var(--card-edge);
+    }
+
+    /* ---- matchup selectors ---- */
+    .mu-form { max-width: 620px; margin: 16px auto 0; display: grid; gap: 16px; }
+    .mu-group { background: #0e1626; border: 1px solid var(--card-edge); border-radius: 16px; padding: 14px 16px; }
+    .mu-group h3 { margin: 0 0 10px; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+    .mu-field { margin-top: 10px; }
+    .mu-field:first-of-type { margin-top: 0; }
+    .mu-field label { display: block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 5px; }
+    .mu-field select {
+      width: 100%; background: var(--card); color: var(--text); border: 1px solid var(--card-edge);
+      border-radius: 10px; padding: 11px 12px; font: inherit; font-size: 16px; /* 16px avoids iOS zoom */
+    }
+    .mu-field select:disabled { opacity: .5; }
+    .mu-field select:focus { outline: none; border-color: var(--accent); }
+    .btn-primary {
+      width: 100%; background: var(--accent); color: #fff; border: none; border-radius: 12px;
+      padding: 14px; font: inherit; font-size: 16px; font-weight: 800; cursor: pointer;
+      box-shadow: 0 6px 16px rgba(232,80,58,.35);
+    }
+    .btn-primary:disabled { opacity: .45; cursor: default; box-shadow: none; }
+    .btn-primary:active:not(:disabled) { transform: scale(.99); }
+
+    /* ---- team matchup results ---- */
+    .mu-results { margin-top: 18px; }
+    .mu-teamhead {
+      position: sticky; top: 56px; z-index: 4; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+      padding: 8px 16px; background: rgba(11,18,32,.92); backdrop-filter: blur(8px);
+    }
+    .mu-teamhead .th { text-align: center; font-weight: 800; font-size: 14px; padding: 6px; border-radius: 10px; background: #0e1626; border: 1px solid var(--card-edge); }
+    .mu-weight { margin-top: 14px; }
+    .mu-weight-label { text-align: center; font-size: 13px; font-weight: 800; color: var(--gold); margin-bottom: 8px; }
+    .mu-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: start; padding: 0 16px; }
+    .mu-empty {
+      border: 1px dashed var(--card-edge); border-radius: 20px; padding: 24px 14px; text-align: center;
+      color: var(--muted); font-size: 14px; background: #0c1320;
+    }
+
+    /* ---- individual matchup results ---- */
+    .mu-mine { max-width: 560px; margin: 16px auto 0; padding: 0 16px; }
+    .mu-mine .lead { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+    .opp-list { max-width: 560px; margin: 22px auto 0; padding: 0 16px; display: grid; gap: 14px; }
+    .opp-head { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    .scores { display: flex; gap: 8px; margin-bottom: 8px; }
+    .score { flex: 1; text-align: center; border-radius: 12px; padding: 8px 6px; border: 1px solid var(--card-edge); background: #0e1626; }
+    .score .s-lbl { font-size: 9px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+    .score .s-val { font-size: 19px; font-weight: 800; margin-top: 2px; }
+    .score.matchup .s-val { color: var(--gold); }
+    .score.win .s-val { color: #5fd38a; }
+    .disclaimer { max-width: 560px; margin: 18px auto 0; padding: 0 16px; color: var(--muted); font-size: 11px; font-style: italic; }
 
     .footer { text-align: center; color: var(--muted); font-size: 11px; margin-top: 26px; }
     .error { background: #2a1414; border: 1px solid #5a2a2a; color: #ffd9d2; padding: 16px; border-radius: 14px; }
@@ -278,13 +350,97 @@
     const titleEl = document.getElementById('title');
     const metaEl = document.getElementById('meta');
 
-    // ---- landing view: list of schools ----
+    // ===== shared data + helpers =====
+    let teamsIndex = null;
+    const teamCache = {};
+
+    async function loadJSON(url) {
+      const r = await fetch(url, { cache: 'no-store' });
+      if (!r.ok) throw new Error('HTTP ' + r.status + ' for ' + url);
+      return r.json();
+    }
+    async function loadTeam(id) {
+      if (!teamCache[id]) teamCache[id] = await loadJSON(`data/${id}.json`);
+      return teamCache[id];
+    }
+    const teamOptions = (selected) =>
+      teamsIndex.teams
+        .map((t) => `<option value="${esc(t.id)}"${t.id === selected ? ' selected' : ''}>${esc(t.name)}</option>`)
+        .join('');
+    const navbar = () => `<div class="navbar"><a class="back" href="#">‹ Home</a></div>`;
+
+    // Standard NJ weight ladder, used for class distance + bump-one-class logic.
+    const WEIGHTS = [106, 113, 120, 126, 132, 138, 144, 150, 157, 165, 175, 190, 215, 285];
+    function classIndex(w) {
+      const i = WEIGHTS.indexOf(Number(w));
+      if (i >= 0) return i;
+      let best = 0, bd = Infinity;
+      WEIGHTS.forEach((ww, k) => { const d = Math.abs(ww - w); if (d < bd) { bd = d; best = k; } });
+      return best;
+    }
+    const recOf = (p) => {
+      const m = /(\d+)\s*-\s*(\d+)/.exec(p.overall || '');
+      const wins = m ? +m[1] : 0, losses = m ? +m[2] : 0;
+      return { wins, losses, matches: wins + losses };
+    };
+    const pct = (x) => Math.round(x * 100) + '%';
+
+    // --- scoring (see README for the formulas) ---
+    const SHRINK = 5, BETA = 0.4;
+    function rating(p) {
+      const r = recOf(p);
+      const adj = (r.wins + SHRINK / 2) / (r.matches + SHRINK); // win rate shrunk toward 50%
+      return Math.log(adj / (1 - adj));                          // log-odds
+    }
+    function winProbability(mine, opp, myWeight) {
+      const dClass = classIndex(opp.primaryWeight) - classIndex(myWeight); // + if opponent heavier
+      const logit = rating(mine) - rating(opp) - BETA * dClass;
+      return 1 / (1 + Math.exp(-logit));
+    }
+    function matchupWeight(opp, myWeight) {
+      const d = Math.abs(classIndex(opp.primaryWeight) - classIndex(myWeight));
+      const wf = d === 0 ? 1.0 : d === 1 ? 0.4 : 0; // same class vs one up/down; beyond ±1 excluded
+      return wf * opp.matchesThisYear;
+    }
+
+    // The "main" wrestler at each weight = the most-active one at that primary weight.
+    function mainByWeight(team) {
+      const m = new Map();
+      for (const w of team.wrestlers) {
+        const c = m.get(w.primaryWeight);
+        if (!c || w.matchesThisYear > c.matchesThisYear ||
+            (w.matchesThisYear === c.matchesThisYear && w.name.localeCompare(c.name) < 0)) {
+          m.set(w.primaryWeight, w);
+        }
+      }
+      return m;
+    }
+
+    // ===== Home =====
+    function showHome() {
+      titleEl.textContent = 'Wrestling Scout';
+      metaEl.textContent = 'Scout NJ high school wrestling';
+      const choice = (route, ico, title, sub) =>
+        `<a class="home-choice" href="#${route}">
+           <div class="ico">${ico}</div>
+           <div><div class="h-title">${title}</div><div class="h-sub">${sub}</div></div>
+           <div class="team-go">›</div>
+         </a>`;
+      root.innerHTML =
+        `<div class="home-menu pad">
+           ${choice('teams', '📋', 'Teams', 'Browse every team and its wrestlers by weight')}
+           ${choice('team-matchup', '⚔️', 'Team Matchup', 'Compare two teams, weight by weight')}
+           ${choice('individual-matchup', '🤼', 'Individual Matchup', 'Scout your wrestler vs an opponent or school')}
+         </div>`;
+    }
+
+    // ===== Teams list =====
     function showTeamList(index) {
       const teams = index.teams || [];
       titleEl.textContent = 'Teams';
       metaEl.textContent = `Select a school to scout · ${teams.length} teams`;
       const items = teams.map((t) => `
-        <a class="team-item" href="#${esc(t.id)}" data-name="${esc(t.name.toLowerCase())}">
+        <a class="team-item" href="#team/${esc(t.id)}" data-name="${esc(t.name.toLowerCase())}">
           <div class="team-info">
             <div class="team-name">${esc(t.name)}</div>
             <div class="team-sub">${esc(t.season)} season · ${esc(t.wrestlers)} wrestlers</div>
@@ -292,6 +448,7 @@
           <div class="team-go">›</div>
         </a>`).join('');
       root.innerHTML =
+        navbar() +
         `<div class="pad"><input id="team-search" class="search" type="search"
             placeholder="Search ${teams.length} teams…" autocomplete="off" /></div>
          <div class="team-list pad" id="team-list">${items}</div>
@@ -312,35 +469,28 @@
       });
     }
 
-    // ---- team view: per-weight rows ----
+    // ===== Team view: per-weight rows =====
     function showTeam(data) {
       const list = data.wrestlers || [];
-
-      // Group by primary weight class.
       const byWeight = new Map();
       for (const w of list) {
         if (!byWeight.has(w.primaryWeight)) byWeight.set(w.primaryWeight, []);
         byWeight.get(w.primaryWeight).push(w);
       }
-      // Rows ascending by weight; wrestlers within a row by most matches this year.
       const weights = [...byWeight.keys()].sort((a, b) => a - b);
       for (const wt of weights) {
-        byWeight.get(wt).sort(
-          (a, b) => (b.matchesThisYear - a.matchesThisYear) || a.name.localeCompare(b.name)
-        );
+        byWeight.get(wt).sort((a, b) => (b.matchesThisYear - a.matchesThisYear) || a.name.localeCompare(b.name));
       }
 
       titleEl.textContent = data.team || 'Roster';
-      metaEl.textContent =
-        `${data.season} season · ${list.length} wrestlers across ${weights.length} weight classes`;
+      metaEl.textContent = `${data.season} season · ${list.length} wrestlers across ${weights.length} weight classes`;
 
-      // Sticky control bar: back to the team list + a dropdown to jump to another team.
-      const options = (teamsIndex.teams || [])
+      const options = teamsIndex.teams
         .map((t) => `<option value="${esc(t.id)}"${t.id === data.id ? ' selected' : ''}>${esc(t.name)}</option>`)
         .join('');
       const bar = `
         <div class="team-bar">
-          <button class="back" type="button" id="to-teams">‹ All Teams</button>
+          <a class="back" href="#teams">‹ All Teams</a>
           <select class="team-switch" id="team-switch" aria-label="Switch team">${options}</select>
         </div>`;
 
@@ -349,32 +499,177 @@
         weights.map((wt) => weightRow(wt, byWeight.get(wt))).join('') +
         `<div class="footer pad">Data parsed ${esc((data.generatedAt || '').slice(0, 10))} · swipe or use ‹ › to scroll each weight</div>`;
 
-      document.getElementById('to-teams').addEventListener('click', () => { location.hash = ''; });
-      document.getElementById('team-switch').addEventListener('change', (e) => { location.hash = e.target.value; });
+      document.getElementById('team-switch').addEventListener('change', (e) => { location.hash = 'team/' + e.target.value; });
       document.querySelectorAll('.row-scroller').forEach(setupScroller);
     }
 
-    // ---- hash router ----
-    let teamsIndex = null;
-    const teamCache = {};
+    // ===== Team Matchup =====
+    function showTeamMatchup(homeId, awayId) {
+      titleEl.textContent = 'Team Matchup';
+      metaEl.textContent = 'Compare two teams weight-by-weight';
+      root.innerHTML =
+        navbar() +
+        `<div class="mu-form">
+           <div class="mu-group"><h3>Home Team</h3>
+             <div class="mu-field"><label>School</label>
+               <select id="tm-home"><option value="">Select a school…</option>${teamOptions(homeId)}</select></div></div>
+           <div class="mu-group"><h3>Away Team</h3>
+             <div class="mu-field"><label>School</label>
+               <select id="tm-away"><option value="">Select a school…</option>${teamOptions(awayId)}</select></div></div>
+           <button class="btn-primary" id="tm-go" disabled>Compare teams</button>
+         </div>
+         <div id="tm-results" class="mu-results"></div>`;
 
-    async function loadJSON(url) {
-      const r = await fetch(url, { cache: 'no-store' });
-      if (!r.ok) throw new Error('HTTP ' + r.status + ' for ' + url);
-      return r.json();
+      const home = document.getElementById('tm-home');
+      const away = document.getElementById('tm-away');
+      const go = document.getElementById('tm-go');
+      const sync = () => { go.disabled = !(home.value && away.value); };
+      home.addEventListener('change', sync);
+      away.addEventListener('change', sync);
+      sync();
+      go.addEventListener('click', () => { location.hash = `team-matchup/${home.value}/${away.value}`; });
+
+      if (homeId && awayId) renderTeamMatchup(homeId, awayId).catch(showError);
+    }
+
+    async function renderTeamMatchup(homeId, awayId) {
+      const res = document.getElementById('tm-results');
+      res.innerHTML = `<div class="footer pad">Loading…</div>`;
+      const [h, a] = await Promise.all([loadTeam(homeId), loadTeam(awayId)]);
+      const hm = mainByWeight(h), am = mainByWeight(a);
+      const weights = [...new Set([...hm.keys(), ...am.keys()])].sort((x, y) => x - y);
+      const side = (p) => (p ? card(p) : `<div class="mu-empty">No wrestler<br>(forfeit)</div>`);
+      res.innerHTML =
+        `<div class="mu-teamhead"><div class="th">${esc(h.team)}</div><div class="th">${esc(a.team)}</div></div>` +
+        weights.map((wt) => `
+          <section class="mu-weight">
+            <div class="mu-weight-label">${wt} lb</div>
+            <div class="mu-pair">${side(hm.get(wt))}${side(am.get(wt))}</div>
+          </section>`).join('') +
+        `<div class="footer pad">Main wrestler = most matches at that weight · tap a card for the NJ.com profile</div>`;
+      window.scrollTo(0, 0);
+    }
+
+    // ===== Individual Matchup =====
+    const nameOptions = (team) =>
+      team.wrestlers
+        .map((w, i) => ({ w, i }))
+        .sort((a, b) => a.w.name.localeCompare(b.w.name))
+        .map(({ w, i }) => `<option value="${i}">${esc(w.name)} — ${esc(w.primaryWeight)} lb · ${esc(w.overall)}</option>`)
+        .join('');
+    const weightOptions = (sel) =>
+      WEIGHTS.map((w) => `<option value="${w}"${w === sel ? ' selected' : ''}>${w} lb</option>`).join('');
+    const scoreBox = (cls, label, val) =>
+      `<div class="score ${cls}"><div class="s-lbl">${label}</div><div class="s-val">${val}</div></div>`;
+    const oppCard = (p, scoresHtml) => `<div class="opp"><div class="scores">${scoresHtml}</div>${card(p)}</div>`;
+
+    function showIndividualMatchup() {
+      titleEl.textContent = 'Individual Matchup';
+      metaEl.textContent = 'Scout your wrestler against an opponent or a school';
+      root.innerHTML =
+        navbar() +
+        `<div class="mu-form">
+           <div class="mu-group"><h3>My Wrestler</h3>
+             <div class="mu-field"><label>School</label>
+               <select id="im-myschool"><option value="">Select…</option>${teamOptions()}</select></div>
+             <div class="mu-field"><label>Name</label>
+               <select id="im-myname" disabled><option value="">Select a school first</option></select></div>
+             <div class="mu-field"><label>Weight</label>
+               <select id="im-myweight" disabled></select></div>
+           </div>
+           <div class="mu-group"><h3>Opponent</h3>
+             <div class="mu-field"><label>School (required)</label>
+               <select id="im-oppschool"><option value="">Select…</option>${teamOptions()}</select></div>
+             <div class="mu-field"><label>Name (optional)</label>
+               <select id="im-oppname" disabled><option value="">Any — show likely matchups</option></select></div>
+           </div>
+           <button class="btn-primary" id="im-go" disabled>Find matchup</button>
+         </div>
+         <div id="im-results" class="mu-results"></div>`;
+
+      const $ = (id) => document.getElementById(id);
+      const mySchool = $('im-myschool'), myName = $('im-myname'), myWeight = $('im-myweight');
+      const oppSchool = $('im-oppschool'), oppName = $('im-oppname'), go = $('im-go');
+      let myTeam = null, oppTeam = null;
+      const sync = () => { go.disabled = !(mySchool.value && myName.value !== '' && myWeight.value && oppSchool.value); };
+
+      mySchool.addEventListener('change', async () => {
+        myName.disabled = true; myWeight.disabled = true; myWeight.innerHTML = ''; sync();
+        if (!mySchool.value) { myName.innerHTML = '<option value="">Select a school first</option>'; return; }
+        myName.innerHTML = '<option value="">Loading…</option>';
+        myTeam = await loadTeam(mySchool.value);
+        myName.innerHTML = '<option value="">Select a wrestler…</option>' + nameOptions(myTeam);
+        myName.disabled = false; sync();
+      });
+      myName.addEventListener('change', () => {
+        if (myName.value === '') { myWeight.disabled = true; myWeight.innerHTML = ''; sync(); return; }
+        myWeight.innerHTML = weightOptions(myTeam.wrestlers[+myName.value].primaryWeight);
+        myWeight.disabled = false; sync();
+      });
+      myWeight.addEventListener('change', sync);
+      oppSchool.addEventListener('change', async () => {
+        oppName.disabled = true; sync();
+        if (!oppSchool.value) { oppName.innerHTML = '<option value="">Any — show likely matchups</option>'; return; }
+        oppName.innerHTML = '<option value="">Loading…</option>';
+        oppTeam = await loadTeam(oppSchool.value);
+        oppName.innerHTML = '<option value="">Any — show likely matchups</option>' + nameOptions(oppTeam);
+        oppName.disabled = false; sync();
+      });
+      oppName.addEventListener('change', sync);
+      go.addEventListener('click', () => {
+        renderIndividualMatchup(myTeam.wrestlers[+myName.value], +myWeight.value, oppTeam, oppName.value);
+      });
+    }
+
+    function renderIndividualMatchup(mine, myWeight, oppTeam, oppIdx) {
+      const res = document.getElementById('im-results');
+      let html = `<div class="mu-mine"><div class="lead">My Wrestler — ${esc(mine.name)} · scouting at ${myWeight} lb</div>${card(mine)}</div>`;
+
+      if (oppIdx !== '' && oppIdx != null) {
+        const opp = oppTeam.wrestlers[+oppIdx];
+        const scores = scoreBox('win', 'Win Probability', pct(winProbability(mine, opp, myWeight)));
+        html += `<div class="opp-list"><div class="opp-head">Opponent — ${esc(oppTeam.team)}</div>${oppCard(opp, scores)}</div>`;
+      } else {
+        const cand = oppTeam.wrestlers
+          .map((o) => ({ o, raw: matchupWeight(o, myWeight) }))
+          .filter((c) => c.raw > 0);
+        const total = cand.reduce((s, c) => s + c.raw, 0) || 1;
+        cand.sort((a, b) => b.raw - a.raw);
+        const cards = cand.slice(0, 5).map((c) => {
+          const scores = scoreBox('matchup', 'Matchup Prob', pct(c.raw / total)) +
+                         scoreBox('win', 'Win Prob', pct(winProbability(mine, c.o, myWeight)));
+          return oppCard(c.o, scores);
+        }).join('');
+        const body = cand.length
+          ? cards
+          : `<div class="mu-empty">No opponents near ${myWeight} lb (±1 class) for ${esc(oppTeam.team)}.</div>`;
+        html += `<div class="opp-list"><div class="opp-head">Likely opponents from ${esc(oppTeam.team)} · ${myWeight} lb ±1 class</div>${body}</div>`;
+      }
+
+      html += `<div class="disclaimer">Matchup Probability = chance this is the opponent actually faced (weight proximity × activity).
+               Win Probability = estimated chance ${esc(mine.name)} wins (record-based, with a size adjustment for weight class).
+               Heuristic estimates, not guarantees.</div>`;
+      res.innerHTML = html;
+      window.scrollTo(0, 0);
+    }
+
+    // ===== router =====
+    function parseHash() {
+      const raw = decodeURIComponent(location.hash.replace(/^#/, ''));
+      const parts = raw.split('/');
+      return { section: parts[0] || '', args: parts.slice(1) };
     }
 
     async function route() {
       if (!teamsIndex) teamsIndex = await loadJSON('data/teams.json');
-      const id = location.hash.replace(/^#/, '');
-      const meta = (teamsIndex.teams || []).find((t) => t.id === id);
-
-      if (!meta) {
-        showTeamList(teamsIndex);
-      } else {
-        if (!teamCache[id]) teamCache[id] = await loadJSON(`data/${id}.json`);
-        showTeam(teamCache[id]);
-      }
+      const { section, args } = parseHash();
+      if (section === 'teams') showTeamList(teamsIndex);
+      else if (section === 'team') {
+        const meta = teamsIndex.teams.find((t) => t.id === args[0]);
+        if (meta) showTeam(await loadTeam(args[0])); else showTeamList(teamsIndex);
+      } else if (section === 'team-matchup') showTeamMatchup(args[0], args[1]);
+      else if (section === 'individual-matchup') showIndividualMatchup();
+      else showHome();
       window.scrollTo(0, 0);
     }
 
