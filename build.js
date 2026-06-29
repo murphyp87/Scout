@@ -20,7 +20,19 @@ const path = require('path');
 // Teams to scout (id/name/slug). Generated from the NJ.com school index; edit
 // schools.json to add/remove teams. `id` is also the data-file name + landing link.
 const SCHOOLS = require('./schools.json');
-const SEASONS = { current: '2025-2026', previous: '2024-2025' };
+// Current/previous NJ season strings, derived from today's date so they roll over
+// automatically every year. NJ HS wrestling starts in ~November, so from November
+// onward the season is (thisYear)-(thisYear+1); the rest of the year (the just-finished
+// or in-progress season) it's (lastYear)-(thisYear).
+//   e.g. Jun 2026 -> current 2025-2026, previous 2024-2025
+//        Nov 2026 -> current 2026-2027, previous 2025-2026  (auto-rolls here)
+function seasonsFor(now = new Date()) {
+  const y = now.getFullYear();
+  const startYear = now.getMonth() + 1 >= 11 ? y : y - 1;
+  const s = (a) => `${a}-${a + 1}`;
+  return { current: s(startYear), previous: s(startYear - 1) };
+}
+const SEASONS = seasonsFor();
 // NJSIAA tournaments happen in the calendar year the season ends (e.g. 2025-2026 -> 2026).
 const YEAR = {
   current: parseInt(SEASONS.current.split('-')[1], 10),
@@ -38,7 +50,24 @@ const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
   '(KHTML, like Gecko) Chrome/120.0 Safari/537.36';
 
+// Build modes:
+//   (default)          use cache where present; fetch only what's missing.
+//   --refresh          refetch everything (full rebuild, current + previous year).
+//   --refresh-current  delta refresh: refetch rosters + current-year pages, but
+//                      reuse cached previous-year pages (last season never changes).
+//   --force            ignore the in-season gate for --refresh-current.
 const REFRESH = process.argv.includes('--refresh');
+const REFRESH_CURRENT = process.argv.includes('--refresh-current');
+const FORCE = process.argv.includes('--force');
+
+// NJ wrestling runs ~December–March; treat Nov–Mar as in-season (with a little margin).
+const inSeason = (d = new Date()) => {
+  const m = d.getMonth() + 1;
+  return m >= 11 || m <= 3;
+};
+// Whether to re-download current-year pages this run.
+const REVALIDATE_CURRENT = REFRESH || (REFRESH_CURRENT && (FORCE || inSeason()));
+
 const POLITE_DELAY_MS = 250;
 const CONCURRENCY = 4; // wrestlers fetched in parallel per team (balance speed vs. load)
 const NET_RETRIES = 3; // transient network errors are retried (matters over long runs)
@@ -65,11 +94,11 @@ async function mapPool(items, concurrency, fn) {
  * returns html=null. A persistent network error returns html=null WITHOUT caching,
  * so a later re-run retries it.
  */
-async function getCached(cacheName, url) {
+async function getCached(cacheName, url, revalidate = REFRESH) {
   fs.mkdirSync(CACHE_DIR, { recursive: true });
   const cacheFile = path.join(CACHE_DIR, cacheName);
 
-  if (!REFRESH && fs.existsSync(cacheFile)) {
+  if (!revalidate && fs.existsSync(cacheFile)) {
     const html = fs.readFileSync(cacheFile, 'utf8');
     return { html: html === '' ? null : html, status: 'cache' };
   }
@@ -235,7 +264,9 @@ function parseLastYearRecord(prevHtml) {
  * Returns null if the school has no roster (so it's dropped from the team list).
  */
 async function buildTeam(school) {
-  const roster = await getCached(`roster-${school.slug}-${SEASONS.current}.html`, rosterUrl(school.slug));
+  const roster = await getCached(
+    `roster-${school.slug}-${SEASONS.current}.html`, rosterUrl(school.slug), REVALIDATE_CURRENT
+  );
   const wrestlers = roster.html ? parseRoster(roster.html) : [];
   if (!wrestlers.length) {
     console.log(`– ${school.name}: no roster, skipped`);
@@ -245,14 +276,18 @@ async function buildTeam(school) {
   const skipped = [];
 
   const built = await mapPool(wrestlers, CONCURRENCY, async ({ slug, name }) => {
-    const cur = await getCached(`current-${slug}.html`, playerUrl(slug, SEASONS.current));
+    // Cache is keyed by season so that when the season rolls over, last year's page
+    // (now the "previous" season) is reused from when it was "current" — no stale data,
+    // no needless refetch. Current-year page carries new results → revalidate in delta mode.
+    const cur = await getCached(`player-${slug}-${SEASONS.current}.html`, playerUrl(slug, SEASONS.current), REVALIDATE_CURRENT);
     const current = cur.html ? parseCurrent(cur.html) : null;
     if (!current) {
       skipped.push(name);
       return null;
     }
 
-    const prevPage = await getCached(`prev-${slug}.html`, playerUrl(slug, SEASONS.previous));
+    // Previous-year page is immutable (last season is over) → only refetched on a full --refresh.
+    const prevPage = await getCached(`player-${slug}-${SEASONS.previous}.html`, playerUrl(slug, SEASONS.previous), REFRESH);
 
     // NJSIAA lines may appear on either page; bucket by the year tagged in each line.
     const njsiaa = [...parseNjsiaa(cur.html), ...parseNjsiaa(prevPage.html)];
@@ -278,44 +313,84 @@ async function buildTeam(school) {
     .filter(Boolean)
     .sort((a, b) => a.primaryWeight - b.primaryWeight || a.name.localeCompare(b.name));
 
-  const generatedAt = new Date().toISOString();
-  const out = {
+  // A school with a roster but no wrestlers with match data is a dead-end card — drop it
+  // (and remove any stale data file) so it doesn't appear in the team list.
+  const file = path.join(DATA_DIR, `${school.id}.json`);
+  if (profiles.length === 0) {
+    if (fs.existsSync(file)) fs.rmSync(file);
+    console.log(`– ${school.name}: no wrestlers with match data, skipped`);
+    return null;
+  }
+
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  const changed = writeJsonStable(file, {
     id: school.id,
     team: school.name,
     season: SEASONS.current,
-    generatedAt,
     wrestlers: profiles,
-  };
-  fs.mkdirSync(DATA_DIR, { recursive: true });
-  fs.writeFileSync(path.join(DATA_DIR, `${school.id}.json`), JSON.stringify(out, null, 2) + '\n');
-  console.log(`✓ ${school.name}: ${profiles.length} cards, ${skipped.length} skipped (no data).`);
+  });
+  console.log(
+    `✓ ${school.name}: ${profiles.length} cards, ${skipped.length} skipped${changed ? ' (updated)' : ''}.`
+  );
 
-  return { id: school.id, name: school.name, season: SEASONS.current, wrestlers: profiles.length, generatedAt };
+  return { id: school.id, name: school.name, season: SEASONS.current, wrestlers: profiles.length };
+}
+
+/**
+ * Write `payload` as JSON only if its content differs from what's on disk (ignoring the
+ * volatile `generatedAt` stamp). Keeps nightly runs from churning files — and therefore
+ * git/Pages — when no results actually changed. Returns true if the file was (re)written.
+ */
+function writeJsonStable(file, payload) {
+  let prev = null;
+  try {
+    prev = JSON.parse(fs.readFileSync(file, 'utf8'));
+    delete prev.generatedAt;
+  } catch {
+    prev = null;
+  }
+  if (prev && JSON.stringify(prev) === JSON.stringify(payload)) return false;
+  fs.writeFileSync(
+    file,
+    JSON.stringify({ ...payload, generatedAt: new Date().toISOString() }, null, 2) + '\n'
+  );
+  return true;
 }
 
 function writeTeamsIndex(teams) {
   const sorted = [...teams].sort((a, b) => a.name.localeCompare(b.name));
   fs.mkdirSync(DATA_DIR, { recursive: true });
-  fs.writeFileSync(
-    path.join(DATA_DIR, 'teams.json'),
-    JSON.stringify({ generatedAt: new Date().toISOString(), teams: sorted }, null, 2) + '\n'
-  );
+  return writeJsonStable(path.join(DATA_DIR, 'teams.json'), { teams: sorted });
 }
 
 (async function main() {
+  const mode = REFRESH
+    ? 'full refresh (current + previous year)'
+    : REFRESH_CURRENT
+    ? REVALIDATE_CURRENT
+      ? 'delta refresh (current-year pages; previous year from cache)'
+      : 'delta refresh requested, but OFF-SEASON — using cache only (no fetching). Use --force to override.'
+    : 'cache fill (fetch only what is missing)';
+  console.log(`Scout build — ${SCHOOLS.length} teams — mode: ${mode}\n`);
+
   const teams = [];
   let i = 0;
   for (const school of SCHOOLS) {
     i++;
     process.stdout.write(`[${i}/${SCHOOLS.length}] `);
     const summary = await buildTeam(school);
-    if (summary) {
-      teams.push(summary);
-      writeTeamsIndex(teams); // keep the index current so partial runs are usable
-    }
+    if (summary) teams.push(summary);
   }
-  writeTeamsIndex(teams);
-  console.log(`\n✓ wrote data/teams.json — ${teams.length} teams.`);
+
+  // Safety: never overwrite the index with nothing (e.g. a total fetch outage would
+  // otherwise wipe the live site). Leave existing data in place and fail loudly.
+  if (teams.length === 0) {
+    console.error('\n✗ built 0 teams — refusing to overwrite data/teams.json. Leaving existing data untouched.');
+    process.exit(1);
+  }
+
+  const changed = writeTeamsIndex(teams);
+  console.log(`\n✓ ${teams.length} teams — data/teams.json ${changed ? 'updated' : 'unchanged'}.`);
 })().catch((err) => {
   console.error('\n✗ build failed:', err.message);
   process.exit(1);

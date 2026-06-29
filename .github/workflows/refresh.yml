@@ -1,0 +1,76 @@
+name: Nightly data refresh
+
+# Delta-refreshes wrestler data overnight and pushes only when results actually changed.
+# Previous-year pages are immutable (served from cache); only current-year pages are
+# re-fetched. The job no-ops outside the NJ wrestling season (~Nov–Mar).
+
+on:
+  schedule:
+    - cron: '10 8 * * *' # 08:10 UTC nightly (~3–4 AM US Eastern)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force a refresh even out of season'
+        type: boolean
+        default: false
+
+# Allow the job to commit refreshed data back to the repo.
+permissions:
+  contents: write
+
+# Never let two refreshes run at once.
+concurrency:
+  group: nightly-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Persist the page cache between runs so previous-year pages aren't re-fetched.
+      - name: Restore page cache
+        uses: actions/cache@v4
+        with:
+          path: cache
+          key: scout-page-cache-${{ github.run_id }}
+          restore-keys: |
+            scout-page-cache-
+
+      - name: Season gate
+        id: gate
+        run: |
+          MONTH=$(date -u +%-m)
+          if [ "${{ github.event.inputs.force }}" = "true" ] || [ "$MONTH" -ge 11 ] || [ "$MONTH" -le 3 ]; then
+            echo "Refresh will run (month=$MONTH)."
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Off-season (month=$MONTH) — skipping refresh."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build (delta refresh)
+        if: steps.gate.outputs.run == 'true'
+        run: node build.js --refresh-current ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+
+      - name: Commit & push deltas
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "scout-refresh-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes — nothing to push."
+          else
+            git commit -m "Nightly data refresh ($(date -u +%Y-%m-%d))"
+            git push
+            echo "Pushed refreshed data."
+          fi

@@ -20,13 +20,32 @@ remove entries in `schools.json` and re-run the build to change coverage.
 ## Use
 
 ```sh
-node build.js            # build data/*.json from cached pages (fetches if missing)
-node build.js --refresh  # force a fresh fetch of every page
+node build.js                  # cache fill: fetch only what's missing
+node build.js --refresh        # full rebuild: refetch every page (current + previous year)
+node build.js --refresh-current# delta: refetch current-year pages only (previous year is
+                               #        immutable and served from cache). No-ops out of season.
+node build.js --refresh-current --force   # delta refresh even out of season (for testing)
 
 # then serve the static site locally:
 python -m http.server 8000
 # open http://localhost:8000/
 ```
+
+## Automatic nightly refresh
+
+`.github/workflows/refresh.yml` runs `--refresh-current` nightly via GitHub Actions:
+
+- **Delta only** — re-fetches just current-year pages (previous-year pages never change),
+  and writes a data file only when a wrestler's results actually changed.
+- **Pushes only deltas** — commits/pushes (and triggers a Pages redeploy) solely when
+  `data/` changed, so the site stays quiet on no-result nights.
+- **Season-gated** — does nothing outside ~Nov–Mar (NJ wrestling season).
+- **Safe** — refuses to overwrite the team index if a fetch outage produced no teams.
+- Runs on GitHub's servers (no PC needed) using the built-in token (no stored passwords).
+  Trigger manually anytime from the repo's **Actions → Nightly data refresh → Run workflow**.
+
+The current/previous season strings are derived from the date and **roll over automatically**
+each November (e.g. Nov 2026 → current `2026-2027`, previous `2025-2026`).
 
 ## Notes
 
