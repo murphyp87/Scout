@@ -23,6 +23,7 @@
       --text: #eef2f8;
       --muted: #9fb0cc;
       --accent: #3f74e0;                    /* vivid blue that pops on navy */
+      --accent-2: #2c54ad;                  /* darker end of the header gradient */
       --on-accent: #ffffff;
       --hl-bg: rgba(63,116,224,.12);
       --hl-edge: rgba(63,116,224,.40);
@@ -45,6 +46,7 @@
       --text: #15233f;                      /* navy text */
       --muted: #5d6b85;
       --accent: #1f3f7a;                     /* navy accent */
+      --accent-2: #15305f;                   /* darker end of the header gradient */
       --on-accent: #ffffff;
       --hl-bg: rgba(31,63,122,.07);
       --hl-edge: rgba(31,63,122,.25);
@@ -70,20 +72,25 @@
     .pad { padding-left: 16px; padding-right: 16px; }
     .wrap { width: 100%; max-width: 1400px; margin: 0 auto; }
 
-    header.page { padding: 6px 0 4px; position: relative; }
+    /* contrasting header banner — stands out from the page body in both themes */
+    header.page {
+      position: relative; margin: 0 0 12px; padding: 16px 18px 18px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: var(--on-accent); border-radius: 0 0 22px 22px; box-shadow: var(--shadow);
+    }
     header.page .kicker {
       font-size: 13px; letter-spacing: .14em; text-transform: uppercase;
-      color: var(--accent); font-weight: 700;
+      color: rgba(255,255,255,.78); font-weight: 700;
     }
-    header.page h1 { font-size: 26px; font-weight: 800; margin: 2px 0 2px; letter-spacing: -.01em; }
-    header.page .meta { color: var(--muted); font-size: 13px; }
+    header.page h1 { font-size: 26px; font-weight: 800; margin: 2px 0 2px; letter-spacing: -.01em; color: #fff; }
+    header.page .meta { color: rgba(255,255,255,.85); font-size: 13px; }
     .theme-toggle {
-      position: absolute; top: 4px; right: 16px;
+      position: absolute; top: 14px; right: 16px;
       width: 40px; height: 40px; border-radius: 999px; cursor: pointer;
-      background: var(--card-2); color: var(--text); border: 1px solid var(--card-edge);
+      background: rgba(255,255,255,.16); color: #fff; border: 1px solid rgba(255,255,255,.38);
       font-size: 17px; line-height: 1; display: flex; align-items: center; justify-content: center;
     }
-    @media (hover: hover) { .theme-toggle:hover { border-color: var(--accent); } }
+    @media (hover: hover) { .theme-toggle:hover { background: rgba(255,255,255,.26); } }
     .theme-toggle:active { transform: scale(.94); }
 
     /* ---- one horizontal row per weight class ---- */
@@ -421,7 +428,7 @@
     const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     // Deployed app version — BUMP THIS on every code deploy so the footer tracks what's live.
-    const APP_VERSION = 'v1.1.0 (2026-06-29)';
+    const APP_VERSION = 'v1.2.0 (2026-06-29)';
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
