@@ -19,6 +19,11 @@ The home screen has three choices:
   school (name optional). With no opponent name, up to 5 likely opponents around that
   weight (±1 class) are shown, each scored — see formulas below.
 
+A **Comment** button on every page opens a feedback form that posts to
+[Web3Forms](https://web3forms.com) (client-side; the destination email is held by
+the service via a public access key, never in the page). Dark/light theme toggle in
+the header; the footer shows the deployed version.
+
 ## Matchup formulas
 
 Both scores are transparent heuristics (estimates, not guarantees). Weight "class
