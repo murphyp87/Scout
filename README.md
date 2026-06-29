@@ -47,6 +47,8 @@ logit         = rating(My) − rating(Opponent) − β × Δclass
 WinProbability = 1 / (1 + e^(−logit))
 ```
 
+Both scores are color-coded: **>50% green, 35–50% yellow, <35% red**.
+
 Tunable constants live at the top of the script in `index.html`
 (`weightFactor`, `SHRINK = s`, `BETA = β`).
 

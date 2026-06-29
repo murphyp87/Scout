@@ -230,11 +230,27 @@
     .mu-teamhead .th { text-align: center; font-weight: 800; font-size: 14px; padding: 6px; border-radius: 10px; background: #0e1626; border: 1px solid var(--card-edge); }
     .mu-weight { margin-top: 14px; }
     .mu-weight-label { text-align: center; font-size: 13px; font-weight: 800; color: var(--gold); margin-bottom: 8px; }
-    .mu-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: start; padding: 0 16px; }
+    .mu-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; align-items: start; padding: 0 12px; }
     .mu-empty {
-      border: 1px dashed var(--card-edge); border-radius: 20px; padding: 24px 14px; text-align: center;
-      color: var(--muted); font-size: 14px; background: #0c1320;
+      border: 1px dashed var(--card-edge); border-radius: 16px; padding: 24px 10px; text-align: center;
+      color: var(--muted); font-size: 13px; background: #0c1320;
     }
+
+    /* compact, skinny cards for the side-by-side team matchup */
+    .mu-pair .card { padding: 13px; border-radius: 16px; min-width: 0; overflow-wrap: anywhere; }
+    .mu-pair .top { flex-direction: column; align-items: flex-start; gap: 6px; }
+    .mu-pair .name { font-size: 16px; }
+    .mu-pair .matches-badge { font-size: 10px; padding: 3px 8px; }
+    .mu-pair .records { flex-direction: column; gap: 8px; margin: 12px 0 4px; }   /* This Year / Last Year stacked */
+    .mu-pair .stat { display: flex; align-items: baseline; justify-content: space-between; text-align: left; padding: 8px 10px; }
+    .mu-pair .stat .value { font-size: 16px; }
+    .mu-pair .weights { flex-direction: column; gap: 6px; }                        /* weight records stacked */
+    .mu-pair .chip { font-size: 12px; }
+    .mu-pair .njsiaa { padding: 10px 11px; }
+    .mu-pair .nj-row { flex-direction: column; gap: 1px; margin-top: 7px; }        /* "This yr"/"Last yr" as headers */
+    .mu-pair .nj-row:first-of-type { margin-top: 0; }
+    .mu-pair .nj-yr { width: auto; }
+    .mu-pair .nj-res { font-size: 12px; line-height: 1.3; }
 
     /* ---- individual matchup results ---- */
     .mu-mine { max-width: 560px; margin: 16px auto 0; padding: 0 16px; }
@@ -245,8 +261,10 @@
     .score { flex: 1; text-align: center; border-radius: 12px; padding: 8px 6px; border: 1px solid var(--card-edge); background: #0e1626; }
     .score .s-lbl { font-size: 9px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
     .score .s-val { font-size: 19px; font-weight: 800; margin-top: 2px; }
-    .score.matchup .s-val { color: var(--gold); }
-    .score.win .s-val { color: #5fd38a; }
+    /* value-based score colors: >50% green, 35–50% yellow, <35% red */
+    .s-val.sc-green { color: #5fd38a; }
+    .s-val.sc-yellow { color: var(--gold); }
+    .s-val.sc-red { color: var(--accent); }
     .disclaimer { max-width: 560px; margin: 18px auto 0; padding: 0 16px; color: var(--muted); font-size: 11px; font-style: italic; }
 
     .footer { text-align: center; color: var(--muted); font-size: 11px; margin-top: 26px; }
@@ -353,6 +371,7 @@
     // ===== shared data + helpers =====
     let teamsIndex = null;
     const teamCache = {};
+    const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
@@ -505,6 +524,7 @@
 
     // ===== Team Matchup =====
     function showTeamMatchup(homeId, awayId) {
+      homeId = homeId || DEFAULT_TEAM; // default Home Team to Middletown South
       titleEl.textContent = 'Team Matchup';
       metaEl.textContent = 'Compare two teams weight-by-weight';
       root.innerHTML =
@@ -559,8 +579,12 @@
         .join('');
     const weightOptions = (sel) =>
       WEIGHTS.map((w) => `<option value="${w}"${w === sel ? ' selected' : ''}>${w} lb</option>`).join('');
-    const scoreBox = (cls, label, val) =>
-      `<div class="score ${cls}"><div class="s-lbl">${label}</div><div class="s-val">${val}</div></div>`;
+    const scoreColor = (prob) => {
+      const v = Math.round(prob * 100);
+      return v > 50 ? 'sc-green' : v >= 35 ? 'sc-yellow' : 'sc-red';
+    };
+    const scoreBox = (cls, label, prob) =>
+      `<div class="score ${cls}"><div class="s-lbl">${label}</div><div class="s-val ${scoreColor(prob)}">${pct(prob)}</div></div>`;
     const oppCard = (p, scoresHtml) => `<div class="opp"><div class="scores">${scoresHtml}</div>${card(p)}</div>`;
 
     function showIndividualMatchup() {
@@ -571,7 +595,7 @@
         `<div class="mu-form">
            <div class="mu-group"><h3>My Wrestler</h3>
              <div class="mu-field"><label>School</label>
-               <select id="im-myschool"><option value="">Select…</option>${teamOptions()}</select></div>
+               <select id="im-myschool"><option value="">Select…</option>${teamOptions(DEFAULT_TEAM)}</select></div>
              <div class="mu-field"><label>Name</label>
                <select id="im-myname" disabled><option value="">Select a school first</option></select></div>
              <div class="mu-field"><label>Weight</label>
@@ -619,6 +643,9 @@
       go.addEventListener('click', () => {
         renderIndividualMatchup(myTeam.wrestlers[+myName.value], +myWeight.value, oppTeam, oppName.value);
       });
+
+      // default My Wrestler's school to Middletown South and load its roster
+      if (mySchool.value) mySchool.dispatchEvent(new Event('change'));
     }
 
     function renderIndividualMatchup(mine, myWeight, oppTeam, oppIdx) {
@@ -627,7 +654,7 @@
 
       if (oppIdx !== '' && oppIdx != null) {
         const opp = oppTeam.wrestlers[+oppIdx];
-        const scores = scoreBox('win', 'Win Probability', pct(winProbability(mine, opp, myWeight)));
+        const scores = scoreBox('win', 'Win Probability', winProbability(mine, opp, myWeight));
         html += `<div class="opp-list"><div class="opp-head">Opponent — ${esc(oppTeam.team)}</div>${oppCard(opp, scores)}</div>`;
       } else {
         const cand = oppTeam.wrestlers
@@ -636,8 +663,8 @@
         const total = cand.reduce((s, c) => s + c.raw, 0) || 1;
         cand.sort((a, b) => b.raw - a.raw);
         const cards = cand.slice(0, 5).map((c) => {
-          const scores = scoreBox('matchup', 'Matchup Prob', pct(c.raw / total)) +
-                         scoreBox('win', 'Win Prob', pct(winProbability(mine, c.o, myWeight)));
+          const scores = scoreBox('matchup', 'Matchup Prob', c.raw / total) +
+                         scoreBox('win', 'Win Prob', winProbability(mine, c.o, myWeight));
           return oppCard(c.o, scores);
         }).join('');
         const body = cand.length
