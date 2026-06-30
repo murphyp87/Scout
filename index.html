@@ -532,7 +532,7 @@
     const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     // Deployed app version — BUMP THIS on every code deploy so the footer tracks what's live.
-    const APP_VERSION = 'v1.3.7 (2026-06-29)';
+    const APP_VERSION = 'v1.3.8 (2026-06-29)';
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
@@ -910,8 +910,7 @@
     }
     (function initTheme() {
       const saved = localStorage.getItem(THEME_KEY);
-      const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-      applyTheme(saved || (prefersLight ? 'light' : 'dark'));
+      applyTheme(saved || 'light');
     })();
     // hamburger open/close
     const menuBtn = document.getElementById('menu-btn');
