@@ -323,44 +323,49 @@ async function buildTeam(school) {
   }
 
   fs.mkdirSync(DATA_DIR, { recursive: true });
-  const changed = writeJsonStable(file, {
+  const res = writeJsonStable(file, {
     id: school.id,
     team: school.name,
     season: SEASONS.current,
     wrestlers: profiles,
   });
   console.log(
-    `✓ ${school.name}: ${profiles.length} cards, ${skipped.length} skipped${changed ? ' (updated)' : ''}.`
+    `✓ ${school.name}: ${profiles.length} cards, ${skipped.length} skipped${res.changed ? ' (updated)' : ''}.`
   );
 
-  return { id: school.id, name: school.name, season: SEASONS.current, wrestlers: profiles.length };
+  // `_gen` is the effective generatedAt of this team's file (a new stamp only when its
+  // data actually changed). Used to compute the real "data as of" date for the index.
+  return { id: school.id, name: school.name, season: SEASONS.current, wrestlers: profiles.length, _gen: res.at };
 }
 
 /**
  * Write `payload` as JSON only if its content differs from what's on disk (ignoring the
  * volatile `generatedAt` stamp). Keeps nightly runs from churning files — and therefore
- * git/Pages — when no results actually changed. Returns true if the file was (re)written.
+ * git/Pages — when no results actually changed. Returns { at, changed }, where `at` is the
+ * effective generatedAt (the existing stamp when unchanged, a fresh one when (re)written).
  */
 function writeJsonStable(file, payload) {
-  let prev = null;
+  let prev = null, prevGen = null;
   try {
     prev = JSON.parse(fs.readFileSync(file, 'utf8'));
+    prevGen = prev.generatedAt || null;
     delete prev.generatedAt;
   } catch {
     prev = null;
   }
-  if (prev && JSON.stringify(prev) === JSON.stringify(payload)) return false;
-  fs.writeFileSync(
-    file,
-    JSON.stringify({ ...payload, generatedAt: new Date().toISOString() }, null, 2) + '\n'
-  );
-  return true;
+  if (prev && JSON.stringify(prev) === JSON.stringify(payload)) return { at: prevGen, changed: false };
+  const at = new Date().toISOString();
+  fs.writeFileSync(file, JSON.stringify({ ...payload, generatedAt: at }, null, 2) + '\n');
+  return { at, changed: true };
 }
 
 function writeTeamsIndex(teams) {
-  const sorted = [...teams].sort((a, b) => a.name.localeCompare(b.name));
+  // "Data as of" = the most recent time any team's data actually changed (i.e. a real pull
+  // that found new results) — NOT just when this file was last written.
+  const dataAsOf = teams.reduce((m, t) => (t._gen && t._gen > m ? t._gen : m), '');
+  const sorted = [...teams].sort((a, b) => a.name.localeCompare(b.name)).map(({ _gen, ...t }) => t);
   fs.mkdirSync(DATA_DIR, { recursive: true });
-  return writeJsonStable(path.join(DATA_DIR, 'teams.json'), { teams: sorted });
+  return writeJsonStable(path.join(DATA_DIR, 'teams.json'), { teams: sorted, dataAsOf }).changed;
 }
 
 (async function main() {

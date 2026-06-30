@@ -491,7 +491,7 @@
     const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     // Deployed app version — BUMP THIS on every code deploy so the footer tracks what's live.
-    const APP_VERSION = 'v1.3.1 (2026-06-29)';
+    const APP_VERSION = 'v1.3.2 (2026-06-29)';
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
@@ -815,9 +815,9 @@
     window.addEventListener('resize', updateHeaderH);
 
     function setFooter() {
-      const d = teamsIndex && teamsIndex.generatedAt
-        ? new Date(teamsIndex.generatedAt).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })
-        : '';
+      // Prefer dataAsOf (the last time data actually changed); fall back to file-write time.
+      const stamp = teamsIndex && (teamsIndex.dataAsOf || teamsIndex.generatedAt);
+      const d = stamp ? new Date(stamp).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) : '';
       document.getElementById('app-version').textContent =
         `Scout ${APP_VERSION}` + (d ? ` · Data as of ${d}` : '');
     }
