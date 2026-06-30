@@ -67,7 +67,7 @@ matchPts   = clamp( round( 3 + (winnerProb − 0.5) × 6 ), 3, 6 )
 ```
 
 Examples: 50% → 3 pts, 67% → 4 pts, 83% → 5 pts, 100% → 6 pts.
-The running score shown on each row reflects cumulative points *before* that match.
+The running score shown on each row reflects cumulative points *after* that match.
 
 Tunable constants live at the top of the script in `index.html`
 (`weightFactor`, `SHRINK = s`, `BETA = β`).

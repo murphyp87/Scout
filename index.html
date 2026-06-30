@@ -580,7 +580,7 @@
     const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     // Deployed app version — BUMP THIS on every code deploy so the footer tracks what's live.
-    const APP_VERSION = 'v1.3.9 (2026-06-30)';
+    const APP_VERSION = 'v1.3.10 (2026-06-30)';
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
@@ -798,8 +798,8 @@
       let runH = 0, runA = 0;
       const weightRows = weights.map((wt, i) => {
         const p = preds[i];
-        const scoreLabel = `${runH}–${runA}`;
         if (p.winner === 'home') runH += p.pts; else runA += p.pts;
+        const scoreLabel = `${runH}–${runA}`;
         return `
           <section class="mu-weight">
             <div class="mu-weight-label">${wt} lb</div>
@@ -831,7 +831,7 @@
         `<div class="mu-teamhead"><div class="th th-home">${esc(h.team)}</div><div class="th th-away">${esc(a.team)}</div></div>` +
         summary +
         weightRows +
-        `<div class="footer pad">Points: winner gets 3–6 based on win probability · Forfeit = 6 pts · Score shown before each match · tap a card for NJ.com profile</div>`;
+        `<div class="footer pad">Points: winner gets 3–6 based on win probability · Forfeit = 6 pts · Score shown after each match · tap a card for NJ.com profile</div>`;
       window.scrollTo(0, 0);
     }
 
