@@ -66,15 +66,16 @@
       color: var(--text);
       font: 16px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       min-height: 100vh;
-      padding: env(safe-area-inset-top, 16px) 0 env(safe-area-inset-bottom, 24px);
+      padding: 0 0 env(safe-area-inset-bottom, 24px);
       transition: background .2s ease, color .2s ease;
     }
     .pad { padding-left: 16px; padding-right: 16px; }
     .wrap { width: 100%; max-width: 1400px; margin: 0 auto; }
 
-    /* contrasting header banner — stands out from the page body in both themes */
+    /* contrasting header banner — sticky so it stays put while the page scrolls */
     header.page {
-      position: relative; margin: 0 0 12px; padding: 16px 18px 18px;
+      position: sticky; top: 0; z-index: 20; margin: 0 0 12px;
+      padding: calc(14px + env(safe-area-inset-top, 0px)) 18px 16px;
       background: linear-gradient(135deg, var(--accent), var(--accent-2));
       color: var(--on-accent); border-radius: 0 0 22px 22px; box-shadow: var(--shadow);
     }
@@ -203,7 +204,7 @@
 
     /* ---- sticky team-view control bar: back + team switcher ---- */
     .team-bar {
-      position: sticky; top: 0; z-index: 5;
+      position: sticky; top: var(--header-h, 0px); z-index: 5;
       display: flex; align-items: center; gap: 10px;
       padding: 10px 16px; margin-bottom: 4px;
       background: var(--bar-bg); backdrop-filter: blur(8px);
@@ -246,7 +247,7 @@
 
     /* ---- top nav bar (back / home on sub-pages) ---- */
     .navbar {
-      position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 10px;
+      position: sticky; top: var(--header-h, 0px); z-index: 5; display: flex; align-items: center; gap: 10px;
       padding: 10px 16px; margin-bottom: 4px;
       background: var(--bar-bg); backdrop-filter: blur(8px); border-bottom: 1px solid var(--card-edge);
     }
@@ -275,7 +276,7 @@
     /* ---- team matchup results ---- */
     .mu-results { margin-top: 18px; }
     .mu-teamhead {
-      position: sticky; top: 56px; z-index: 4; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+      position: sticky; top: calc(var(--header-h, 0px) + 56px); z-index: 4; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
       padding: 8px 16px; background: var(--bar-bg); backdrop-filter: blur(8px);
     }
     .mu-teamhead .th { text-align: center; font-weight: 800; font-size: 14px; padding: 6px; border-radius: 10px; background: var(--card-2); border: 1px solid var(--card-edge); }
@@ -490,7 +491,7 @@
     const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     // Deployed app version — BUMP THIS on every code deploy so the footer tracks what's live.
-    const APP_VERSION = 'v1.3.0 (2026-06-29)';
+    const APP_VERSION = 'v1.3.1 (2026-06-29)';
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
@@ -806,8 +807,23 @@
       return { section: parts[0] || '', args: parts.slice(1) };
     }
 
+    // Keep the sub-page sticky bars sitting just below the sticky header banner.
+    const headerEl = document.querySelector('header.page');
+    function updateHeaderH() {
+      document.documentElement.style.setProperty('--header-h', headerEl.offsetHeight + 'px');
+    }
+    window.addEventListener('resize', updateHeaderH);
+
+    function setFooter() {
+      const d = teamsIndex && teamsIndex.generatedAt
+        ? new Date(teamsIndex.generatedAt).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })
+        : '';
+      document.getElementById('app-version').textContent =
+        `Scout ${APP_VERSION}` + (d ? ` · Data as of ${d}` : '');
+    }
+
     async function route() {
-      if (!teamsIndex) teamsIndex = await loadJSON('data/teams.json');
+      if (!teamsIndex) { teamsIndex = await loadJSON('data/teams.json'); setFooter(); }
       const { section, args } = parseHash();
       if (section === 'teams') showTeamList(teamsIndex);
       else if (section === 'team') {
@@ -817,6 +833,7 @@
       else if (section === 'individual-matchup') showIndividualMatchup();
       else showHome();
       window.scrollTo(0, 0);
+      updateHeaderH();
     }
 
     function showError(err) {
