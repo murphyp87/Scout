@@ -14,7 +14,10 @@ The home screen has three choices:
 - **Teams** — browse every team; tap one to see a horizontal row per weight class
   (wrestlers ordered by match count). Each card opens that wrestler's NJ.com profile.
 - **Team Matchup** — pick a Home and Away team; see each weight class's **main wrestler**
-  (the most-active wrestler at that weight) from both teams, side by side.
+  (the most-active wrestler at that weight) from both teams, side by side. A
+  **Matchup Prediction** strip below each pair shows the predicted winner, win
+  percentage, match points, and the running score going into that match. A summary
+  card at the top shows the predicted final score.
 - **Individual Matchup** — pick *My Wrestler* (School → Name → Weight) and an *Opponent*
   school (name optional). With no opponent name, up to 5 likely opponents around that
   weight (±1 class) are shown, each scored — see formulas below.
@@ -53,6 +56,18 @@ WinProbability = 1 / (1 + e^(−logit))
 ```
 
 Both scores are color-coded: **>50% green, 35–50% yellow, <35% red**.
+
+**Team Matchup Points** — the predicted winner at each weight earns 3–6 team points
+scaled by win probability (no ties). A forfeit (one team has no wrestler) awards 6
+points to the team with a wrestler.
+
+```
+winnerProb = winner's win probability (always ≥ 0.5)
+matchPts   = clamp( round( 3 + (winnerProb − 0.5) × 6 ), 3, 6 )
+```
+
+Examples: 50% → 3 pts, 67% → 4 pts, 83% → 5 pts, 100% → 6 pts.
+The running score shown on each row reflects cumulative points *before* that match.
 
 Tunable constants live at the top of the script in `index.html`
 (`weightFactor`, `SHRINK = s`, `BETA = β`).

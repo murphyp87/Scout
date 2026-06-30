@@ -34,6 +34,7 @@
       --brand-shadow: 0 6px 16px rgba(63,116,224,.32);
       --good: #5fd38a; --warn: #f2c14e; --bad: #ef6a52;
       --err-bg: #2a1414; --err-edge: #5a2a2a; --err-text: #ffd9d2;
+      --accent-away: #c97030;
       --card-w: 300px;
     }
     [data-theme="light"] {                  /* LIGHT — white dominant */
@@ -57,6 +58,7 @@
       --brand-shadow: 0 6px 16px rgba(31,63,122,.22);
       --good: #1f9d57; --warn: #b07d09; --bad: #c33a26;
       --err-bg: #fbeaea; --err-edge: #e3b3b3; --err-text: #8a2020;
+      --accent-away: #8a3810;
       --card-w: 300px;
     }
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -296,10 +298,12 @@
     /* ---- team matchup results ---- */
     .mu-results { margin-top: 18px; }
     .mu-teamhead {
-      position: sticky; top: calc(var(--header-h, 0px) + 56px); z-index: 4; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+      position: sticky; top: var(--header-h, 0px); z-index: 4; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
       padding: 8px 16px; background: var(--bar-bg); backdrop-filter: blur(8px);
     }
     .mu-teamhead .th { text-align: center; font-weight: 800; font-size: 14px; padding: 6px; border-radius: 6px; background: var(--card-2); border: 1px solid var(--card-edge); }
+    .th-home { background: var(--accent) !important; color: var(--on-accent) !important; border-color: var(--accent) !important; }
+    .th-away { background: var(--accent-away) !important; color: #fff !important; border-color: var(--accent-away) !important; }
     .mu-weight { margin-top: 14px; }
     .mu-weight-label { text-align: center; font-size: 13px; font-weight: 800; color: var(--hl-text); margin-bottom: 8px; }
     .mu-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; align-items: start; padding: 0 12px; }
@@ -395,6 +399,42 @@
     .app-version { text-align: center; color: var(--muted); font-size: 10px; opacity: .65; padding: 18px 0 6px; }
     .error { background: var(--err-bg); border: 1px solid var(--err-edge); color: var(--err-text); padding: 16px; border-radius: 14px; }
     code { background: var(--card-2); padding: 2px 6px; border-radius: 6px; }
+
+    /* ---- team matchup prediction summary card ---- */
+    .mu-summary {
+      display: flex; align-items: center; gap: 10px;
+      margin: 10px 12px; padding: 14px 16px;
+      background: var(--card-2); border: 1px solid var(--card-edge); border-radius: 10px;
+    }
+    .ms-team { flex: 1; text-align: center; }
+    .ms-name { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 4px; }
+    .ms-pts { font-size: 36px; font-weight: 800; color: var(--muted); }
+    .ms-team.home .ms-pts.ms-win { color: var(--accent); }
+    .ms-team.away .ms-pts.ms-win { color: var(--accent-away); }
+    .ms-vs { flex: none; text-align: center; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; line-height: 1.5; }
+
+    /* ---- team matchup per-weight prediction strip ---- */
+    .mu-pred {
+      display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap; gap: 6px;
+      margin: 6px 12px; padding: 8px 12px;
+      background: var(--card-2); border: 1px solid var(--card-edge); border-radius: 8px;
+      font-size: 12px; font-weight: 700;
+    }
+    .mp-winner { font-size: 13px; font-weight: 800; }
+    .mp-winner.home { color: var(--accent); }
+    .mp-winner.away { color: var(--accent-away); }
+    .mp-pct, .mp-pts, .mp-score { color: var(--muted); }
+
+    /* ---- hamburger menu nav links ---- */
+    .menu-link {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 16px; font-size: 14px; font-weight: 600;
+      color: var(--text); text-decoration: none; width: 100%; text-align: left;
+      background: none; border: none; cursor: pointer; font: inherit; font-weight: 600;
+    }
+    .menu-link:active { background: var(--card-2); }
+    @media (hover: hover) { .menu-link:hover { background: var(--card-2); } }
+    .menu-divider { border: none; border-top: 1px solid var(--card-edge); margin: 4px 0; }
   </style>
 </head>
 <body>
@@ -410,13 +450,21 @@
   </div>
 
   <div id="settings-panel" class="settings-panel" hidden role="menu" aria-label="Settings">
+    <a class="menu-link" href="#">🏠 Home</a>
+    <a class="menu-link" href="#teams">📋 Teams</a>
+    <a class="menu-link" href="#team-matchup">⚔️ Team Matchup</a>
+    <a class="menu-link" href="#individual-matchup">🤼 Individual Matchup</a>
+    <hr class="menu-divider">
+    <a class="menu-link" href="https://www.buymeacoffee.com/Apauled" target="_blank" rel="noopener noreferrer">☕ Tip Jar</a>
+    <button class="menu-link" id="menu-comment-btn" type="button">💬 Comments</button>
+    <hr class="menu-divider">
     <div class="setting-row">
       <span>Appearance</span>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark / light mode"></button>
     </div>
   </div>
 
-  <a id="back-fab" class="fab fab-back" href="#" hidden>‹ Home</a>
+  <a id="back-fab" class="fab fab-back" href="#" hidden><</a>
   <div class="fab-row">
     <a href="https://www.buymeacoffee.com/Apauled" target="_blank" rel="noopener noreferrer" class="fab" aria-label="Buy me a coffee">☕</a>
     <button id="comment-btn" class="fab" type="button" aria-haspopup="dialog" aria-label="Send feedback">💬</button>
@@ -532,7 +580,7 @@
     const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     // Deployed app version — BUMP THIS on every code deploy so the footer tracks what's live.
-    const APP_VERSION = 'v1.3.8 (2026-06-29)';
+    const APP_VERSION = 'v1.3.9 (2026-06-30)';
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
@@ -549,7 +597,7 @@
         .join('');
     const backFabEl = document.getElementById('back-fab');
     function setBackFab(href, label) {
-      if (href) { backFabEl.href = href; backFabEl.textContent = label || '‹ Home'; backFabEl.removeAttribute('hidden'); }
+      if (href) { backFabEl.href = href; backFabEl.textContent = label || '<'; backFabEl.removeAttribute('hidden'); }
       else { backFabEl.setAttribute('hidden', ''); }
     }
     const navbar = () => '';
@@ -622,7 +670,7 @@
 
     // ===== Teams list =====
     function showTeamList(index) {
-      setBackFab('#', '‹ Home');
+      setBackFab('#', '<');
       const teams = index.teams || [];
       titleEl.textContent = 'Teams';
       metaEl.textContent = `Select a school to scout · ${teams.length} teams`;
@@ -675,7 +723,7 @@
       const options = teamsIndex.teams
         .map((t) => `<option value="${esc(t.id)}"${t.id === data.id ? ' selected' : ''}>${esc(t.name)}</option>`)
         .join('');
-      setBackFab('#teams', '‹ All Teams');
+      setBackFab('#teams', '<');
       const bar = `
         <div class="team-bar">
           <select class="team-switch" id="team-switch" aria-label="Switch team">${options}</select>
@@ -692,7 +740,7 @@
 
     // ===== Team Matchup =====
     function showTeamMatchup(homeId, awayId) {
-      setBackFab('#', '‹ Home');
+      setBackFab('#', '<');
       homeId = homeId || DEFAULT_TEAM; // default Home Team to Middletown South
       titleEl.textContent = 'Team Matchup';
       metaEl.textContent = 'Compare two teams weight-by-weight';
@@ -727,15 +775,63 @@
       const [h, a] = await Promise.all([loadTeam(homeId), loadTeam(awayId)]);
       const hm = mainByWeight(h), am = mainByWeight(a);
       const weights = [...new Set([...hm.keys(), ...am.keys()])].sort((x, y) => x - y);
+
+      // Predict each weight: winner, winner's win probability, points (3–6)
+      const preds = weights.map((wt) => {
+        const hp = hm.get(wt), ap = am.get(wt);
+        if (!hp) return { winner: 'away', winProb: 1, pts: 6 };
+        if (!ap) return { winner: 'home', winProb: 1, pts: 6 };
+        const hProb = winProbability(hp, ap, wt);
+        const homeWins = hProb >= 0.5;
+        const winnerProb = homeWins ? hProb : 1 - hProb;
+        const pts = Math.min(6, Math.max(3, Math.round(3 + (winnerProb - 0.5) * 6)));
+        return { winner: homeWins ? 'home' : 'away', winProb: winnerProb, pts };
+      });
+
+      // Final totals
+      let totalH = 0, totalA = 0;
+      preds.forEach((p) => { if (p.winner === 'home') totalH += p.pts; else totalA += p.pts; });
+
       const side = (p) => (p ? card(p) : `<div class="mu-empty">No wrestler<br>(forfeit)</div>`);
-      res.innerHTML =
-        `<div class="mu-teamhead"><div class="th">${esc(h.team)}</div><div class="th">${esc(a.team)}</div></div>` +
-        weights.map((wt) => `
+
+      // Build weight rows with running score (cumulative before each match)
+      let runH = 0, runA = 0;
+      const weightRows = weights.map((wt, i) => {
+        const p = preds[i];
+        const scoreLabel = `${runH}–${runA}`;
+        if (p.winner === 'home') runH += p.pts; else runA += p.pts;
+        return `
           <section class="mu-weight">
             <div class="mu-weight-label">${wt} lb</div>
             <div class="mu-pair">${side(hm.get(wt))}${side(am.get(wt))}</div>
-          </section>`).join('') +
-        `<div class="footer pad">Main wrestler = most matches at that weight · tap a card for the NJ.com profile</div>`;
+            <div class="mu-pred">
+              <span class="mp-winner ${p.winner}">${p.winner === 'home' ? '← Home' : 'Away →'}</span>
+              <span class="mp-pct">${pct(p.winProb)} win</span>
+              <span class="mp-pts">+${p.pts} pts</span>
+              <span class="mp-score">Score: ${scoreLabel}</span>
+            </div>
+          </section>`;
+      }).join('');
+
+      const summaryWinner = totalH > totalA ? 'home' : 'away';
+      const summary = `
+        <div class="mu-summary">
+          <div class="ms-team home">
+            <div class="ms-name">${esc(h.team)}</div>
+            <div class="ms-pts${summaryWinner === 'home' ? ' ms-win' : ''}">${totalH}</div>
+          </div>
+          <div class="ms-vs">Predicted<br>Final</div>
+          <div class="ms-team away">
+            <div class="ms-name">${esc(a.team)}</div>
+            <div class="ms-pts${summaryWinner === 'away' ? ' ms-win' : ''}">${totalA}</div>
+          </div>
+        </div>`;
+
+      res.innerHTML =
+        `<div class="mu-teamhead"><div class="th th-home">${esc(h.team)}</div><div class="th th-away">${esc(a.team)}</div></div>` +
+        summary +
+        weightRows +
+        `<div class="footer pad">Points: winner gets 3–6 based on win probability · Forfeit = 6 pts · Score shown before each match · tap a card for NJ.com profile</div>`;
       window.scrollTo(0, 0);
     }
 
@@ -757,7 +853,7 @@
     const oppCard = (p, scoresHtml) => `<div class="opp">${card(p)}<div class="scores opp-scores">${scoresHtml}</div></div>`;
 
     function showIndividualMatchup() {
-      setBackFab('#', '‹ Home');
+      setBackFab('#', '<');
       titleEl.textContent = 'Individual Matchup';
       metaEl.textContent = 'Scout your wrestler against an opponent or a school';
       root.innerHTML =
@@ -926,6 +1022,16 @@
       menuBtn.setAttribute('aria-expanded', 'false');
     });
     settingsPanel.addEventListener('click', (e) => e.stopPropagation());
+    // Close panel when any nav link is clicked
+    document.querySelectorAll('#settings-panel .menu-link').forEach((el) => {
+      el.addEventListener('click', () => {
+        settingsPanel.setAttribute('hidden', '');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      });
+    });
+    document.getElementById('menu-comment-btn').addEventListener('click', () => {
+      document.getElementById('comment-btn').click();
+    });
 
     document.getElementById('theme-toggle').addEventListener('click', () => {
       const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
