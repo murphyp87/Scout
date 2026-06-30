@@ -322,12 +322,14 @@
     /* ---- feedback (Comment) button + modal ---- */
     .fab {
       position: fixed; right: 16px; bottom: 16px; z-index: 20;
-      display: inline-flex; align-items: center; gap: 7px;
+      display: inline-flex; align-items: center; justify-content: center;
       background: var(--accent); color: var(--on-accent); border: none;
-      border-radius: 999px; padding: 12px 16px; font: inherit; font-size: 14px; font-weight: 800;
+      border-radius: 50%; width: 48px; height: 48px; font-size: 22px;
       box-shadow: var(--brand-shadow); cursor: pointer;
     }
     .fab:active { transform: scale(.96); }
+    /* Buy Me a Coffee — reposition above the comment FAB */
+    #bmc-wbtn { position: fixed !important; bottom: 72px !important; right: 10px !important; left: auto !important; z-index: 19 !important; }
     .modal[hidden] { display: none; }
     .modal {
       position: fixed; inset: 0; z-index: 40; display: flex; align-items: flex-end; justify-content: center;
@@ -379,7 +381,8 @@
     <footer id="app-version" class="app-version"></footer>
   </div>
 
-  <button id="comment-btn" class="fab" type="button" aria-haspopup="dialog">💬 Comment</button>
+  <button id="comment-btn" class="fab" type="button" aria-haspopup="dialog" aria-label="Send feedback">💬</button>
+  <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="Apauled" data-color="#0042a9" data-emoji="" data-font="Comic" data-text="" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script>
   <div id="comment-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="cf-title" hidden>
     <form id="comment-form" class="modal-card" novalidate>
       <h2 id="cf-title">Send Feedback</h2>
@@ -491,7 +494,7 @@
     const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     // Deployed app version — BUMP THIS on every code deploy so the footer tracks what's live.
-    const APP_VERSION = 'v1.3.2 (2026-06-29)';
+    const APP_VERSION = 'v1.3.3 (2026-06-29)';
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
