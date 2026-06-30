@@ -332,8 +332,9 @@
       box-shadow: var(--brand-shadow); cursor: pointer;
     }
     .fab:active { transform: scale(.96); }
-    /* Tip (Buy Me a Coffee) FAB — stacked above comment FAB */
-    .fab-tip { bottom: 72px; }
+    /* ☕ + 💬 side-by-side row, bottom-right */
+    .fab-row { position: fixed; bottom: 16px; right: 16px; z-index: 20; display: flex; gap: 10px; align-items: center; }
+    .fab-row .fab { position: static; }
     /* Back/Home FAB — bottom-left, hidden on home page */
     .fab-back { left: 16px; right: auto; font-size: 18px; font-weight: 800; width: auto; padding: 0 16px; border-radius: 24px; gap: 4px; }
     .fab-back[hidden] { display: none; }
@@ -389,8 +390,10 @@
   </div>
 
   <a id="back-fab" class="fab fab-back" href="#" hidden>‹ Home</a>
-  <a href="https://www.buymeacoffee.com/Apauled" target="_blank" rel="noopener noreferrer" class="fab fab-tip" aria-label="Buy me a coffee">☕</a>
-  <button id="comment-btn" class="fab" type="button" aria-haspopup="dialog" aria-label="Send feedback">💬</button>
+  <div class="fab-row">
+    <a href="https://www.buymeacoffee.com/Apauled" target="_blank" rel="noopener noreferrer" class="fab" aria-label="Buy me a coffee">☕</a>
+    <button id="comment-btn" class="fab" type="button" aria-haspopup="dialog" aria-label="Send feedback">💬</button>
+  </div>
   <div id="comment-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="cf-title" hidden>
     <form id="comment-form" class="modal-card" novalidate>
       <h2 id="cf-title">Send Feedback</h2>
@@ -502,7 +505,7 @@
     const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     // Deployed app version — BUMP THIS on every code deploy so the footer tracks what's live.
-    const APP_VERSION = 'v1.3.5 (2026-06-29)';
+    const APP_VERSION = 'v1.3.6 (2026-06-29)';
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
