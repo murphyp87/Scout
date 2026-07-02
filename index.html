@@ -379,6 +379,9 @@
     @media (min-width: 560px) { .modal-card { border-radius: 10px; } }
     .modal-card h2 { margin: 0 0 4px; font-size: 19px; }
     .modal-card .hint { margin: 0; color: var(--muted); font-size: 13px; }
+    .modal-card .tip-hint { margin-top: 4px; }
+    .modal-card .tip-link { color: var(--accent); font-weight: 700; text-decoration: none; }
+    .modal-card .tip-link:hover { text-decoration: underline; }
     .modal-card label { display: block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 14px 0 5px; }
     .modal-card input, .modal-card textarea {
       width: 100%; background: var(--card-2); color: var(--text); border: 1px solid var(--card-edge);
@@ -473,13 +476,13 @@
 
   <a id="back-fab" class="fab fab-back" href="#" hidden><</a>
   <div class="fab-row">
-    <a href="https://www.buymeacoffee.com/Apauled" target="_blank" rel="noopener noreferrer" class="fab" aria-label="Buy me a coffee">☕</a>
     <button id="comment-btn" class="fab" type="button" aria-haspopup="dialog" aria-label="Send feedback">💬</button>
   </div>
   <div id="comment-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="cf-title" hidden>
     <form id="comment-form" class="modal-card" novalidate>
       <h2 id="cf-title">Send Feedback</h2>
       <p class="hint">Found a bug or have a suggestion? It goes straight to the maintainer.</p>
+      <p class="hint tip-hint">Enjoying this app? <a href="https://www.buymeacoffee.com/Apauled" target="_blank" rel="noopener noreferrer" class="tip-link">☕ Leave a Tip!</a></p>
       <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
       <label for="cf-name">Name (optional)</label>
       <input id="cf-name" name="name" type="text" autocomplete="name" />
@@ -587,7 +590,7 @@
     const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     // Deployed app version — BUMP THIS on every code deploy so the footer tracks what's live.
-    const APP_VERSION = 'v1.3.12 (2026-07-01)';
+    const APP_VERSION = 'v1.3.13 (2026-07-01)';
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
