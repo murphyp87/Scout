@@ -87,6 +87,8 @@
     }
     header.page h1 { font-size: 26px; font-weight: 800; margin: 2px 0 2px; letter-spacing: -.01em; color: #fff; }
     header.page .meta { color: rgba(255,255,255,.85); font-size: 13px; }
+    header.page .header-title { display: flex; align-items: center; gap: 12px; }
+    header.page .app-icon { width: 44px; height: 44px; border-radius: 10px; flex-shrink: 0; }
     /* hamburger menu button — respects iOS safe-area-inset-top for Home Screen apps */
     .menu-btn {
       position: absolute; top: calc(10px + env(safe-area-inset-top, 0px)); right: 16px;
@@ -441,9 +443,14 @@
   <div class="wrap">
     <header class="page pad">
       <button id="menu-btn" class="menu-btn" type="button" aria-label="Open settings" aria-haspopup="true" aria-expanded="false">☰</button>
-      <div class="kicker">Wrestling Scout</div>
-      <h1 id="title">Loading…</h1>
-      <div class="meta" id="meta"></div>
+      <div class="header-title">
+        <img src="icon-192.png" alt="" class="app-icon" width="44" height="44">
+        <div>
+          <div class="kicker">Wrestling Scout</div>
+          <h1 id="title">Loading…</h1>
+          <div class="meta" id="meta"></div>
+        </div>
+      </div>
     </header>
     <div id="root"></div>
     <footer id="app-version" class="app-version"></footer>
@@ -580,7 +587,7 @@
     const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     // Deployed app version — BUMP THIS on every code deploy so the footer tracks what's live.
-    const APP_VERSION = 'v1.3.11 (2026-07-01)';
+    const APP_VERSION = 'v1.3.12 (2026-07-01)';
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
