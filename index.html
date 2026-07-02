@@ -467,6 +467,7 @@
     <hr class="menu-divider">
     <a class="menu-link" href="https://www.buymeacoffee.com/Apauled" target="_blank" rel="noopener noreferrer">☕ Tip Jar</a>
     <button class="menu-link" id="menu-comment-btn" type="button">💬 Comments</button>
+    <button class="menu-link" id="menu-open-browser-btn" type="button">🌐 Open in Browser</button>
     <hr class="menu-divider">
     <div class="setting-row">
       <span>Appearance</span>
@@ -590,7 +591,7 @@
     const DEFAULT_TEAM = 'middletown-middletown-south'; // pre-selected in the matchup pickers
 
     // Deployed app version — BUMP THIS on every code deploy so the footer tracks what's live.
-    const APP_VERSION = 'v1.3.13 (2026-07-01)';
+    const APP_VERSION = 'v1.3.14 (2026-07-01)';
 
     async function loadJSON(url) {
       const r = await fetch(url, { cache: 'no-store' });
@@ -1041,6 +1042,9 @@
     });
     document.getElementById('menu-comment-btn').addEventListener('click', () => {
       document.getElementById('comment-btn').click();
+    });
+    document.getElementById('menu-open-browser-btn').addEventListener('click', () => {
+      window.open(window.location.href, '_blank', 'noopener,noreferrer');
     });
 
     document.getElementById('theme-toggle').addEventListener('click', () => {
